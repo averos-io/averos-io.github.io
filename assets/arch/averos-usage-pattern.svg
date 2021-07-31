@@ -1,0 +1,435 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1863" height="581" viewBox="-0.5 -0.5 1863 581">
+	<defs>
+		<linearGradient x1="0%" y1="100%" x2="0%" y2="0%" id="mx-gradient-c77498-1-bf639a-1-s-0">
+			<stop offset="0%" style="stop-color:#BF639A"/>
+			<stop offset="100%" style="stop-color:#C77498"/>
+		</linearGradient>
+		<linearGradient x1="0%" y1="100%" x2="0%" y2="0%" id="mx-gradient-38c45d-1-2fa64f-1-s-0">
+			<stop offset="0%" style="stop-color:#2FA64F"/>
+			<stop offset="100%" style="stop-color:#38C45D"/>
+		</linearGradient>
+		<linearGradient x1="0%" y1="100%" x2="0%" y2="0%" id="mx-gradient-fcab1e-1-f28c1e-1-s-0">
+			<stop offset="0%" style="stop-color:#F28C1E"/>
+			<stop offset="100%" style="stop-color:#FCAB1E"/>
+		</linearGradient>
+		<linearGradient x1="0%" y1="0%" x2="0%" y2="100%" id="mx-gradient-3d8dd8-1-3c76d8-1-s-0">
+			<stop offset="0%" style="stop-color:#3D8DD8"/>
+			<stop offset="100%" style="stop-color:#3C76D8"/>
+		</linearGradient>
+		<linearGradient x1="0%" y1="0%" x2="0%" y2="100%" id="mx-gradient-e8382a-1-be1205-1-s-0">
+			<stop offset="0%" style="stop-color:#E8382A"/>
+			<stop offset="100%" style="stop-color:#be1205"/>
+		</linearGradient>
+		<linearGradient x1="0%" y1="0%" x2="0%" y2="100%" id="mx-gradient-fcdf12-1-dec410-1-s-0">
+			<stop offset="0%" style="stop-color:#FCDF12"/>
+			<stop offset="100%" style="stop-color:#DEC410"/>
+		</linearGradient>
+		<style type="text/css">@import url(https://fonts.googleapis.com/css?family=Cairo);&#xa;</style>
+		<filter id="dropShadow">
+			<feGaussianBlur in="SourceAlpha" stdDeviation="1.7" result="blur"/>
+			<feOffset in="blur" dx="3" dy="3" result="offsetBlur"/>
+			<feFlood flood-color="#3D4574" flood-opacity="0.4" result="offsetColor"/>
+			<feComposite in="offsetColor" in2="offsetBlur" operator="in" result="offsetBlur"/>
+			<feBlend in="SourceGraphic" in2="offsetBlur"/>
+		</filter>
+	</defs>
+	<g filter="url(#dropShadow)">
+		<ellipse cx="1710" cy="246.5" rx="57.5" ry="57.5" fill="url(#mx-gradient-c77498-1-bf639a-1-s-0)" stroke="#ffffff" stroke-width="6" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 113px; height: 1px; padding-top: 247px; margin-left: 1654px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 14px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+								<i>
+									<font face="Cairo" data-font-src="https://fonts.googleapis.com/css?family=Cairo">Mobile<br/>access</font>
+									<br/>
+								</i>
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="1710" y="251" fill="#FFFFFF" font-family="Helvetica" font-size="14px" text-anchor="middle" font-weight="bold">Mobile...</text>
+			</switch>
+		</g>
+		<ellipse cx="1793" cy="199" rx="59.5" ry="60" fill="url(#mx-gradient-c77498-1-bf639a-1-s-0)" stroke="#ffffff" stroke-width="6" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 117px; height: 1px; padding-top: 199px; margin-left: 1735px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 14px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+								<font face="Cairo" data-font-src="https://fonts.googleapis.com/css?family=Cairo">Web <br/>Access</font>
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="1793" y="203" fill="#FFFFFF" font-family="Helvetica" font-size="14px" text-anchor="middle" font-weight="bold">Web...</text>
+			</switch>
+		</g>
+		<rect x="1338.5" y="4" width="280" height="430" rx="42" ry="42" fill="url(#mx-gradient-38c45d-1-2fa64f-1-s-0)" stroke="#ffffff" stroke-width="8" pointer-events="all"/>
+		<rect x="1338.5" y="324" width="280" height="90" fill="none" stroke="none" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 278px; height: 1px; padding-top: 369px; margin-left: 1340px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 14px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+								<font face="Cairo" data-font-src="https://fonts.googleapis.com/css?family=Cairo">Local<br/>cloud<br/>Access via Web<br/>Access via mobile</font>
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="1479" y="373" fill="#FFFFFF" font-family="Helvetica" font-size="14px" text-anchor="middle">Local...</text>
+			</switch>
+		</g>
+		<rect x="1338.5" y="24" width="280" height="60" fill="none" stroke="none" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 278px; height: 1px; padding-top: 54px; margin-left: 1340px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 27px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+								<font face="Cairo" data-font-src="https://fonts.googleapis.com/css?family=Cairo">Deploy</font>
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="1479" y="62" fill="#FFFFFF" font-family="Helvetica" font-size="27px" text-anchor="middle" font-weight="bold">Deploy</text>
+			</switch>
+		</g>
+		<path d="M 1428.5 184 L 1488.5 190 L 1478.5 172 L 1528.5 202 L 1478.5 232 L 1488.5 214 L 1428.5 220 L 1443.5 202 Z" fill="#fff2cc" stroke="none" pointer-events="all"/>
+		<ellipse cx="60" cy="218.5" rx="57.5" ry="57.5" fill="url(#mx-gradient-c77498-1-bf639a-1-s-0)" stroke="#ffffff" stroke-width="6" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 113px; height: 1px; padding-top: 219px; margin-left: 4px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 14px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+								<font face="Cairo">Translation<br/>data<br/>
+								</font>
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="60" y="223" fill="#FFFFFF" font-family="Helvetica" font-size="14px" text-anchor="middle" font-weight="bold">Translation...</text>
+			</switch>
+		</g>
+		<rect x="1058.5" y="4" width="280" height="430" rx="42" ry="42" fill="url(#mx-gradient-fcab1e-1-f28c1e-1-s-0)" stroke="#ffffff" stroke-width="8" pointer-events="all"/>
+		<rect x="218.5" y="4" width="280" height="430" rx="42" ry="42" fill="url(#mx-gradient-3d8dd8-1-3c76d8-1-s-0)" stroke="none" pointer-events="all"/>
+		<rect x="218.5" y="24" width="280" height="60" fill="none" stroke="none" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 278px; height: 1px; padding-top: 54px; margin-left: 220px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 27px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+								<font face="Cairo" data-font-src="https://fonts.googleapis.com/css?family=Cairo">Design</font>
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="359" y="62" fill="#FFFFFF" font-family="Helvetica" font-size="27px" text-anchor="middle" font-weight="bold">Design</text>
+			</switch>
+		</g>
+		<rect x="218.5" y="324" width="280" height="90" fill="none" stroke="none" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 278px; height: 1px; padding-top: 369px; margin-left: 220px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 14px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+								<div>
+									<font face="Cairo" data-font-src="https://fonts.googleapis.com/css?family=Cairo">entity model</font>
+								</div>
+								<div>
+									<font face="Cairo" data-font-src="https://fonts.googleapis.com/css?family=Cairo">relations</font>
+								</div>
+								<div>
+									<font face="Cairo" data-font-src="https://fonts.googleapis.com/css?family=Cairo">rules</font>
+								</div>
+								<div>
+									<font face="Cairo" data-font-src="https://fonts.googleapis.com/css?family=Cairo">services</font>
+								</div>
+								<div>
+									<font face="Cairo" data-font-src="https://fonts.googleapis.com/css?family=Cairo">UI layout</font>
+								</div>
+								<div>
+									<font face="Cairo" data-font-src="https://fonts.googleapis.com/css?family=Cairo">
+										<br/>
+									</font>
+								</div>
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="359" y="373" fill="#FFFFFF" font-family="Helvetica" font-size="14px" text-anchor="middle">entity model...</text>
+			</switch>
+		</g>
+		<path d="M 238.5 89 L 478.5 89" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+		<path d="M 238.5 309 L 478.5 309" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+		<path d="M 308.5 184 L 368.5 190 L 358.5 172 L 408.5 202 L 358.5 232 L 368.5 214 L 308.5 220 L 323.5 202 Z" fill="#fff2cc" stroke="none" pointer-events="all"/>
+		<rect x="498.5" y="4" width="280" height="430" rx="42" ry="42" fill="url(#mx-gradient-e8382a-1-be1205-1-s-0)" stroke="#ffffff" stroke-width="8" pointer-events="all"/>
+		<rect x="498.5" y="24" width="280" height="60" fill="none" stroke="none" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 278px; height: 1px; padding-top: 54px; margin-left: 500px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 27px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+								<font face="Cairo" data-font-src="https://fonts.googleapis.com/css?family=Cairo">Integrate</font>
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="639" y="62" fill="#FFFFFF" font-family="Helvetica" font-size="27px" text-anchor="middle" font-weight="bold">Integrate</text>
+			</switch>
+		</g>
+		<rect x="498.5" y="324" width="280" height="90" fill="none" stroke="none" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 278px; height: 1px; padding-top: 369px; margin-left: 500px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 14px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+								<font face="Cairo">new custom project</font>
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="639" y="373" fill="#FFFFFF" font-family="Helvetica" font-size="14px" text-anchor="middle">new custom project</text>
+			</switch>
+		</g>
+		<path d="M 518.5 89 L 758.5 89" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+		<path d="M 518.5 309 L 758.5 309" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+		<ellipse cx="499" cy="201.5" rx="57.5" ry="57.5" fill="url(#mx-gradient-c77498-1-bf639a-1-s-0)" stroke="#ffffff" stroke-width="6" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 113px; height: 1px; padding-top: 202px; margin-left: 443px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 14px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+								<font face="Cairo" data-font-src="https://fonts.googleapis.com/css?family=Cairo">
+									<b>application<br/>model</b>
+									<br/>
+								</font>
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="499" y="206" fill="#FFFFFF" font-family="Helvetica" font-size="14px" text-anchor="middle" font-weight="bold">application...</text>
+			</switch>
+		</g>
+		<path d="M 588.5 184 L 648.5 190 L 638.5 172 L 688.5 202 L 638.5 232 L 648.5 214 L 588.5 220 L 603.5 202 Z" fill="#fff2cc" stroke="none" pointer-events="all"/>
+		<rect x="778.5" y="4" width="280" height="430" rx="42" ry="42" fill="url(#mx-gradient-fcdf12-1-dec410-1-s-0)" stroke="#ffffff" stroke-width="8" pointer-events="all"/>
+		<rect x="778.5" y="24" width="280" height="60" fill="none" stroke="none" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 278px; height: 1px; padding-top: 54px; margin-left: 780px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 27px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+								<font face="Cairo" data-font-src="https://fonts.googleapis.com/css?family=Cairo">Customize</font>
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="919" y="62" fill="#FFFFFF" font-family="Helvetica" font-size="27px" text-anchor="middle" font-weight="bold">Customize</text>
+			</switch>
+		</g>
+		<rect x="778.5" y="324" width="280" height="90" fill="none" stroke="none" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 278px; height: 1px; padding-top: 369px; margin-left: 780px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 14px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+								<font face="Cairo" data-font-src="https://fonts.googleapis.com/css?family=Cairo">user requirements<br/>business logic<br/>custom rules</font>
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="919" y="373" fill="#FFFFFF" font-family="Helvetica" font-size="14px" text-anchor="middle">user requirements...</text>
+			</switch>
+		</g>
+		<path d="M 798.5 89 L 1038.5 89" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+		<path d="M 798.5 309 L 1038.5 309" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+		<ellipse cx="779" cy="201.5" rx="57.5" ry="57.5" fill="url(#mx-gradient-c77498-1-bf639a-1-s-0)" stroke="#ffffff" stroke-width="6" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 113px; height: 1px; padding-top: 202px; margin-left: 723px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 14px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+								<font face="Cairo" data-font-src="https://fonts.googleapis.com/css?family=Cairo">new<br/>custom <br/>project</font>
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="779" y="206" fill="#FFFFFF" font-family="Helvetica" font-size="14px" text-anchor="middle" font-weight="bold">new...</text>
+			</switch>
+		</g>
+		<path d="M 868.5 184 L 928.5 190 L 918.5 172 L 968.5 202 L 918.5 232 L 928.5 214 L 868.5 220 L 883.5 202 Z" fill="#fff2cc" stroke="none" pointer-events="all"/>
+		<rect x="1058.5" y="324" width="280" height="90" fill="none" stroke="none" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 278px; height: 1px; padding-top: 369px; margin-left: 1060px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 14px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+								<font face="Cairo" data-font-src="https://fonts.googleapis.com/css?family=Cairo">Unit tests<br/>E2E<br/>FUT</font>
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="1199" y="373" fill="#FFFFFF" font-family="Helvetica" font-size="14px" text-anchor="middle">Unit tests...</text>
+			</switch>
+		</g>
+		<path d="M 1078.5 89 L 1318.5 89" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+		<path d="M 1078.5 309 L 1318.5 309" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+		<ellipse cx="1059" cy="201.5" rx="57.5" ry="57.5" fill="url(#mx-gradient-c77498-1-bf639a-1-s-0)" stroke="#ffffff" stroke-width="6" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 113px; height: 1px; padding-top: 202px; margin-left: 1003px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 14px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">Ready<br/>to <br/>Test</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="1059" y="206" fill="#FFFFFF" font-family="Helvetica" font-size="14px" text-anchor="middle" font-weight="bold">Ready...</text>
+			</switch>
+		</g>
+		<rect x="1058.5" y="24" width="280" height="60" fill="none" stroke="none" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 278px; height: 1px; padding-top: 54px; margin-left: 1060px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 27px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+								<font face="Cairo" data-font-src="https://fonts.googleapis.com/css?family=Cairo">Test</font>
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="1199" y="62" fill="#FFFFFF" font-family="Helvetica" font-size="27px" text-anchor="middle" font-weight="bold">Test</text>
+			</switch>
+		</g>
+		<path d="M 1078.5 89 L 1318.5 89" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+		<path d="M 1078.5 309 L 1318.5 309" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+		<path d="M 1148.5 184 L 1208.5 190 L 1198.5 172 L 1248.5 202 L 1198.5 232 L 1208.5 214 L 1148.5 220 L 1163.5 202 Z" fill="#fff2cc" stroke="none" pointer-events="all"/>
+		<ellipse cx="1339" cy="201.5" rx="57.5" ry="57.5" fill="url(#mx-gradient-c77498-1-bf639a-1-s-0)" stroke="#ffffff" stroke-width="6" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 113px; height: 1px; padding-top: 202px; margin-left: 1283px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 14px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">Ready<br/>to <br/>Deploy</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="1339" y="206" fill="#FFFFFF" font-family="Helvetica" font-size="14px" text-anchor="middle" font-weight="bold">Ready...</text>
+			</switch>
+		</g>
+		<ellipse cx="150" cy="256.5" rx="57.5" ry="57.5" fill="url(#mx-gradient-c77498-1-bf639a-1-s-0)" stroke="#ffffff" stroke-width="6" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 113px; height: 1px; padding-top: 257px; margin-left: 94px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 14px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+								<font face="Cairo">UI View<br/>
+								</font>Layout</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="150" y="261" fill="#FFFFFF" font-family="Helvetica" font-size="14px" text-anchor="middle" font-weight="bold">UI View...</text>
+			</switch>
+		</g>
+		<ellipse cx="130" cy="151.5" rx="57.5" ry="57.5" fill="url(#mx-gradient-c77498-1-bf639a-1-s-0)" stroke="#ffffff" stroke-width="6" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 113px; height: 1px; padding-top: 152px; margin-left: 74px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 14px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+								<font face="Cairo" data-font-src="https://fonts.googleapis.com/css?family=Cairo">Business <br/>Logic</font>
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="130" y="156" fill="#FFFFFF" font-family="Helvetica" font-size="14px" text-anchor="middle" font-weight="bold">Business...</text>
+			</switch>
+		</g>
+		<ellipse cx="219" cy="201.5" rx="57.5" ry="57.5" fill="url(#mx-gradient-c77498-1-bf639a-1-s-0)" stroke="#ffffff" stroke-width="6" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 113px; height: 1px; padding-top: 202px; margin-left: 163px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 14px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+								<font face="Cairo" data-font-src="https://fonts.googleapis.com/css?family=Cairo">Entity<br/> <span>Model</span>
+								</font>
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="219" y="206" fill="#FFFFFF" font-family="Helvetica" font-size="14px" text-anchor="middle" font-weight="bold">Entity...</text>
+			</switch>
+		</g>
+		<path d="M 1358.5 89 L 1598.5 89" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+		<path d="M 1358.5 309 L 1598.5 309" fill="none" stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+		<ellipse cx="1700" cy="151.5" rx="57.5" ry="57.5" fill="url(#mx-gradient-c77498-1-bf639a-1-s-0)" stroke="#ffffff" stroke-width="6" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 113px; height: 1px; padding-top: 152px; margin-left: 1644px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 14px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+								<font face="Cairo" data-font-src="https://fonts.googleapis.com/css?family=Cairo">Cloud<br/>Deployment</font>
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="1700" y="156" fill="#FFFFFF" font-family="Helvetica" font-size="14px" text-anchor="middle" font-weight="bold">Cloud...</text>
+			</switch>
+		</g>
+		<ellipse cx="1619" cy="201.5" rx="57.5" ry="57.5" fill="url(#mx-gradient-c77498-1-bf639a-1-s-0)" stroke="#ffffff" stroke-width="6" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 113px; height: 1px; padding-top: 202px; margin-left: 1563px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 14px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+								<font face="Cairo" data-font-src="https://fonts.googleapis.com/css?family=Cairo">Run<br/>everywhere</font>
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="1619" y="206" fill="#FFFFFF" font-family="Helvetica" font-size="14px" text-anchor="middle" font-weight="bold">Run...</text>
+			</switch>
+		</g>
+		<rect x="732.5" y="519" width="350" height="50" rx="7.5" ry="7.5" fill="#000000" stroke="none" pointer-events="all" transform="translate(2,3)" opacity="0.25"/>
+		<rect x="732.5" y="519" width="350" height="50" rx="7.5" ry="7.5" fill="#cce5ff" stroke="none" pointer-events="all"/>
+		<g transform="translate(-0.5 -0.5)">
+			<switch>
+				<foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 348px; height: 1px; padding-top: 544px; margin-left: 734px;">
+						<div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+							<div style="display: inline-block; font-size: 27px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; word-wrap: normal; ">
+								<font style="font-size: 27px">Averos Usage Pattern</font>
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="908" y="552" fill="#000000" font-family="Helvetica" font-size="27px" text-anchor="middle" font-weight="bold">Averos Usage Pattern</text>
+			</switch>
+		</g>
+	</g>
+	<switch>
+		<g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+		<a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+			<text text-anchor="middle" font-size="10px" x="50%" y="100%">Viewer does not support full SVG 1.1</text>
+		</a>
+	</switch>
+</svg>

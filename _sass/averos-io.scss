@@ -1,0 +1,40 @@
+/*!
+ * Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+ * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+ * Licensed under MIT (https://github.com/mmistakes/averos-io/blob/master/LICENSE)
+*/
+
+/* Variables */
+@import "averos-io/variables";
+
+/* Mixins and functions */
+@import "averos-io/vendor/breakpoint/breakpoint";
+@include breakpoint-set("to ems", true);
+@import "averos-io/vendor/magnific-popup/magnific-popup"; // Magnific Popup
+@import "averos-io/vendor/susy/susy";
+@import "averos-io/mixins";
+
+/* Core CSS */
+@import "averos-io/reset";
+@import "averos-io/base";
+@import "averos-io/forms";
+@import "averos-io/tables";
+@import "averos-io/animations";
+
+/* Components */
+@import "averos-io/buttons";
+@import "averos-io/notices";
+@import "averos-io/masthead";
+@import "averos-io/navigation";
+@import "averos-io/footer";
+@import "averos-io/search";
+@import "averos-io/syntax";
+
+/* Utility classes */
+@import "averos-io/utilities";
+
+/* Layout specific */
+@import "averos-io/page";
+@import "averos-io/archive";
+@import "averos-io/sidebar";
+@import "averos-io/print";

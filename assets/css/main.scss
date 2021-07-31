@@ -1,0 +1,9 @@
+---
+# themes list: "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+---
+
+@charset "utf-8";
+
+// @import "averos-io/skins/{{ site.averos_io_theme | default: 'default' }}"; // theme
+@import "averos-io/skins/averos"; // theme
+@import "averos-io"; // main partials

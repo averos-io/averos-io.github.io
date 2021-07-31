@@ -1,0 +1,141 @@
+# example navigation
+foo:
+  - title: "Parent Link 1"
+    url: /parent-1-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+  - title: "Parent Link 2"
+    url: /parent-2-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+      - title: "Child Link 3"
+        url: /child-3-page-url/
+
+
+# main links
+main:
+  - title: "Averos Quick-Start Guide"
+    url: /docs/1.1.8/overview/
+  - title: "About"
+    url: /about/
+
+# averos documentation links
+averosdocs:
+  - title: Averos Overview
+    children:
+      - title: "Framework Overview"
+        url: /docs/1.1.8/overview/
+      - title: "Benefits"
+        url: /docs/1.1.8/benefits/
+      - title: "Technical Features"
+        url: /docs/1.1.8/technical-features/
+      - title: "Framework Architecture"
+        url: /docs/1.1.8/architecture
+  - title: Creating Your First Averos Web Application
+    children:
+      - title: "I. Overview"
+        url: /docs/1.1.8/first-application-overview/
+      - title: "II. Prerequisite"
+        url: /docs/1.1.8/prerequisite/
+      - title: "III. Create Your Application"
+        url: /docs/1.1.8/create-your-application/
+  - title: User Experience - Aside Topic
+    children:
+      - title: "Mind the User Experience"
+        url: /docs/1.1.8/user-experience/
+  - title: Customize your application - A Real-life use case
+    children:
+      - title: "I. User Requirements"
+        url: /docs/1.1.8/customize-your-app-business-requirements/
+      - title: "II. MyApplication Design"
+        url: /docs/1.1.8/customize-your-app-application-design/
+      - title: "III. Leveraging Averos Code Generation Workflow"
+        url: /docs/1.1.8/customize-your-app-averos-workflow/
+      - title: "IV. Simple Entity Member Workflow"
+        url: /docs/1.1.8/customize-your-app-averos-simple-entity-member-workflow/
+      - title: "V. Entity Composite Relation Use Cases"
+        url: /docs/1.1.8/customize-your-app-averos-composite-entity-member-workflow/
+      - title: "VI- Actions Summary"
+        url: /docs/1.1.8/customize-your-app-actions-summary/
+
+  - title: Documentation Reference
+    children:
+      - title: "Averos Workflow Commands"
+        url: /docs/1.1.8/reference-detailed-averos-worflow-commands/
+      - title: "Averos Entity"
+        url: /docs/1.1.8/reference-averos-entity/
+      - title: "Averos Service"
+        url: /docs/1.1.8/reference-averos-service/
+      - title: "Authentication Provider"
+        url: /docs/1.1.8/reference-authentication-provider/
+      - title: "Averos Translation"
+        url: /docs/1.1.8/reference-averos-translation/
+  
+  - title: Averos Version
+    children:
+      - title: "Latest version"
+        url: /docs/1.1.8/latest-version/
+
+# # old documentation links
+# docs:
+#   - title: Getting Started
+#     children:
+#       - title: "Quick-Start Guide"
+#         url: /docs/quick-start-guide/
+#       - title: "Structure"
+#         url: /docs/structure/
+#       - title: "Installation"
+#         url: /docs/installation/
+#       - title: "Upgrading"
+#         url: /docs/upgrading/
+#   - title: Customization
+#     children:
+#       - title: "Configuration"
+#         url: /docs/configuration/
+#       - title: "Overriding Theme Defaults"
+#         url: /docs/overriding-theme-defaults/
+#       - title: "Navigation"
+#         url: /docs/navigation/
+#       - title: "UI Text"
+#         url: /docs/ui-text/
+#       - title: "Authors"
+#         url: /docs/authors/
+#       - title: "Layouts"
+#         url: /docs/layouts/
+#   - title: Content
+#     children:
+#       - title: "Working with Posts"
+#         url: /docs/posts/
+#       - title: "Working with Pages"
+#         url: /docs/pages/
+#       - title: "Working with Collections"
+#         url: /docs/collections/
+#       - title: "Helpers"
+#         url: /docs/helpers/
+#       - title: "Utility Classes"
+#         url: /docs/utility-classes/
+#   - title: Extras
+#     children:
+#       - title: "Stylesheets"
+#         url: /docs/stylesheets/
+#       - title: "JavaScript"
+#         url: /docs/javascript/
+#   - title: Meta
+#     children:
+#       - title: "History"
+#         url: /docs/history/
+#       - title: "Contributing"
+#         url: /docs/contributing/
+#       - title: "Old 2.2 Docs"
+#         url: /docs/docs-2-2/
+#       - title: "License"
+#         url: /docs/license/
+#       - title: "Terms &amp; Privacy Policy"
+#         url: /terms/
+

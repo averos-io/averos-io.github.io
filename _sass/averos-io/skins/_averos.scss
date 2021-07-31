@@ -1,0 +1,98 @@
+
+$text-color: #171c4b !default;
+$footer-background-color: #273339 !default;
+
+.page__content {
+  .notice,
+  .notice--primary,
+  .notice--info,
+  .notice--warning,
+  .notice--success,
+  .notice--danger {
+    color: $text-color;
+  }
+}
+
+.page__footer {
+  color: #fff !important; // override
+}
+
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa  {
+  color: inherit;
+}
+
+.btn{
+  
+  &--blue {
+  background-color: #3D8DD8 ;
+  color: #fff !important;
+}
+
+&--blue:hover {
+  background-color: #194e80;
+  color: #fff !important;
+}
+
+&--pink {
+  background-color: #945671 ;
+  color: #fff !important;
+}
+
+&--pink:hover {
+  background-color: #502c3c ;
+  color: #fff !important;
+}
+
+&--red {
+  background-color: #E8382A ;
+  color: #fff !important;
+}
+
+&--red:hover {
+  background-color: #8f0f06 ;
+  color: #fff !important;
+}
+
+&--orange {
+  background-color: #F28C1E;
+  color: #fff !important;
+}
+
+&--orange:hover {
+  background-color: #96550f;
+  color: #fff !important;
+}
+
+&--yellow {
+  background-color: #DEC410 ;
+  color: #fff !important;
+}
+
+&--yellow:hover {
+  background-color: #96840e ;
+  color: #fff !important;
+}
+
+&--green {
+  background-color: #96C331 ;
+  color: #fff !important;
+}
+
+&--green:hover {
+  background-color: #4c7220 ;
+  color: #fff !important;
+}
+
+&--darkgreen {
+  background-color: #2FA64F ;
+  color: #fff !important;
+}
+
+&--darkgreen:hover {
+  background-color: rgb(53, 80, 23) ;
+  color: #fff !important;
+}
+
+
+}
