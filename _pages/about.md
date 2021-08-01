@@ -1,7 +1,7 @@
 ---
 permalink: /about/
-title: "About"
-excerpt: "The ultimate Rapid , fully responsive, angular-powered web application development framework"
+title: "About Averos"
+excerpt: "The Ultimate Rapid , fully responsive, angular-powered web application development framework"
 layouts_gallery:
   # - url: /assets/application/desktop.png
   #   image_path: /assets/application/desktop.png

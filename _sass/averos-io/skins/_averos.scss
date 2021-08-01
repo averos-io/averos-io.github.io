@@ -5,9 +5,9 @@ $header-background: #FFF !default;
 
 // Steaky Header
 .masthead {
-  -webkit-box-shadow: 0 10px 6px -6px #777;
-  -moz-box-shadow: 0 10px 6px -6px #777;
-  box-shadow: 0 10px 6px -6px #777;
+  -webkit-box-shadow: 0 7px 6px -6px #777;
+  -moz-box-shadow: 0 7px 6px -6px #777;
+  box-shadow: 0 7px 6px -6px #777;
   position: fixed !important;
   border-bottom: 0px !important;
   top: 0;
@@ -15,9 +15,13 @@ $header-background: #FFF !default;
   background-color: $header-background !important;
   transition: top 0.3s;
   .masthead__inner-wrap nav {
-
     background-color: $header-background !important;
+    
   }
+}
+
+.masthead__inner-wrap {
+  padding: 0.7em !important;
 }
 
 .wrapper{
@@ -29,6 +33,13 @@ $header-background: #FFF !default;
   padding-top: 100px;
 }
 
+#main {
+  padding-top: 30px;
+}
+
+.sidebar{
+  margin-top: 3em;
+}
 //////////////////// end steaky header /////////
 .page__content {
   .notice,
