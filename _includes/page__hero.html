@@ -26,24 +26,27 @@
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">
         <div style="display: flex; flex-direction: row; align-self: flex-start;">
-          <div style="width: 1em; margin-right: -5px;"><img src="/assets/logo/averos.svg" alt="{{ site.masthead_title | default: site.title }}"></div>
+          <div style="width: 1.3em; margin-right: -5px;"><img src="/assets/logo/averos.svg" alt="{{ site.masthead_title | default: site.title }}"></div>
 
-          <div style="color: #945671;">
+          <div style="color: #945671; font-size: 1.2em;">
             v
           </div>
-          <div style="color: #3D8DD8;">
+          <div style="color: #3D8DD8; font-size: 1.2em;">
             e
           </div>
-          <div style="color: #96C331;">
+          <div style="color: #96C331; font-size: 1.2em;">
           r
           </div>
-          <div style="color: #FCDF12;">
+          <div style="color: #FCDF12; font-size: 1.2em;">
             o
           </div>
-          <div style="color: #F28C1E;">
+          <div style="color: #F28C1E; font-size: 1.2em;">
             s&nbsp;
           </div>
-        <div><small style="font-size: 0.4em;"> Framework </small></div>
+        <div style= "display: flex; flex-direction: table">
+          <span style="align-self: flex-end;">
+          <small style="font-size: 0.4em;"> Framework </small></span>
+        </div>
            
 
     </div>
@@ -52,10 +55,12 @@
       {% include page__meta.html %}
 
       {% if page.header.actions %}
-        <p>
+        <p>   
         {% for action in page.header.actions %}
         <!-- <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>   -->
-        <a href="{{ action.url | flatify | relative_url }}" class="btn btn--red btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+        <div style="margin-top: 4em;">
+          <a href="{{ action.url | flatify | relative_url }}" class="btn btn--red btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+        </div>
         {% endfor %}
       {% endif %}
     </div>
