@@ -4,7 +4,7 @@ window.onscroll = function() {
     if (prevScrollpos > currentScrollPos) {
     document.getElementsByClassName("masthead")[0].style.top = "0";
     } else {
-    document.getElementsByClassName("masthead")[0].style.top = "-90px";
+    document.getElementsByClassName("masthead")[0].style.top = "-5em";
     }
     prevScrollpos = currentScrollPos;
 }

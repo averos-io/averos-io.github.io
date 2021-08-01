@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Averos Framework"
+title                    : "Averos"
 title_separator          : "-"
 subtitle                 : "Only what matters the most!"
 name                     : &name "Averos" 

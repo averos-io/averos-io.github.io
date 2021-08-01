@@ -4,13 +4,47 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        {% unless logo_path == empty %}
+
+        <!-- {% unless logo_path == empty %}
           <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
         {% endunless %}
         <a class="site-title" href="{{ '/' | relative_url }}">
           {{ site.masthead_title | default: site.title }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
-        </a>
+        </a> -->
+        <div style="display: flex; flex-direction: column;">
+
+          <a class="site-title" href="{{ '/' | relative_url }}" style="align-self: flex-start;" >
+            <div style="display: flex; flex-direction: row;">
+                
+              <div style="width: 2em; margin-right: -3px;"><img src="/assets/logo/averos.svg" alt="{{ site.masthead_title | default: site.title }}"></div>
+      
+              <div style="display: flex; flex-direction: row; font-size: 1.35em;">
+                  <div style="color: #945671;">
+                    v
+                  </div>
+                  <div style="color: #3D8DD8;">
+                    e
+                  </div>
+                  <div style="color: #96C331;">
+                  r
+                  </div>
+                  <div style="color: #FCDF12;">
+                    o
+                  </div>
+                  <div style="color: #F28C1E;">
+                    s&nbsp;
+                  </div>
+              </div>     
+  
+            </div>
+          </a>
+          <a class="site-title" href="{{ '/' | relative_url }}">
+            <!-- {{ site.masthead_title | default: site.title }} -->
+            {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
+          </a>
+      </div>
+
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             <li class="masthead__menu-item">

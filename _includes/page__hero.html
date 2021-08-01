@@ -1,4 +1,5 @@
 {% capture overlay_img_path %}{{ page.header.overlay_image | relative_url }}{% endcapture %}
+{% capture logo_path %}{{ site.logo }}{% endcapture %}
 
 {% if page.header.overlay_filter contains "gradient" %}
   {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
@@ -24,26 +25,26 @@
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">
-        <div style="display: flex; flex-direction: row;">
-        <div style="color: #E8382A; ">
-          A
-        </div>
-        <div style="color: #945671;">
-          v
-        </div>
-        <div style="color: #3D8DD8;">
-          e
-        </div>
-        <div style="color: #96C331;">
-         r
-        </div>
-        <div style="color: #FCDF12;">
-          o
-        </div>
-        <div style="color: #F28C1E;">
-          s&nbsp;
-        </div>
-           Framework    
+        <div style="display: flex; flex-direction: row; align-self: flex-start;">
+          <div style="width: 1em; margin-right: -5px;"><img src="/assets/logo/averos.svg" alt="{{ site.masthead_title | default: site.title }}"></div>
+
+          <div style="color: #945671;">
+            v
+          </div>
+          <div style="color: #3D8DD8;">
+            e
+          </div>
+          <div style="color: #96C331;">
+          r
+          </div>
+          <div style="color: #FCDF12;">
+            o
+          </div>
+          <div style="color: #F28C1E;">
+            s&nbsp;
+          </div>
+        <div><small style="font-size: 0.4em;"> Framework </small></div>
+           
 
     </div>
       </h1>
