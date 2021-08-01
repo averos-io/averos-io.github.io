@@ -62,7 +62,7 @@ feature_row:
     alt: "Powered by angular"
     title: "Powered by Angular"
     excerpt: "**Averos** is powered by the cutting edge web application development framework [**angular**](https://angular.io/) developed, maintained and backed by **Google**."
-    url: "https://angular.io/guide/what-is-angular/"
+    url: "https://angular.io/features/"
     btn_class: "btn--red"
     btn_label: "<i class='fas fa-arrow-circle-right'></i> More about Angular"
 ---
