@@ -1,7 +1,35 @@
 
 $text-color: #171c4b !default;
 $footer-background-color: #273339 !default;
+$header-background: #FFF !default;
 
+// Steaky Header
+.masthead {
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+  position: fixed !important;
+  border-bottom: 0px !important;
+  top: 0;
+  width: 100%;
+  background-color: $header-background !important;
+  transition: top 0.3s;
+  .masthead__inner-wrap nav {
+
+    background-color: $header-background !important;
+  }
+}
+
+.wrapper{
+
+  padding-top: 40px;
+}
+
+.page {
+  padding-top: 100px;
+}
+
+//////////////////// end steaky header /////////
 .page__content {
   .notice,
   .notice--primary,

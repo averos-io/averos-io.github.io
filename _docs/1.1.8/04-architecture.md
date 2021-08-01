@@ -20,6 +20,7 @@ Below is the overall architecture of the **averos framework** with respect to pa
 </figure>
 </div>
 
+
 ## **Averos Driven Web Application Target Architecture**
 
 Assuming the target web application to be built is **_MyApplication_**, below is the complete detailed architecture of the target application along with the Averos framework architecture as the main application creation process enabler.

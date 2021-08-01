@@ -13,7 +13,7 @@ subtitle                 : "Only what matters the most!"
 name                     : &name "Averos" 
 description              : &description "The Ultimate Rapid, fully responsive Angular-powered web application development framework."
 url                      : https://averos-io.github.io #https://localhost:4000 
-baseurl                  : "/" # the subpath of your site, e.g. "/blog"
+baseurl                  :  # the subpath of your site, e.g. "/blog"
 repository               : "averos-io/averos-io.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/logo/averos.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
