@@ -13,7 +13,7 @@ toc: true
 ---
 
 <p align="center">
-  <img width="400" height="350" src="https://www.wiforge.com/images/averos.svg">
+  <img width="400" height="350" src="{{ site.baseurl }}/assets/logo/averos.svg">
 </p>
 
 
@@ -50,4 +50,4 @@ Averos let you create a fully angular blown multipurpose and highly responsive a
 
 ---
 
-**Averos**  is designed, developed, and maintained by [Houcem LAOUITI]("https://github.com/houcemlaw" "Houcem Laouiti") & [averos-io]("https://github.com/averos-io" "averos-io").
+**Averos**  is designed, developed, and maintained by [**averos-io**]("https://github.com/averos-io" "averos-io").

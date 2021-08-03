@@ -9,7 +9,7 @@ classes: wide
  _Only what matters the most_
 
 <p align="center">
-<img width="400" height="350" src="https://www.wiforge.com/images/averos.svg">
+<img width="400" height="350" src="{{ site.baseurl }}/assets/logo/averos.svg">
 <br/> 
 <br/>
 
