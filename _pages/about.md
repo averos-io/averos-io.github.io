@@ -17,7 +17,7 @@ toc: true
 </p>
 
 
-**Averos** framework is the ultimate [Rapid](https://en.wikipedia.org/wiki/Rapid_application_development), fully [responsive](https://en.wikipedia.org/wiki/Responsive_web_design) [Angular](https://angular.io/)-powered web application development framework that is aimed to simplify web application development while hiding complex technical aspects; providing a full control on [time to market (TTM)](https://en.wikipedia.org/wiki/Time_to_market). 
+**Averos** framework is the ultimate [Rapid](https://en.wikipedia.org/wiki/Rapid_application_development "Rapid"), fully [responsive](https://en.wikipedia.org/wiki/Responsive_web_design "Responsive") [Angular](https://angular.io/ "Angular")-powered web application development framework that is aimed to simplify web application development while hiding complex technical aspects; providing a full control on [time to market (TTM)](https://en.wikipedia.org/wiki/Time_to_market "TTM"). 
 Averos let you create a fully angular blown multipurpose and highly responsive applications in only five steps: Design, Integrate, Customize, Test and Deploy.
 
 <!-- {% include gallery id="layouts_gallery" caption="Examples of averos applications." %} -->
@@ -50,4 +50,4 @@ Averos let you create a fully angular blown multipurpose and highly responsive a
 
 ---
 
-**Averos**  is designed, developed, and maintained by [**averos-io**]("https://github.com/averos-io" "averos-io").
+**Averos**  is designed, developed, and maintained by [**averos-io**](https://github.com/averos-io "averos-io").
