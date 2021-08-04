@@ -45,7 +45,7 @@ feature_row:
   - image_path: /assets/home/features/responsive_.svg
     alt: "fully responsive"
     title: "Responsive layouts"
-    excerpt: "**Averos** user interface is built on top of the [**angular material**](https://material.angular.io/) library and **enhanced** with custom **intuitive components** designed in order **boost user experience**.**Averos** user interface inherits all the angular **material** characteristics as well as **HTML5** and **CSS** properties, and is by nature **fully responsive** and [**pwa**](https://web.dev/progressive-web-apps/) ready."
+    excerpt: "**Averos** user interface is built on top of the [**angular material**](https://material.angular.io/) library and **enhanced** with custom **intuitive components** designed in order to **boost the user experience**.**Averos** user interface inherits all the angular **material** characteristics as well as **HTML5** and **CSS** properties, and is by nature **fully responsive** and [**pwa**](https://web.dev/progressive-web-apps/) ready."
     url: "https://material.angular.io/"
     btn_class: "btn--yellow"
     btn_label: "<i class='fas fa-arrow-circle-right'></i> Learn more"
