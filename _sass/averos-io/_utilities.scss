@@ -602,7 +602,7 @@ a.reversefootnote {
   user-select: none;
   }
 
-p {
+p, strong, code {
   -webkit-user-select: text;
   -khtml-user-select: text;
   -moz-user-select: text;
