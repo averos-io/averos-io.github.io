@@ -84,5 +84,69 @@ So, given a parent entity, if you are willing to display child items within a `c
 These aspects should be taken into consideration when designing your backend apis.
 {: .notice--danger}
 
+
+If you are using the [Averos Backend Mock](https://github.com/averos-io/averos-backend-mock "Averos Backend Mock") then you probably want to include some manual updates in order to support **json-server** apis criteria parameters and force retrieving One-To-One and One-To-Many relationships entities using the query key words: `_embed` and `_expand`.
+Two updates are thus required:
+
+1- **Update `to-do-task.service`:** 
+
+  - update the method **getEntitiesByCriteria()** in order to support **json-server** apis criteria parameters and force retrieving ToDoArea when getting a ToDoTask by using `_expand` in the http query:
+	
+**replace**:
+		
+
+   ```typescript
+      query = criteria.toHttpQuery('REGULAR');
+   ``` 
+
+**By**:
+
+
+   ```typescript
+      query = criteria.toHttpQuery('JSON-SERVER');
+      query = query==='' ? '_expand=toDoArea' : `${query}&_expand=toDoArea`;
+   ```
+
+2- **Update `to-do-area.service`:**
+
+   - update the method **getEntityById()** in order to retrieve all Childs elements (ToDoTasks) when getting a parent entity (ToDoArea), by including the `_embed` key word in the http query.
+		
+
+**replace**:
+
+ ```typescript
+      return this.httpClient.get<any>(`${this.toDoAreaAPI}/${id}`);
+   ```		
+		
+**By**:
+		
+   ```typescript
+      return this.httpClient.get<any>(`${this.toDoAreaAPI}/${id}?_embed=toDoTasks`);
+   ```		
+		
+   - update the method **getEntitiesByCriteria()** likewise, in order to retrieve all Childs elements (ToDoTasks) when getting a parent entity (ToDoArea), by including the `_embed` key word in the http query.
+
+
+**replace**:
+		
+   ```typescript
+      query = criteria.toHttpQuery('REGULAR');
+      const opts =  {
+               params: new HttpParams({fromString: query})
+               };
+   ```	
+
+**By**:
+
+
+```typescript
+query = criteria.toHttpQuery('JSON-SERVER');
+const opts =  
+    {
+   	params: new HttpParams({fromString: query+'&_embed=toDoTasks'})
+	 };
+```	
+
+
 Please refer to the [averos-io-starter](https://github.com/averos-io/averos-io-starter "averos-io starter kit") kit for further implementation details.
 {: .notice--info}

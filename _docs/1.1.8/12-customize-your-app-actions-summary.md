@@ -48,7 +48,13 @@ toc: true
    ng g @wiforge/averos:asm --ename=ToDoTask --mname=taskStatus --memberType=enumeration --listOfEnumValues=closed,active,pending
    ``` 
 
-###  7. **Run your application**
+### 7. **Teach your application new languages**
+
+   ```bash
+   ng g @wiforge/averos:add-translation-entry --key=[your Word generic id] --value=[Your word in the target language] --lang=[the target language]
+   ``` 
+
+###  8. **Run your application**
 
     ```bash
     ng serve
