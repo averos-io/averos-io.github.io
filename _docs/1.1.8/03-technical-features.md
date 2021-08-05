@@ -5,7 +5,7 @@ excerpt: "averos technical features"
 toc: false
 classes: wide
 ---
-
+- averos workflows for low-code development
 - customizable menu
 - full angular 12 support
 - full application multilanguage support
