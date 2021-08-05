@@ -1,12 +1,12 @@
 ---
 title: "Reference"
 permalink: /docs/1.1.8/reference-detailed-averos-worflow-commands/
-excerpt: "Reference - detailed averos workflow commands"
+excerpt: "Reference - detailed averos workflows commands"
 toc: false
 classes: wide
 ---
 
-## **Detailed Averos Workflow Commands**
+## **Detailed Averos Workflows Commands**
 
 ------------
 

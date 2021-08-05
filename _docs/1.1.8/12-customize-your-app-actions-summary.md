@@ -23,24 +23,17 @@ toc: true
 
 ### 3. **add averos support**
 
-    ```bash
-    ng add @wiforge/averos
-    ```
-
+     ng add @wiforge/averos
 
 ### 4. **initiate new averos crud use cases for both ToDoArea and ToDoTask entities**
-
-    ```bash
-    $ ng g @wiforge/averos:acrud --ename=ToDoArea && ng g @wiforge/averos:acrud --ename=ToDoTask
-    ```
+    
+     ng g @wiforge/averos:acrud --ename=ToDoArea && ng g @wiforge/averos:acrud --ename=ToDoTask
 
 ### 5. **Add entities composite relationship support**
 
-      ```bash
       ng g @wiforge/averos:acm --ename=ToDoArea --fename=ToDoTask --fieldRelationType=OneToMany --member-update-strategy=multiple
 
       ng g @wiforge/averos:acm --ename=ToDoTask --fename=ToDoArea --fieldRelationType=ManyToOne
-      ```
 
 ### 6. **Add a new simple type member - taskStatus - to ToDoTask entity**
 
@@ -56,9 +49,7 @@ toc: true
 
 ###  8. **Run your application**
 
-    ```bash
-    ng serve
-    ```
+    ng serve -o
 
 <br/>
 
@@ -76,7 +67,7 @@ toc: true
 **Generate a Web Application in only `5 minutes` by executing the following command:**
 
 ```bash
-    npm i @angular/cli && ng new my-averos-web-application --style=scss --routing --strict && cd averos-io-starter && ng add @wiforge/averos --applicationName=myAverosWebApplication --auth_backend_url=http://localhost:3333 --defaultLanguageCode=en --defaults && ng g @wiforge/averos:acrud --ename=ToDoArea && ng g @wiforge/averos:acrud --ename=ToDoTask && ng g @wiforge/averos:acm --ename=ToDoArea --fename=ToDoTask --fieldRelationType=OneToMany --member-update-strategy=multiple && ng g @wiforge/averos:acm --ename=ToDoTask --fename=ToDoArea --fieldRelationType=ManyToOne && ng g @wiforge/averos:asm --ename=ToDoTask --mname=taskStatus --memberType=enumeration --listOfEnumValues=closed,active,pending && ng serve
+    npm i @angular/cli && ng new my-averos-web-application --style=scss --routing --strict && cd averos-io-starter && ng add @wiforge/averos --applicationName=myAverosWebApplication --auth_backend_url=http://localhost:3333 --defaultLanguageCode=en --defaults && ng g @wiforge/averos:acrud --ename=ToDoArea && ng g @wiforge/averos:acrud --ename=ToDoTask && ng g @wiforge/averos:acm --ename=ToDoArea --fename=ToDoTask --fieldRelationType=OneToMany --member-update-strategy=multiple && ng g @wiforge/averos:acm --ename=ToDoTask --fename=ToDoArea --fieldRelationType=ManyToOne && ng g @wiforge/averos:asm --ename=ToDoTask --mname=taskStatus --memberType=enumeration --listOfEnumValues=closed,active,pending && ng serve -o
 ```
 
 <br/>

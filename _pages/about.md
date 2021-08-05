@@ -28,7 +28,7 @@ Averos let you create a fully angular blown multipurpose and highly responsive a
 
 ## Notable Features
 
-- customizable menu
+- **averos** workflows for low-code development
 - full angular 12 support
 - full application multilanguage support
 - 11 languages are supported out of the box (Arabic, Chinese, English, Spanish, French, German, Japanese, Dutch, Russian, Swedish, Norwegian) 
