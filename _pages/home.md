@@ -53,7 +53,7 @@ feature_row:
   - image_path: /assets/home/features/multilanguage_.svg
     alt: "Multi Language Support"
     title: "Multi Language Support"
-    excerpt: "**Averos** comes with 11 languages supported out of the box. Besides **Averos** worflow comes to help developer adding more languages without writing a line of code, in an intuitive and easy way."
+    excerpt: "**Averos** comes with 11 languages supported out of the box. Besides **Averos** worflow comes to help developer adding more languages without writing a single line of code, in an intuitive and easy way."
     url: "/docs/1.1.8/reference-averos-translation/"
     btn_class: "btn--darkgreen"
     btn_label: "<i class='fas fa-arrow-circle-right'></i> Need to know more"

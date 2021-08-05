@@ -41,8 +41,8 @@ averosdocs:
     children:
       - title: "I. Overview"
         url: /docs/1.1.8/first-application-overview/
-      - title: "II. Prerequisite"
-        url: /docs/1.1.8/prerequisite/
+      - title: "II. Prerequisites"
+        url: /docs/1.1.8/prerequisites/
       - title: "III. Create Your Application"
         url: /docs/1.1.8/create-your-application/
   - title: User Experience - Aside Topic
