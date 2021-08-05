@@ -37,7 +37,7 @@ Below are the averos compliant APIs descriptions with respect to averos framewor
 
 
 |  **Name & Signature** | **URI** |  **HTTP Method** | **API Logic Type** | **API Description** |
-| ------------ | ------------ | ------------ | ------------ | ------------ |
+| :------------: | :------------: | :------------: | :------------: |:------------: |
 | `updateEntity(id: string, entityTopdate: T \| Partial<T>): Observable<T>` | /entityNames/:id | PATCH | SIMPLE | Updates an averos entity of type T |
 | `createEntity(value: T): Observable<T>` | /entityNames | POST | SIMPLE | Creates an averos entity of type T |
 | `deleteEntity(id: T): Observable<T>` | /entityNames/:id | DELETE | SIMPLE | Removes an averos entity of type T |
@@ -45,6 +45,6 @@ Below are the averos compliant APIs descriptions with respect to averos framewor
 | `getEntityById(id: string): Observable<T>` | /entityNames/:id | GET | SIMPLE | Retrieves the averos entity instance of type T having the requested id |
 | `getEntitiesByIds(ids: string[]): Observable<T[]>` | /entityNames | GET | SIMPLE | Retrieves a list of averos entities instances of type T according to their list of ids |
 | `getEntitiesByCriteria(criteria: SearchInputCriteria): Observable<T[]>` | /entityNames | GET | SIMPLE | Retrieves a list of averos entities instances of type T that meets the given criteria. <br/> Note that **criteria** is of type **SearchInputCriteria** which is an averos type defining the criteria in a search use case. <br> Search use cases are composite averos use cases that are build as a composition of atomic averos components. Each component accepts a search input entry of type string, and outputs an averos criteria type. <br/> **SearchInputCriteria** is thus the aggregation of all averos criteria resulted in the aggregation of averos atomic components. <br/> More on this topic will be available soon in the ongoing averos documentation. |
-| `deleteRelationCollection(parentId: any, relationName: string, cids: {id: string}[]): Observable<T>` | Not fixed. <br/> Depends on the custom logic | COMPOSITE | Not fixed. <br/> Depends on the custom logic | Deletes one or several composite entity child that belongs to a one to many relationship. <br/> Returns the parent entity (relashionship owner) |
-| `addRelationCollection(parentId: string, relationName: string, cids: {id: string}[]): Observable<T>` | Not fixed. <br/> Depends on the custom logic | COMPOSITE | Not fixed. <br/> Depends on the custom logic | Adds one or several composite averos entity child(s) that are/is part of a one to many relationship. <br/> Returns the parent entity (relashionship owner) |
+| `deleteRelationCollection(parentId: any, relationName: string, cids: {id: string}[]): Observable<T>` | Not fixed. <br/> Depends on the custom logic | Not fixed. <br/> Depends on the custom logic | COMPOSITE | Deletes one or several composite entity child that belongs to a one to many relationship. <br/> Returns the parent entity (relashionship owner) |
+| `addRelationCollection(parentId: string, relationName: string, cids: {id: string}[]): Observable<T>` | Not fixed. <br/> Depends on the custom logic | Not fixed. <br/> Depends on the custom logic | COMPOSITE | Adds one or several composite averos entity child(s) that are/is part of a one to many relationship. <br/> Returns the parent entity (relashionship owner) |
 

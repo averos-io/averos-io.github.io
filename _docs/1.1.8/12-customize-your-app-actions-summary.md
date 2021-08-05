@@ -13,7 +13,6 @@ toc: true
     git clone https://github.com/averos-io/averos-backend-mock && cd averos-backend-mock && npm install && npm start
    ```
 
-<br/>
 
 ### 2. **create a new angular application**
    
@@ -55,31 +54,26 @@ toc: true
     ng serve
     ```
 
+<br/>
+
 **OR** 
 
 ### 8. **All-In-One**
 
-**Generate a Web Application in only `5 minutes` by executing the following command:**
-
+**Run the averos backend mock:**
 
 ```bash
-git clone https://github.com/averos-io/averos-backend-mock && 
-cd averos-backend-mock && 
-npm install && 
-npm start
+    git clone https://github.com/averos-io/averos-backend-mock && cd averos-backend-mock && npm install && npm start
+```
+<br/>
 
-npm i @angular/cli && 
-ng new my-averos-web-application --style=scss --routing --strict && 
-cd averos-io-starter && 
-ng add @wiforge/averos --applicationName=myAverosWebApplication --auth_backend_url=http://localhost:3333 --defaultLanguageCode=en --defaults && 
-ng g @wiforge/averos:acrud --ename=ToDoArea && 
-ng g @wiforge/averos:acrud --ename=ToDoTask && 
-ng g @wiforge/averos:acm --ename=ToDoArea --fename=ToDoTask --fieldRelationType=OneToMany --member-update-strategy=multiple && 
-ng g @wiforge/averos:acm --ename=ToDoTask --fename=ToDoArea --fieldRelationType=ManyToOne && 
-ng g @wiforge/averos:asm --ename=ToDoTask --mname=taskStatus --memberType=enumeration --listOfEnumValues=closed,active,pending && 
-ng serve
+**Generate a Web Application in only `5 minutes` by executing the following command:**
+
+```bash
+    npm i @angular/cli && ng new my-averos-web-application --style=scss --routing --strict && cd averos-io-starter && ng add @wiforge/averos --applicationName=myAverosWebApplication --auth_backend_url=http://localhost:3333 --defaultLanguageCode=en --defaults && ng g @wiforge/averos:acrud --ename=ToDoArea && ng g @wiforge/averos:acrud --ename=ToDoTask && ng g @wiforge/averos:acm --ename=ToDoArea --fename=ToDoTask --fieldRelationType=OneToMany --member-update-strategy=multiple && ng g @wiforge/averos:acm --ename=ToDoTask --fename=ToDoArea --fieldRelationType=ManyToOne && ng g @wiforge/averos:asm --ename=ToDoTask --mname=taskStatus --memberType=enumeration --listOfEnumValues=closed,active,pending && ng serve
 ```
 
+<br/>
 
 **🎉🎉🎉 Congratulations! You have made your first web application in no time! 🎉🎉🎉**
 {: .notice--info}

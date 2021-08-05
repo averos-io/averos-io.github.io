@@ -44,7 +44,9 @@ averosdocs:
         url: /docs/1.1.8/customize-your-app-averos-simple-entity-member-workflow/
       - title: "V. Entity Composite Relation Use Cases"
         url: /docs/1.1.8/customize-your-app-averos-composite-entity-member-workflow/
-      - title: "VI- Actions Summary"
+      - title: "VI. What If Your Application Learns New Languages?"
+        url: /docs/1.1.8/11.1-customize-your-app-i18n-workflows/
+      - title: "VII- Actions Summary"
         url: /docs/1.1.8/customize-your-app-actions-summary/
 
   - title: Documentation Reference

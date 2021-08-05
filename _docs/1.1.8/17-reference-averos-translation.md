@@ -12,13 +12,13 @@ Averos framework comes with a Translation module, named `AverosTranslationModule
 **Averos** workflow allows to add specific language support using the workflow command:
  
 ```bash
-    ng add @wiforge/averos:add-language --languageCode=[language code]
+    ng g @wiforge/averos:add-language --languageCode=[language code]
 ```
 
-**Averos** workflow allows to add a specific translation by running the command below:
+**Averos** workflow allows to add a specific translation key by running the command below:
 
 ```bash
-    ng add @wiforge/averos:add-translation-entry --key=[yourKey] --value=[Your Translation] --lang=[language code]
+    ng g @wiforge/averos:add-translation-entry --key=[yourKey] --value=[Your Translation] --lang=[language code]
 ```
 
 Below are the list of the languages that averos supports out of the box along with their code :
