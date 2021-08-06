@@ -1,6 +1,6 @@
 ---
 title: "Averos Overview"
-permalink: /docs/1.1.8/overview/
+permalink: /docs/overview/
 excerpt: "averos usage patern"
 toc: false
 classes: wide

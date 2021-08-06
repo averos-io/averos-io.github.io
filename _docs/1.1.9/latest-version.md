@@ -1,6 +1,6 @@
 ---
 title: "Averos Version"
-permalink: /docs/1.1.8/latest-version/
+permalink: /docs/latest-version/
 excerpt: "Reference -  Averos Version"
 toc: true
 ---
@@ -8,4 +8,4 @@ toc: true
 ## **Latest Version**
 
 
-The latest **Averos** version is `1.1.8`.
+The latest **Averos** version is `1.1.9`.

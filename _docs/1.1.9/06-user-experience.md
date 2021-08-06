@@ -1,6 +1,6 @@
 ---
 title: "Mind the User Experience (aside topic)"
-permalink: /docs/1.1.8/user-experience/
+permalink: /docs/user-experience/
 excerpt: "A glimpse on user experience"
 toc: false
 classes: wide

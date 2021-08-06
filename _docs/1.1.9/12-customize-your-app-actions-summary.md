@@ -1,6 +1,6 @@
 ---
 title: "Customize your application"
-permalink: /docs/1.1.8/customize-your-app-actions-summary/
+permalink: /docs/customize-your-app-actions-summary/
 excerpt: "Customize your application - Actions Summary"
 toc: true
 ---

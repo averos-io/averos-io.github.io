@@ -1,6 +1,6 @@
 ---
 title: "Benefits"
-permalink: /docs/1.1.8/benefits/
+permalink: /docs/benefits/
 excerpt: "averos benefits"
 toc: false
 classes: wide

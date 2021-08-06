@@ -1,6 +1,6 @@
 ---
 title: "Reference"
-permalink: /docs/1.1.8/reference-authentication-provider/
+permalink: /docs/reference-authentication-provider/
 excerpt: "Reference -  authentication provider"
 toc: false
 classes: wide

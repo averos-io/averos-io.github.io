@@ -1,6 +1,6 @@
 ---
 title: "Architecture"
-permalink: /docs/1.1.8/architecture/
+permalink: /docs/architecture/
 excerpt: "averos architecture"
 toc: false
 classes: wide

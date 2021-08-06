@@ -1,6 +1,6 @@
 ---
 title: "Customize your application"
-permalink: /docs/1.1.8/customize-your-app-application-design/
+permalink: /docs/customize-your-app-application-design/
 excerpt: "Customize your application - Application Design"
 toc: true
 ---
