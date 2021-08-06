@@ -67,6 +67,11 @@ averosdocs:
       - title: "Latest version"
         url: /averos/docs/latest-version/
 
+  - title: License
+    children:
+      - title: "averos license"
+        url: /averos/license/
+
 # # old documentation links
 # docs:
 #   - title: Getting Started
