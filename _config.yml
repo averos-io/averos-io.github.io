@@ -17,7 +17,7 @@ baseurl                  :  # the subpath of your site, e.g. "/blog"
 repository               : "averos-io/averos-io.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/logo/averos.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-averosversion            : "1.1.9"
+averosversion            : "1.2.0"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -225,7 +225,7 @@ defaults:
         nav: "docs"
    # averosdocs
   - scope:
-      path: "_docs/1.1.9"
+      path: "_docs/1.2.0"
       type: docs
     values:
       layout: single
