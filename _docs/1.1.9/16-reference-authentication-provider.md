@@ -1,6 +1,6 @@
 ---
 title: "Reference"
-permalink: /docs/reference-authentication-provider/
+permalink: /averos/docs/reference-authentication-provider/
 excerpt: "Reference -  authentication provider"
 toc: false
 classes: wide

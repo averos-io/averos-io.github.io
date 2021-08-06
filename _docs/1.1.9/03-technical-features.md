@@ -1,6 +1,6 @@
 ---
 title: "Technical Features"
-permalink: /docs/technical-features/
+permalink: /averos/docs/technical-features/
 excerpt: "averos technical features"
 toc: false
 classes: wide

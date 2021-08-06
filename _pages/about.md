@@ -23,7 +23,7 @@ Averos let you create a fully angular blown multipurpose and highly responsive a
 <!-- {% include gallery id="layouts_gallery" caption="Examples of averos applications." %} -->
 
 
-  [Get Started]({{ "/docs/overview/" | relative_url }} "Get Started"){: .btn .btn--success .btn--large}
+  [Get Started]({{ "/averos/docs/overview/" | relative_url }} "Get Started"){: .btn .btn--success .btn--large}
 
 
 ## Notable Features

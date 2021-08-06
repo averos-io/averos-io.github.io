@@ -1,6 +1,6 @@
 ---
 title: "Customize your application"
-permalink: /docs/customize-your-app-averos-composite-entity-member-workflow/
+permalink: /averos/docs/customize-your-app-averos-composite-entity-member-workflow/
 excerpt: "Customize your application - composite entity Workflow"
 toc: true
 ---
@@ -12,7 +12,7 @@ We have been so far able to create most of the use cases defined in our ToDo tra
 One special use case worth nevertheless more attention seeing its complexity since its logic depends on the user requirements and thus could not be unified for all use cases.
 This special use case concerns all entities relationships. Either it is a simple association, a composition or an aggregation it is obvious that handling such relationships depends on the final user needs. <br/>
 
-Yet, **averos** defines some guidelines to follow when it comes to such use cases. Please refer to [Averos service apis naming conventions]({{ "/docs/reference-averos-service#averos-service-apis-naming-conventions/" | relative_url }}  "Averos Service APIs Naming Conventions") section and look at COMPOSITE API Logic Type. These are the conventions when dealing with entities relationships. <br/>
+Yet, **averos** defines some guidelines to follow when it comes to such use cases. Please refer to [Averos service apis naming conventions]({{ "/averos/docs/reference-averos-service#averos-service-apis-naming-conventions/" | relative_url }}  "Averos Service APIs Naming Conventions") section and look at COMPOSITE API Logic Type. These are the conventions when dealing with entities relationships. <br/>
 
 >🚩 Notice that in this example averos has already added a `One To One` composite relationship between your business entities and the averos entity `User`.
 The relationship is represented by the two class members `createdBy` and `updatedBy` and could be visible in all view use cases. 
@@ -35,7 +35,7 @@ In order to satisfy such requirement we will need to: <br/>
 1. Reference a `ToDoTask` collection by adding a new member of type `ToDoTask` collection to the `ToDoArea` parent entity
 2. Reference the `ToDoArea` parent entity by adding a new member of type `ToDoArea` to the `ToDoTask` child entity
 3. Update both `ToDoArea` and `ToDoTask` view layout in order to display the navigability
-4. Implement the `COMPOSITE` service APIs accordingly as described in the [Averos Service APIs Naming Conventions]({{ "/docs/reference-averos-service#averos-service-apis-naming-conventions/" | relative_url }}  "Averos Service APIs Naming Conventions") section
+4. Implement the `COMPOSITE` service APIs accordingly as described in the [Averos Service APIs Naming Conventions]({{ "/averos/docs/reference-averos-service#averos-service-apis-naming-conventions/" | relative_url }}  "Averos Service APIs Naming Conventions") section
 
 
 Handling relationships will need further complex implementations and clear design. Not to mention that one should repeat the integration process for every member describing a relationship that should be handled.
@@ -43,7 +43,7 @@ Once again, averos fortunately introduced the `add-composite-member` workflow to
 
 
 >🚩 Note that `add-composite-member` - *alias* `aem` - workflow will update the project in order to support displaying relationships.
-Refer to the [**detailed averos workflow commands**]({{ "/docs/reference-detailed-averos-worflow-commands/" | relative_url}} "Detailed averos workflow commands")  section for further details. <br/>
+Refer to the [**detailed averos workflow commands**]({{ "/averos/docs/reference-detailed-averos-worflow-commands/" | relative_url}} "Detailed averos workflow commands")  section for further details. <br/>
 {: .notice--warning}
 
 Now we have'been saved, let us go ahead and add our two-way navigeable relationship: <br/>
@@ -74,7 +74,7 @@ There are a couple of thing to bear in mind when dealing with composite entity r
 
 So, given a parent entity, if you are willing to display child items within a `create`, an `edit` or a `view` entity use case you need to adapt you backend api so that : <br/>
 - Within the Parent service, `getEntityById(id: string)` should return aside from the parent entity the list Child ids collection
-- Decide which strategy you will follow when updating/creating a One to Many relationships: Update happens in a `single` transaction (one api call: one call to the parent api- delete, create or update- will handle the childs items) or `multiple` transactions (multiple api call: call child's api then parent api). Either way, you should mind these aspects when designing your API logic. Please refer to [averos entity update strategy]({{"/docs/reference-averos-entity/#a--single-transaction-strategy" | relative_url }} "Averos Entity Update Strategy") to learn more about update strategies that come with averos.
+- Decide which strategy you will follow when updating/creating a One to Many relationships: Update happens in a `single` transaction (one api call: one call to the parent api- delete, create or update- will handle the childs items) or `multiple` transactions (multiple api call: call child's api then parent api). Either way, you should mind these aspects when designing your API logic. Please refer to [averos entity update strategy]({{"/averos/docs/reference-averos-entity/#a--single-transaction-strategy" | relative_url }} "Averos Entity Update Strategy") to learn more about update strategies that come with averos.
 
 
 >🚩 Note that relationship update strategy is available in the `add-composite-member` by setting the flag `--member-update-strategy` to either `single` or `multiple`. The related methods implementation will be automatically generated by the workflow.

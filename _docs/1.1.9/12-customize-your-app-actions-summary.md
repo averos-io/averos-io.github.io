@@ -1,6 +1,6 @@
 ---
 title: "Customize your application"
-permalink: /docs/customize-your-app-actions-summary/
+permalink: /averos/docs/customize-your-app-actions-summary/
 excerpt: "Customize your application - Actions Summary"
 toc: true
 ---

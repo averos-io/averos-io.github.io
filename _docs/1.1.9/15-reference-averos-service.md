@@ -1,6 +1,6 @@
 ---
 title: "Reference"
-permalink: /docs/reference-averos-service/
+permalink: /averos/docs/reference-averos-service/
 excerpt: "Reference -  averos service"
 toc: false
 classes: wide

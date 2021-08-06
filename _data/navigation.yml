@@ -2,7 +2,7 @@
 # main links
 main:
   - title: "Averos Quick-Start Guide"
-    url: /docs/overview/
+    url: /averos/docs/overview/
   - title: "About"
     url: /about/
 
@@ -11,61 +11,61 @@ averosdocs:
   - title: Averos Overview
     children:
       - title: "Installation"
-        url: /docs/installation/
+        url: /averos/docs/installation/
       - title: "Framework Overview"
-        url: /docs/overview/
+        url: /averos/docs/overview/
       - title: "Benefits"
-        url: /docs/benefits/
+        url: /averos/docs/benefits/
       - title: "Technical Features"
-        url: /docs/technical-features/
+        url: /averos/docs/technical-features/
       - title: "Framework Architecture"
-        url: /docs/architecture
+        url: /averos/docs/architecture
   - title: Creating Your First Averos Web Application
     children:
       - title: "I. Overview"
-        url: /docs/first-application-overview/
+        url: /averos/docs/first-application-overview/
       - title: "II. Prerequisites"
-        url: /docs/prerequisites/
+        url: /averos/docs/prerequisites/
       - title: "III. Create Your Application"
-        url: /docs/create-your-application/
+        url: /averos/docs/create-your-application/
   - title: User Experience - Aside Topic
     children:
       - title: "Mind the User Experience"
-        url: /docs/user-experience/
+        url: /averos/docs/user-experience/
   - title: Customize your application - A Real-life use case
     children:
       - title: "I. User Requirements"
-        url: /docs/customize-your-app-business-requirements/
+        url: /averos/docs/customize-your-app-business-requirements/
       - title: "II. MyApplication Design"
-        url: /docs/customize-your-app-application-design/
+        url: /averos/docs/customize-your-app-application-design/
       - title: "III. Leveraging Averos Code Generation Workflow"
-        url: /docs/customize-your-app-averos-workflow/
+        url: /averos/docs/customize-your-app-averos-workflow/
       - title: "IV. Simple Entity Member Workflow"
-        url: /docs/customize-your-app-averos-simple-entity-member-workflow/
+        url: /averos/docs/customize-your-app-averos-simple-entity-member-workflow/
       - title: "V. Entity Composite Relation Use Cases"
-        url: /docs/customize-your-app-averos-composite-entity-member-workflow/
+        url: /averos/docs/customize-your-app-averos-composite-entity-member-workflow/
       - title: "VI. What If Your Application Learns New Languages?"
-        url: /docs/11.1-customize-your-app-i18n-workflows/
+        url: /averos/docs/11.1-customize-your-app-i18n-workflows/
       - title: "VII- Actions Summary"
-        url: /docs/customize-your-app-actions-summary/
+        url: /averos/docs/customize-your-app-actions-summary/
 
   - title: Documentation Reference
     children:
       - title: "Averos Workflow Commands"
-        url: /docs/reference-detailed-averos-worflow-commands/
+        url: /averos/docs/reference-detailed-averos-worflow-commands/
       - title: "Averos Entity"
-        url: /docs/reference-averos-entity/
+        url: /averos/docs/reference-averos-entity/
       - title: "Averos Service"
-        url: /docs/reference-averos-service/
+        url: /averos/docs/reference-averos-service/
       - title: "Authentication Provider"
-        url: /docs/reference-authentication-provider/
+        url: /averos/docs/reference-authentication-provider/
       - title: "Averos Translation"
-        url: /docs/reference-averos-translation/
+        url: /averos/docs/reference-averos-translation/
   
   - title: Averos Version
     children:
       - title: "Latest version"
-        url: /docs/latest-version/
+        url: /averos/docs/latest-version/
 
 # # old documentation links
 # docs:

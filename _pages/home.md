@@ -7,14 +7,14 @@ header:
   overlay_image: /assets/home/m.png
   actions:
     - label: "<i class='fas fa-arrow-circle-right'></i> Get Started"
-      url: "/docs/overview/"
+      url: "/averos/docs/overview/"
 feature_row:
   - image_path: /assets/home/features/innovative_.svg
     alt: "Innovative"
     title: "Innovative"
     excerpt: "**Averos** introduces a new way of creating applications by adopting a **Design First** strategy which allows users to focus in the **application design** over technical aspects.
     With the help of **averos**, creating the most complex use case is easier than ever."
-    url: "/docs/overview/"
+    url: "/averos/docs/overview/"
     btn_class: "btn--blue"
     btn_label: "<i class='fas fa-arrow-circle-right'></i> Learn more"
 
@@ -22,7 +22,7 @@ feature_row:
     alt: "Open Framework"
     title: "Open Framework"
     excerpt: "**Averos** is built on an **open architecture** powered by [**angular**](https://angular.io/) which allows **developers** to **shape the framework** depending on their needs. **Averos** does not impose any restrictions on the technical approach with which the user wishes to carry out his project."
-    url: "/docs/architecture/"
+    url: "/averos/docs/architecture/"
     btn_class: "btn--pink"
     btn_label: "<i class='fas fa-arrow-circle-right'></i> Discover Averos" 
 
@@ -30,7 +30,7 @@ feature_row:
     alt: "Fosters Creativity"
     title: "Fosters Creativity"
     excerpt: "**Averos** supports the **creativity** by minimizing the reflection on the technical aspects in favor of the **business** aspects. This will give the **design** its right value and **improve the quality** of the application."
-    url: "/docs/customize-your-app-application-design/"
+    url: "/averos/docs/customize-your-app-application-design/"
     btn_class: "btn--orange"
     btn_label: "<i class='fas fa-arrow-circle-right'></i> See it in action"
 
@@ -38,7 +38,7 @@ feature_row:
     alt: "User Experience Centric"
     title: "User Experience Centric"
     excerpt: "**Averos** is designed in order to provide a **wonderful digital journey** by **unlocking** the access to **user exeprience centric** applications while bringing common **natural** and **obvious** end users experience to your applications providing thus a **two-way communication** between the user and his application."
-    url: "/docs/user-experience/"
+    url: "/averos/docs/user-experience/"
     btn_class: "btn--green"
     btn_label: "<i class='fas fa-arrow-circle-right'></i> Show me how"
 
@@ -54,7 +54,7 @@ feature_row:
     alt: "Multi Language Support"
     title: "Multi Language Support"
     excerpt: "**Averos** comes with 11 languages supported out of the box. Besides **Averos** worflow comes to help developer adding more languages without writing a single line of code, in an intuitive and easy way."
-    url: "/docs/reference-averos-translation/"
+    url: "/averos/docs/reference-averos-translation/"
     btn_class: "btn--darkgreen"
     btn_label: "<i class='fas fa-arrow-circle-right'></i> Need to know more"
 

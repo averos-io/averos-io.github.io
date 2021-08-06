@@ -1,6 +1,6 @@
 ---
 title: "Installation"
-permalink: /docs/installation/
+permalink: /averos/docs/installation/
 excerpt: "Averos installation"
 toc: false
 classes: wide
