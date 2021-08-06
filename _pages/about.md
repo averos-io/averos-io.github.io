@@ -51,7 +51,7 @@ Averos let you create a fully angular blown multipurpose and highly responsive a
 ## License
 
 Use of Averos framework **binary library** is permitted, **free of charge**, including for **commercial purposes**.<br/>
-However, use of Averos **source code** is governed by the [Averos LICENSE]({{ "/averos/license/" | relative_url }} "Averos License")  that can be found here.
+However, use of Averos **source code** is governed by the [Averos License]({{ "/averos/license/" | relative_url }} "Averos License")  that can be found here.
 Please read this software license agreement (“[License]({{ "/averos/license/" | relative_url }} "Averos License")”) carefully before using the framework averos. 
 
 ---
