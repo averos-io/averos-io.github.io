@@ -19,8 +19,65 @@ ng g @wiforge/averos:acrud
 ```
 
 Running this command will result in the creation of a bunch of components that will interact with each other seamlessly in order to fullfill almost all of the application business requirements listed above including common controls and notification messages for a better user experience.
-  
-Let's go ahead and execute this command:
+
+But before diving deep into use cases we need to create our managed entities beforehand; those entities that we defined earlier in the class diagram.
+
+### **1- Generate the Business Entities**
+
+So far we have designed two business entities with a set of members or fields of different types as described in the the class diagram below:
+
+<figure align="center">
+	<a href="{{ site.baseurl }}/assets/arch/tutorial/to-do-uml-diagram.png">
+    <img src="{{ site.baseurl }}/assets/arch/tutorial/to-do-uml-diagram.png" alt="ToDo Tracking application UML Diagram">
+      <figcaption>MyApplication UML Diagram</figcaption>
+  </a>
+</figure>
+
+There are Two entities, `ToDoArea` and `ToDoTask`, along with two related services, `ToDoAreaService` and `ToDoTaskSerice`.
+Creating entities in `averos` possible using the `averos workflow` command `averos-entity` which will result in the creation of the target entity along with it's service.
+The full command line will look like this:
+
+```bash
+  ng g @wiforge/averos:averos-entity --name=ToDoArea
+```
+
+This will result in the creation of an entity called `ToDoArea` and a service called `ToDoAreaService`.
+
+The entity service name could also be customized through the parameter `--sname` as described below:
+
+```bash
+  ng g @wiforge/averos:averos-entity --name=ToDoArea --sname=AreaService
+```
+
+This will result in the creation of an entity called `ToDoArea` and a service called `ToDoAreaService`.
+
+>🚩 **Note** that `averos framework`, when calling `averos-entity` will create by default the following entity members:
+   - **id**: annotated by the averos @ID() decorator in order to tell the framework that it should handle this field as an identifier
+   - **name**: a string member describing the name of the entity
+   - **description**: a string member related to the entity description
+   - **createdBy**: of type User (**averos User type** by default) related to the user who created the entity
+   - **updatedBy**: of type User (**averos User type** by default) related to the user who updated the entity
+   - **createdAt**: of type `date` related to the entity creation date
+   - **updatedAt**: of type `date` related to the entity update date
+{: .notice--info}
+
+>`Averos` will also create the related **entity service** having the following default api URL `/api/entityNames`.
+   Therefore, the `ToDoArea` service api url will be `/api/todoareas`. 
+{: .notice--info}
+
+After generating our entities we will need to create our `CRUD` use cases described in the use case diagram we made earlier.
+`Averos framework` provide two main workflow for a full `CRUD` support. These workflows are:
+- `create-entity-uc`: which will result in the creation of a `create entity` use case
+- `search-entity-uc`: which will result in the creation of `search entity`, `edit entity`, `view entity` and `delete entity` use cases.
+
+>🚩 Please note that since `crud` operation are seen as the basic use cases of any application, and seeing as creating such use cases will result in a set of repetitive actions that are achieved on every managed entity, `averos framework` has made a workflow, called `advanced-crud`, available for such use cases. 
+{: .notice--warning}
+
+### **2- Generate your CRUD Use Cases**
+
+`advanced-crud` alias `[acrud]` is the averos workflow that is dedicated to creating fully blown `crud` use cases in oneshot. It will create the entity along with its default members and sevice. Then it will procede by creating and configuring the related crud use cases.
+
+Let's go ahead and execute this command in order to initiate `crud` use cases for both `ToDoArea` and `ToDoTask`:
 
 ```bash
 ng g @wiforge/averos:acrud --ename=ToDoArea
@@ -28,7 +85,7 @@ ng g @wiforge/averos:acrud --ename=ToDoArea
 ng g @wiforge/averos:acrud --ename=ToDoTask
 ```
 
->🚩 Note that **averos-crud** - *alias* **acrud** - workflow will generate all specific CRUD component use cases based on the entity name (--ename).
+>🚩 Note that **averos-crud** - *alias* **acrud** - workflow will generate all specific CRUD component use cases based on the entity name defined in the command parameter `--ename`.
 Refer to the [**detailed averos workflow commands**]({{ "/averos/docs/reference-detailed-averos-worflow-commands/" | relative_url }} "detailed averos workflow commands") section for further details.
 {: .notice--info}
 
