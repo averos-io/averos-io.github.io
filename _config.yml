@@ -225,7 +225,7 @@ defaults:
         nav: "docs"
    # averosdocs
   - scope:
-      path: "_docs/1"
+      path: "_docs/1.2.1"
       type: docs
     values:
       layout: single
