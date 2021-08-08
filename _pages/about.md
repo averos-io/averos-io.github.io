@@ -3,12 +3,35 @@ permalink: /about/
 title: "About Averos"
 excerpt: "The Ultimate Rapid , fully responsive, angular-powered web application development framework"
 layouts_gallery:
-  # - url: /assets/application/desktop.png
-  #   image_path: /assets/application/desktop.png
-  #   alt: "averos desktop"
-  # - url: /assets/application/device.png
-  #   image_path: /assets/application/device.png
-  #   alt: "Averos Device"
+  - url: /assets/inaction/home_dark.png
+    image_path: /assets/inaction/home_dark.png
+    alt: "averos Home dark theme"
+  - url: /assets/inaction/signin_dark.png
+    image_path: /assets/inaction/signin_dark.png
+    alt: "Averos Sign In Dark"
+  - url: /assets/inaction/signin_light.png
+    image_path: /assets/inaction/signin_light.png
+    alt: "Averos Sign In Light"
+  - url: /assets/inaction/logged_light.png
+    image_path: /assets/inaction/logged_light.png
+    alt: "Averos Logged Light"
+  - url: /assets/inaction/logged_dark.png
+    image_path: /assets/inaction/logged_dark.png
+    alt: "Averos Logged Dark"
+  - url: /assets/inaction/profile_de.png
+    image_path: /assets/inaction/profile_de.png
+    alt: "Averos Profile DE"
+  - url: /assets/inaction/searchResult_desktop.png
+    image_path: /assets/inaction/searchResult_desktop.png
+    alt: "Averos Search Result Desktop"
+
+  - url: /assets/inaction/mobile.png
+    image_path: /assets/inaction/mobile.png
+    alt: "Averos mobile"
+
+  - url: /assets/inaction/mobile_ar.png
+    image_path: /assets/inaction/mobile_ar.png
+    alt: "Averos mobile arabic"
 toc: true
 ---
 
@@ -20,10 +43,18 @@ toc: true
 **Averos** framework is the ultimate [Rapid](https://en.wikipedia.org/wiki/Rapid_application_development "Rapid"), fully [responsive](https://en.wikipedia.org/wiki/Responsive_web_design "Responsive") [Angular](https://angular.io/ "Angular")-powered web application development framework that is aimed to simplify web application development while hiding complex technical aspects; providing a full control on [time to market (TTM)](https://en.wikipedia.org/wiki/Time_to_market "TTM"). 
 Averos let you create a fully angular blown multipurpose and highly responsive applications in only five steps: Design, Integrate, Customize, Test and Deploy.
 
-<!-- {% include gallery id="layouts_gallery" caption="Examples of averos applications." %} -->
+{% include gallery id="layouts_gallery" caption="Examples of averos applications." %}
 
 
   [Get Started]({{ "/averos/docs/overview/" | relative_url }} "Get Started"){: .btn .btn--success .btn--large}
+
+<br/> 
+
+<p align="center">
+<img width="1024" height="576" src="{{ site.baseurl }}/assets/inaction/averos.gif">
+</p>
+<br/> 
+
 
 
 ## Notable Features

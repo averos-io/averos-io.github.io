@@ -76,5 +76,10 @@ toc: true
 
 <br/>
 
+<p align="center">
+<img width="1024" height="576" src="{{ site.baseurl }}/assets/inaction/averos.gif">
+</p>
+<br/> 
+
 **🎉🎉🎉 Congratulations! You have made your first web application in no time! 🎉🎉🎉**
 {: .notice--info}
