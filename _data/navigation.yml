@@ -2,7 +2,7 @@
 # main links
 main:
   - title: "Averos Quick-Start Guide"
-    url: /averos/docs/overview/
+    url: /averos/docs/installation/
   - title: "About"
     url: /about/
 

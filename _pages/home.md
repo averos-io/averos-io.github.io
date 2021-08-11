@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/home/m.png
   actions:
     - label: "<i class='fas fa-arrow-circle-right'></i> Get Started"
-      url: "/averos/docs/overview/"
+      url: "/averos/docs/installation/"
 feature_row:
   - image_path: /assets/home/features/innovative_.svg
     alt: "Innovative"
