@@ -8,4 +8,4 @@ toc: true
 ## **Latest Version**
 
 
-The latest **Averos** version is `1.2.1`.
+The latest **Averos** version is `1.2.2`.
