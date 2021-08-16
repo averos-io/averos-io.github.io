@@ -2677,28 +2677,40 @@ var animationData= {
 };
 
 const container = document.getElementById('averos-anim');
+const container_header = document.getElementById('averos-anim-header');
 
-var animation = bodymovin.loadAnimation(
-    {
-        container: container,
-        renderer: 'svg',
-        loop: true,
-        autoplay: true,
-		// rendererSettings: {
-		// 	progressiveLoad: false
-		// },
-        // path: 'Averos_LogoAnim.json'
-        animationData: animationData,
-		name: "Averos Logo Animation",
-    }
-)
+if (container){
+    var animation = bodymovin.loadAnimation(
+        {
+            container: container,
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            // rendererSettings: {
+            // 	progressiveLoad: false
+            // },
+            // path: 'Averos_LogoAnim.json'
+            animationData: animationData,
+            name: "Averos Logo Animation",
+        }
+    )
+    
+    container.addEventListener('click', () => {
+        animation.playSegments([0, 100], true);
+      });
+    
+}
 
-container.addEventListener('click', () => {
-	animation.playSegments([0, 100], true);
-  });
-
-// // animation.setSpeed(5);
-// animation.goToAndPlay(0);
-// // animation.play();
-
+if (container_header){
+    var headerAnimation = bodymovin.loadAnimation(
+        {
+            container: container_header,
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            animationData: animationData,
+            name: "Averos Header Logo Animation",
+        }
+    )
+}
 
