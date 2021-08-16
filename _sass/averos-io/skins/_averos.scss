@@ -141,3 +141,26 @@ $header-background: #FFF !default;
   margin-left: 2.2em;
   margin-top: -0.8em;
 }
+
+#averos-anim {
+
+  // max-width: 800px;
+  // margin: 0 auto;
+  background: transparent;
+  // width: 100px;
+  // height: 100px;
+  svg {
+    display: inline;
+    height: fit-content;
+  }
+  
+}
+
+.logo-lottie {
+  width: 1.3em; 
+  margin-right: -5px;
+  // display: flex; 
+  // flex-direction: row; 
+  // align-self: flex-start;
+
+}

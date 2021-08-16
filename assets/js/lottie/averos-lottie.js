@@ -1,15 +1,4 @@
 
-var animation = bodymovin.loadAnimation(
-    {
-        container: document.getElementById('averos-anim'),
-        renderer: 'svg',
-        loop: true,
-        autoplay: true,
-        // path: 'Averos_LogoAnim.json'
-        animationData: animationData
-    }
-)
-
 var animationData= {
 	"v": "5.7.6",
 	"fr": 29.9700012207031,
@@ -2627,3 +2616,30 @@ var animationData= {
 	],
 	"markers": []
 }
+
+const container = document.getElementById('averos-anim');
+
+var animation = bodymovin.loadAnimation(
+    {
+        container: container,
+        renderer: 'svg',
+        loop: false,
+        autoplay: true,
+		// rendererSettings: {
+		// 	progressiveLoad: false
+		// },
+        // path: 'Averos_LogoAnim.json'
+        animationData: animationData,
+		name: "Averos Logo Animation",
+    }
+)
+
+container.addEventListener('click', () => {
+	animation.playSegments([0, 100], true);
+  });
+
+// // animation.setSpeed(5);
+// animation.goToAndPlay(0);
+// // animation.play();
+
+
