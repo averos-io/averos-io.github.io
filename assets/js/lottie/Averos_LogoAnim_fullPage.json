@@ -1,11 +1,10 @@
-
-var animationData= {
+{
     "v": "5.7.6",
     "fr": 29.9700012207031,
     "ip": 0,
     "op": 140.000005702317,
-    "w": 804,
-    "h": 714,
+    "w": 1920,
+    "h": 1080,
     "nm": "Anim-1",
     "ddd": 1,
     "assets": [],
@@ -13,63 +12,8 @@ var animationData= {
         {
             "ddd": 0,
             "ind": 1,
-            "ty": 3,
-            "nm": "Null 2",
-            "sr": 1,
-            "ks": {
-                "o": {
-                    "a": 0,
-                    "k": 0,
-                    "ix": 11
-                },
-                "r": {
-                    "a": 0,
-                    "k": 0,
-                    "ix": 10
-                },
-                "p": {
-                    "a": 0,
-                    "k": [
-                        402,
-                        369,
-                        0
-                    ],
-                    "ix": 2,
-                    "l": 2
-                },
-                "a": {
-                    "a": 0,
-                    "k": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "ix": 1,
-                    "l": 2
-                },
-                "s": {
-                    "a": 0,
-                    "k": [
-                        100,
-                        100,
-                        100
-                    ],
-                    "ix": 6,
-                    "l": 2
-                }
-            },
-            "ao": 0,
-            "ip": 0,
-            "op": 150.000006109625,
-            "st": 0,
-            "bm": 0
-        },
-        {
-            "ddd": 0,
-            "ind": 2,
             "ty": 4,
             "nm": "Green-arrow",
-            "parent": 1,
             "sr": 1,
             "ks": {
                 "o": {
@@ -98,8 +42,8 @@ var animationData= {
                             },
                             "t": 69,
                             "s": [
-                                1195.533,
-                                -215.093,
+                                2155.533,
+                                338.907,
                                 0
                             ],
                             "to": [
@@ -116,8 +60,8 @@ var animationData= {
                         {
                             "t": 81.0000032991976,
                             "s": [
-                                -6.467,
-                                -11.093,
+                                953.533,
+                                542.907,
                                 0
                             ]
                         }
@@ -333,10 +277,9 @@ var animationData= {
         },
         {
             "ddd": 0,
-            "ind": 3,
+            "ind": 2,
             "ty": 4,
             "nm": "Green-Point 1",
-            "parent": 1,
             "sr": 1,
             "ks": {
                 "o": {
@@ -352,8 +295,8 @@ var animationData= {
                 "p": {
                     "a": 0,
                     "k": [
-                        288,
-                        228,
+                        1248,
+                        782,
                         0
                     ],
                     "ix": 2,
@@ -534,10 +477,10 @@ var animationData= {
         },
         {
             "ddd": 0,
-            "ind": 4,
+            "ind": 3,
             "ty": 4,
             "nm": "Green-Point 2",
-            "parent": 3,
+            "parent": 2,
             "sr": 1,
             "ks": {
                 "o": {
@@ -697,10 +640,9 @@ var animationData= {
         },
         {
             "ddd": 0,
-            "ind": 5,
+            "ind": 4,
             "ty": 4,
             "nm": "Purple-Point 1",
-            "parent": 1,
             "sr": 1,
             "ks": {
                 "o": {
@@ -716,8 +658,8 @@ var animationData= {
                 "p": {
                     "a": 0,
                     "k": [
-                        -288,
-                        228,
+                        672,
+                        782,
                         0
                     ],
                     "ix": 2,
@@ -898,10 +840,10 @@ var animationData= {
         },
         {
             "ddd": 1,
-            "ind": 6,
+            "ind": 5,
             "ty": 4,
             "nm": "Purple-Point 2",
-            "parent": 5,
+            "parent": 4,
             "sr": 1,
             "ks": {
                 "o": {
@@ -1077,10 +1019,9 @@ var animationData= {
         },
         {
             "ddd": 1,
-            "ind": 7,
+            "ind": 6,
             "ty": 4,
             "nm": "Orange-Point 3",
-            "parent": 1,
             "sr": 1,
             "ks": {
                 "o": {
@@ -1126,8 +1067,8 @@ var animationData= {
                             },
                             "t": 43,
                             "s": [
-                                -8.75,
-                                227.5,
+                                951.25,
+                                781.5,
                                 0
                             ],
                             "to": [
@@ -1152,8 +1093,8 @@ var animationData= {
                             },
                             "t": 49,
                             "s": [
-                                -7.188,
-                                272.175,
+                                952.812,
+                                826.175,
                                 0
                             ],
                             "to": [
@@ -1170,8 +1111,8 @@ var animationData= {
                         {
                             "t": 76.0000030955435,
                             "s": [
-                                0.25,
-                                -252.5,
+                                960.25,
+                                301.5,
                                 0
                             ]
                         }
@@ -1414,10 +1355,10 @@ var animationData= {
         },
         {
             "ddd": 1,
-            "ind": 8,
+            "ind": 7,
             "ty": 4,
             "nm": "Orange-Point 4",
-            "parent": 7,
+            "parent": 6,
             "sr": 1,
             "ks": {
                 "o": {
@@ -1593,10 +1534,9 @@ var animationData= {
         },
         {
             "ddd": 0,
-            "ind": 9,
+            "ind": 8,
             "ty": 4,
             "nm": "Red-line",
-            "parent": 1,
             "sr": 1,
             "ks": {
                 "o": {
@@ -1612,8 +1552,8 @@ var animationData= {
                 "p": {
                     "a": 0,
                     "k": [
-                        0,
-                        -14,
+                        960,
+                        540,
                         0
                     ],
                     "ix": 2,
@@ -1966,10 +1906,9 @@ var animationData= {
         },
         {
             "ddd": 0,
-            "ind": 10,
+            "ind": 9,
             "ty": 4,
             "nm": "Blue-arrow",
-            "parent": 1,
             "sr": 1,
             "ks": {
                 "o": {
@@ -1996,8 +1935,8 @@ var animationData= {
                             },
                             "t": 66,
                             "s": [
-                                -1196.967,
-                                116.907,
+                                -236.967,
+                                670.907,
                                 0
                             ],
                             "to": [
@@ -2014,8 +1953,8 @@ var animationData= {
                         {
                             "t": 79.000003217736,
                             "s": [
-                                -27.967,
-                                -92.593,
+                                932.033,
+                                461.407,
                                 0
                             ]
                         }
@@ -2301,10 +2240,9 @@ var animationData= {
         },
         {
             "ddd": 0,
-            "ind": 12,
+            "ind": 11,
             "ty": 4,
             "nm": "Yellow-line",
-            "parent": 1,
             "sr": 1,
             "ks": {
                 "o": {
@@ -2320,8 +2258,8 @@ var animationData= {
                 "p": {
                     "a": 0,
                     "k": [
-                        0,
-                        -14,
+                        960,
+                        540,
                         0
                     ],
                     "ix": 2,
@@ -2674,31 +2612,4 @@ var animationData= {
         }
     ],
     "markers": []
-};
-
-const container = document.getElementById('averos-anim');
-
-var animation = bodymovin.loadAnimation(
-    {
-        container: container,
-        renderer: 'svg',
-        loop: true,
-        autoplay: true,
-		// rendererSettings: {
-		// 	progressiveLoad: false
-		// },
-        // path: 'Averos_LogoAnim.json'
-        animationData: animationData,
-		name: "Averos Logo Animation",
-    }
-)
-
-container.addEventListener('click', () => {
-	animation.playSegments([0, 100], true);
-  });
-
-// // animation.setSpeed(5);
-// animation.goToAndPlay(0);
-// // animation.play();
-
-
+}
