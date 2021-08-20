@@ -8,3 +8,13 @@
 
 <!-- end custom head snippets -->
 <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/logo/favicon.ico?v=K34luO5Tfyl32G">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.tracking_id }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ site.analytics.google.tracking_id }}', {'anonymize_ip': {{site.analytics.google.anonymize_ip | default: false }} });
+</script>
