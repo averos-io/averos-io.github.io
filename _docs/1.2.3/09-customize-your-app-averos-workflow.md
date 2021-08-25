@@ -75,7 +75,7 @@ After generating our entities we will need to create our `CRUD` use cases descri
 
 ### **2- Generate your CRUD Use Cases**
 
-`advanced-crud` alias `[acrud]` is the averos workflow that is dedicated to creating fully blown `crud` use cases in oneshot. It will create the entity along with its default members and sevice. Then it will procede by creating and configuring the related crud use cases.
+`advanced-crud` alias `[acrud]` is the averos workflow that is dedicated to creating fully blown `crud` use cases in oneshot. It will create the entity along with its default members and sevice. Then it will proceed by creating and configuring the related crud use cases.
 
 Let's go ahead and execute this command in order to initiate `crud` use cases for both `ToDoArea` and `ToDoTask`:
 

@@ -13,7 +13,7 @@ Besides, one of our ToDo Tracking application use cases is about updating the ta
 
 Averos framework allow to add new members to averos entities either by hand coding them or using one of the [**averos code generation worflow**]({{ "/averos/docs/reference-detailed-averos-worflow-commands/" | relative_url }}  "Averos Code GenerationWork Flow") that is dedicated to such use cases, and which is `add-simple-member` -alias- `asm`.
 
->🚩 Note that adding simple fields using `add-simple-member` -alias- `asm`, will by default include the new fieled into its related entity view layout. Entity Member creation comes out of the box with the averos framework. No further source code updates are required in most cases. Still, advanced setup could be brought on source code if needed.
+>🚩 Note that adding simple fields using `add-simple-member` -alias- `asm`, will by default include the new field into its related entity view layout. Entity Member creation comes out of the box with the averos framework. No further source code updates are required in most cases. Still, advanced setup could be brought on source code if needed.
 {: .notice--info}
 
 In order to add `taskStatus` to `ToDoTask` entity, go ahead and execute the averos command below.

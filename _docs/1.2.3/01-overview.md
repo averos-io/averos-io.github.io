@@ -1,7 +1,7 @@
 ---
 title: "Averos Overview"
 permalink: /averos/docs/overview/
-excerpt: "averos usage patern"
+excerpt: "averos usage pattern"
 toc: false
 classes: wide
 ---
