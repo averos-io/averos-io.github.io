@@ -5,6 +5,8 @@ main:
     url: /averos/docs/installation/
   - title: "About"
     url: /about/
+  - title: "Terms & Privacy Policy"
+    url: /terms/
 
 # averos documentation links
 averosdocs:
