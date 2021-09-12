@@ -1,6 +1,6 @@
 ---
 title: "Reference"
-permalink: /averos/docs/reference-detailed-averos-worflow-commands/
+permalink: /averos/getting-started/reference-detailed-averos-worflow-commands/
 excerpt: "Reference - detailed averos workflows commands"
 toc: false
 classes: wide

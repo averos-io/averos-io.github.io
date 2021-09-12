@@ -1,6 +1,6 @@
 ---
 title: "Reference"
-permalink: /averos/docs/reference-averos-entity/
+permalink: /averos/documentation/reference-averos-entity/
 excerpt: "Reference -  averos entity"
 toc: true
 ---

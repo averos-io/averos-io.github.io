@@ -1,6 +1,6 @@
 ---
 title: "Averos Version"
-permalink: /averos/docs/latest-version/
+permalink: /averos/documentation/latest-version/
 excerpt: "Reference -  Averos Version"
 toc: true
 ---

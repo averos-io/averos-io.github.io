@@ -1,6 +1,6 @@
 ---
 title: "Reference"
-permalink: /averos/docs/reference-averos-translation/
+permalink: /averos/getting-started/reference-averos-translation/
 excerpt: "Reference -  averos translation"
 toc: true
 ---

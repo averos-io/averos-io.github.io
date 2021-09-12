@@ -1,6 +1,6 @@
 ---
 title: "Customize your application"
-permalink: /averos/docs/customize-your-app-application-design/
+permalink: /averos/getting-started/customize-your-app-application-design/
 excerpt: "Customize your application - Application Design"
 toc: true
 ---

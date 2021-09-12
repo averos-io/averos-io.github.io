@@ -1,6 +1,6 @@
 ---
 title: "Customize your application"
-permalink: /averos/docs/customize-your-app-averos-simple-entity-member-workflow/
+permalink: /averos/getting-started/customize-your-app-averos-simple-entity-member-workflow/
 excerpt: "Customize your application - simple entity Workflow"
 toc: false
 classes: wide
@@ -11,7 +11,7 @@ classes: wide
 At some point of our averos journey, one would like to add new simple member to his entities.
 Besides, one of our ToDo Tracking application use cases is about updating the task status. A new member should therefore be added to `ToDoTask` entity in order to track the entity's status.
 
-Averos framework allow to add new members to averos entities either by hand coding them or using one of the [**averos code generation worflow**]({{ "/averos/docs/reference-detailed-averos-worflow-commands/" | relative_url }}  "Averos Code GenerationWork Flow") that is dedicated to such use cases, and which is `add-simple-member` -alias- `asm`.
+Averos framework allow to add new members to averos entities either by hand coding them or using one of the [**averos code generation worflow**]({{ "/averos/getting-started/reference-detailed-averos-worflow-commands/" | relative_url }}  "Averos Code GenerationWork Flow") that is dedicated to such use cases, and which is `add-simple-member` -alias- `asm`.
 
 >🚩 Note that adding simple fields using `add-simple-member` -alias- `asm`, will by default include the new field into its related entity view layout. Entity Member creation comes out of the box with the averos framework. No further source code updates are required in most cases. Still, advanced setup could be brought on source code if needed.
 {: .notice--info}

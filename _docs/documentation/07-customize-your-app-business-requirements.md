@@ -1,6 +1,6 @@
 ---
 title: "Customize your application"
-permalink: /averos/docs/customize-your-app-business-requirements/
+permalink: /averos/documentation/customize-your-app-business-requirements/
 excerpt: "Customize your application - Business Requirements"
 toc: false
 classes: wide

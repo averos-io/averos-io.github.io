@@ -1,6 +1,6 @@
 ---
 title: "Customize your application"
-permalink: /averos/docs/customize-your-app-actions-summary/
+permalink: /averos/documentation/customize-your-app-actions-summary/
 excerpt: "Customize your application - Actions Summary"
 toc: true
 ---
@@ -20,7 +20,7 @@ toc: true
     npm i -g @angular/cli && ng new my-averos-web-application --style=scss --routing --strict && cd my-averos-web-application
    ```
 
- >**🚩 Note:**please refer to [**angular version compatibility**]({{"/averos/docs/latest-version/#angular-compatibility" | relative_url}} "angular version compatibility") section, for further angular versions compatibility information support.
+ >**🚩 Note:**please refer to [**angular version compatibility**]({{"/averos/documentation/latest-version/#angular-compatibility" | relative_url}} "angular version compatibility") section, for further angular versions compatibility information support.
  {: .notice--danger}
 
 ### 3. **add averos support**

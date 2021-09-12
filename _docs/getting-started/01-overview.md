@@ -1,6 +1,6 @@
 ---
 title: "Averos Overview"
-permalink: /averos/docs/overview/
+permalink: /averos/getting-started/overview/
 excerpt: "averos usage pattern"
 toc: false
 classes: wide
