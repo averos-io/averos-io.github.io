@@ -12,9 +12,9 @@ main:
 
 # averos documentation links
 averosdocs:
+  - title: "Averos Documentation"
   - title: "I. Introduction"
     url: /averos/documentation/introduction/
-
   - title: "II. Overview"
     url: /averos/documentation/overview/
     children:
@@ -28,7 +28,6 @@ averosdocs:
         url: /averos/documentation/overview/#4-test
       - title: "5. Deploy"
         url: /averos/documentation/overview/#5-deploy
-
   - title: "III. Benefits"
     url: /averos/documentation/benefits/
   - title: "IV. Technical Features"
@@ -40,34 +39,60 @@ averosdocs:
       - title: "2. Averos Target Application Detailed Architecture"
         url: /averos/documentation/target-application-architecture/
 
-  - title: Creating Your First Averos Web Application
+  - title: VI.	Averos Core Module
     children:
-      - title: "I. Overview"
-        url: /averos/documentation/first-application-overview/
-      - title: "II. Prerequisites"
-        url: /averos/documentation/prerequisites/
-      - title: "III. Create Your Application"
-        url: /averos/documentation/create-your-application/
-  - title: User Experience - Aside Topic
+      - title: "1. Description"
+        url: /averos/documentation/core-module-description/
+      - title: "2. Environment configuration parameters – AverosConfig"
+        url: /averos/documentation/averos-config/
+      - title: "3. Averos Core module integration"
+        url: /averos/documentation/averos-core-modle-integration/
+      - title: "4. Averos Application"
+        url: /averos/documentation/averos-application/
+      - title: "5. Averos Global Initializer"
+        url: /averos/documentation/averos-application-global-initializer/
+      - title: "6. Averos Custom Initializer"
+        url: /averos/documentation/averos-application-custom-initializer/
+      - title: "7. NGRX State Management Integration"
+        url: /averos/documentation/ngrx-state-management-integration/
+
+  - title: VII.	Averos Entity
     children:
-      - title: "Mind the User Experience"
-        url: /averos/documentation/user-experience/
-  - title: Customize your application - A Real-life use case
+      - title: "1. Description"
+        url: /averos/documentation/averos-entity-description/
+      - title: "2. Averos Entity MetaData"
+        url: /averos/documentation/averos-entity-metadata/
+      - title: "3. Entity Creation Guidelines"
+        url: /averos/documentation/averos-entity-creation-guidelines/
+      - title: "4. Averos Entity Workflows"
+        url: /averos/documentation/averos-entity-workflows/
+  
+  - title: VIII. Averos Service
     children:
-      - title: "I. User Requirements"
-        url: /averos/documentation/customize-your-app-business-requirements/
-      - title: "II. MyApplication Design"
-        url: /averos/documentation/customize-your-app-application-design/
-      - title: "III. Leveraging Averos Code Generation Workflow"
-        url: /averos/documentation/customize-your-app-averos-workflow/
-      - title: "IV. Simple Entity Member Workflow"
-        url: /averos/documentation/customize-your-app-averos-simple-entity-member-workflow/
-      - title: "V. Entity Composite Relation Use Cases"
-        url: /averos/documentation/customize-your-app-averos-composite-entity-member-workflow/
-      - title: "VI. What If Your Application Learns New Languages?"
-        url: /averos/documentation/11.1-customize-your-app-i18n-workflows/
-      - title: "VII- Actions Summary"
-        url: /averos/documentation/customize-your-app-actions-summary/
+      - title: "1. Description"
+        url: /averos/documentation/averos-service-description/
+      - title: "2. Business Service"
+        url: /averos/documentation/averos-business-service/
+      - title: "3. Domain Controller Service"
+        url: /averos/documentation/averos-domain-controller-service/
+      - title: "4. Validator Service"
+        url: /averos/documentation/averos-validator-service/
+
+  - title: IX. Averos View Module
+    children:
+      - title: "1. Description"
+        url: /averos/documentation/view-module-description/
+      - title: "2. View Mode – Dark/Light"
+        url: /averos/documentation/view-mode/
+      - title: "3. View Context"
+        url: /averos/documentation/view-context/
+      - title: "4. Application Menu"
+        url: /averos/documentation/averos-menu-description/
+        children:
+          - title: "i. Menu Types"
+            url: /averos/documentation/averos-menu-types/
+          - title: "ii. Menu Attributes & UI Mapping"
+            url: /averos/documentation/averos-menu-attributes/
 
   - title: Documentation Reference
     children:

@@ -26,7 +26,7 @@
                 <ul>
                   {% for c in child.children %}
                       {% if c.url %}
-                        <li><a href="{{ c.url | flatify | relative_url }}"{% if c.url == page.url %} class="active"{% endif %}>{{ c.title }} {{c.section}}</a></li>
+                        <li style="padding-left: 0.9em;"><a href="{{ c.url | flatify | relative_url }}"{% if c.url == page.url %} class="active"{% endif %}>{{ c.title }} {{c.section}}</a></li>
                       {% else %}
                         <span class="nav__sub-title">{{ c.title }}</span>
                       {% endif %}
