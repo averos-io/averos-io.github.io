@@ -8,3 +8,13 @@ window.onscroll = function() {
     }
     prevScrollpos = currentScrollPos;
 }
+
+
+
+window.addEventListener("load", function(){
+    var el = document.getElementsByClassName('active');
+    if (el!==null && el.length > 0){
+        // window.scrollTo(el.currentScrollPos);
+        el[0].scrollIntoView();
+    }
+});

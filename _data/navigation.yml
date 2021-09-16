@@ -46,7 +46,7 @@ averosdocs:
       - title: "2. Environment configuration parameters – AverosConfig"
         url: /averos/documentation/averos-config/
       - title: "3. Averos Core module integration"
-        url: /averos/documentation/averos-core-modle-integration/
+        url: /averos/documentation/averos-core-module-integration/
       - title: "4. Averos Application"
         url: /averos/documentation/averos-application/
       - title: "5. Averos Global Initializer"
@@ -153,18 +153,29 @@ averosdocs:
           - title: "11.4. Transformed View Layout"
             url: /averos/documentation/averos-transformed-view-layout/
 
-  - title: Documentation Reference
+  - title: X. Generic View Components
     children:
-      - title: "Averos Workflow Commands"
-        url: /averos/documentation/reference-detailed-averos-worflow-commands/
-      - title: "Averos Entity"
-        url: /averos/documentation/reference-averos-entity/
-      - title: "Averos Service"
-        url: /averos/documentation/reference-averos-service/
-      - title: "Authentication Provider"
-        url: /averos/documentation/reference-authentication-provider/
-      - title: "Averos Translation"
-        url: /averos/documentation/reference-averos-translation/
+      - title: "1. Description"
+        url: /averos/documentation/generic-view-components/description/
+      - title: "2. Atomic Generic View Components"
+        url: /averos/documentation/generic-view-components/atomic-generic-view-component/
+      - title: "11.3. Grouped Field Attributes & UI Mapping"
+        url: /averos/documentation/averos-grouped-field-view-layout-metadata/
+      - title: "11.4. Transformed View Layout"
+        url: /averos/documentation/averos-transformed-view-layout/
+
+  # - title: Documentation Reference
+  #   children:
+  #     - title: "Averos Workflow Commands"
+  #       url: /averos/documentation/reference-detailed-averos-worflow-commands/
+  #     - title: "Averos Entity"
+  #       url: /averos/documentation/reference-averos-entity/
+  #     - title: "Averos Service"
+  #       url: /averos/documentation/reference-averos-service/
+  #     - title: "Authentication Provider"
+  #       url: /averos/documentation/reference-authentication-provider/
+  #     - title: "Averos Translation"
+  #       url: /averos/documentation/reference-averos-translation/
   
   - title: Averos Version
     children:
