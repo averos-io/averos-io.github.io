@@ -93,6 +93,65 @@ averosdocs:
             url: /averos/documentation/averos-menu-types/
           - title: "ii. Menu Attributes & UI Mapping"
             url: /averos/documentation/averos-menu-attributes/
+      - title: "5. Responsive View Layout"
+        url: /averos/documentation/averos-view-responsive-layout/
+      - title: "6. Entity View Layout"
+        children:
+          - title: "6.1. Description"
+            url: /averos/documentation/averos-entity-view-layout-description/
+          - title: "6.2. Entity View Layout Class Diagram"
+            url: /averos/documentation/averos-entity-view-layout-class-diagram/
+          - title: "6.3. Entity View Layouts description"
+            url: /averos/documentation/averos-entity-view-layout-attributes-description/
+
+      - title: "7. Use Case View Layout"
+        children:
+          - title: "7.1. Description"
+            url: /averos/documentation/averos-usecase-view-layout-description/
+          - title: "7.2. Use Case View Layout Class Diagram"
+            url: /averos/documentation/averos-usecase-view-layout-class-diagram/
+          - title: "7.3. Usecase View Layouts Attributes Description"
+            url: /averos/documentation/averos-usecase-view-layout-attributes-description/
+
+      - title: "8. Field View Layout"
+        children:
+          - title: "8.1. Description"
+            url: /averos/documentation/averos-field-view-layout-description/
+          - title: "8.2. Field View Layout Class Diagram"
+            url: /averos/documentation/averos-field-view-layout-class-diagram/
+          - title: "8.3. Field View Layouts Attributes Description"
+            url: /averos/documentation/averos-field-view-layout-attributes-description/
+      
+      - title: "9. Field Value Domain"
+        children:
+          - title: "9.1. Description"
+            url: /averos/documentation/averos-field-value-domain-description/
+          - title: "9.2. Target Domain Field Class Diagram"
+            url: /averos/documentation/averos-target-domain-field-class-diagram/
+          - title: "9.3. Target Domain Field JSON Object Structure"
+            url: /averos/documentation/averos-target-domain-field-json-object/
+     
+      - title: "10. Field & Form Validation"
+        children:
+          - title: "10.1. Description"
+            url: /averos/documentation/averos-field-form-validation-description/
+          - title: "10.2. Validator Class Diagram"
+            url: /averos/documentation/averos-field-form-validation-class-diagram/
+          - title: "10.3. Validator Metadata"
+            url: /averos/documentation/averos-field-validator-metadata/
+          - title: "10.4. Validator JSON Object Structure"
+            url: /averos/documentation/averos-field-validator-json-object/
+      
+      - title: "11. Grouped Field View Layout"
+        children:
+          - title: "11.1. Description"
+            url: /averos/documentation/averos-grouped-field-view-layout-description/
+          - title: "11.2. Grouped Field Class Diagram"
+            url: /averos/documentation/averos-grouped-field-view-layout-class-diagram/
+          - title: "11.3. Grouped Field Attributes & UI Mapping"
+            url: /averos/documentation/averos-grouped-field-view-layout-metadata/
+          - title: "11.4. Transformed View Layout"
+            url: /averos/documentation/averos-transformed-view-layout/
 
   - title: Documentation Reference
     children:
