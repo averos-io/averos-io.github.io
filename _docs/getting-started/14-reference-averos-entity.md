@@ -56,5 +56,5 @@ In such case, the front end application will be in charge of handling exceptions
 {: .notice--success}
 
 
-📢 More on this topic will be available soon in the ongoing averos documentation.
+📢 More on this topic is available in the [averos detailed documentation]({{"/averos/documentation/averos-entity-workflows/" | relative_url}}).
 {: .notice--info}

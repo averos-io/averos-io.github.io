@@ -120,7 +120,7 @@ Those menu links could be easely modified through a simple configuration. Some o
 >- **route**: defines the target use case route
 >- **disabled**: wether the menu item should be disabled or not
 >- **children**: a list of sub menu items
->More on averos specifications will be available soon in the ongoing averos documentation.
+>More on averos specifications is available in the [detailed averos documentation]({{ "/averos/documentation/generic-usecases/averos-crud/" | relative_url}}).
 {: .notice--danger}
 
 At the end of the **averos-crud** workflow execution almost all use cases mentioned above will be available and ready for use without any additional line of code.

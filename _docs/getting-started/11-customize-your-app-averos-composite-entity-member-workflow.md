@@ -24,7 +24,7 @@ Besides, our two entities, `ToDoArea` and `ToDoTask` are logically related; give
 From a navigability perspective, a composite relationship can be either `navigable` or `mute`. When a composite relationship is `navigable` the relationship owner (parent) has knowledge of its composite child(s). <br/>
 Averos framework defines relationship navigability within the owner entity view layout. <br/> 
 
-📢 More on this topic will be available soon in the ongoing averos documentation.
+📢 More on this topic is available in the [averos detailed documentation]({{"/averos/documentation/averos-entity-workflows/" | relative_url}}).
 {: .notice--info}
 
 In our example, `ToDoArea` has knowledge of its `ToDoTask` child collection in the context of a `One To Many` relationship. <br/>

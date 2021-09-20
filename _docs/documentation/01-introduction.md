@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-permalink: /averos/documentation/introduction/
+permalink: /averos/documentation/
 excerpt: "Averos Introduction"
 toc: false
 classes: wide

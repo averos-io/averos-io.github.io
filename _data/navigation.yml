@@ -2,9 +2,9 @@
 # main links
 main:
   - title: "Documentation"
-    url: /averos/documentation/introduction/
+    url: /averos/documentation/
   - title: "Averos Quick-Start Guide"
-    url: /averos/getting-started/installation/
+    url: /averos/getting-started/
   - title: "About"
     url: /about/
   - title: "Terms & Privacy Policy"
@@ -13,8 +13,9 @@ main:
 # averos documentation links
 averosdocs:
   - title: "Averos Documentation"
+    url: /averos/documentation
   - title: "I. Introduction"
-    url: /averos/documentation/introduction/
+    url: /averos/documentation/
   - title: "II. Overview"
     url: /averos/documentation/overview/
     children:
@@ -38,7 +39,6 @@ averosdocs:
         url: /averos/documentation/averos-architecture/
       - title: "2. Averos Target Application Detailed Architecture"
         url: /averos/documentation/target-application-architecture/
-
   - title: VI.	Averos Core Module
     children:
       - title: "1. Description"
@@ -55,7 +55,6 @@ averosdocs:
         url: /averos/documentation/averos-application-custom-initializer/
       - title: "7. NGRX State Management Integration"
         url: /averos/documentation/ngrx-state-management-integration/
-
   - title: VII.	Averos Entity
     children:
       - title: "1. Description"
@@ -65,8 +64,7 @@ averosdocs:
       - title: "3. Entity Creation Guidelines"
         url: /averos/documentation/averos-entity-creation-guidelines/
       - title: "4. Averos Entity Workflows"
-        url: /averos/documentation/averos-entity-workflows/
-  
+        url: /averos/documentation/averos-entity-workflows/ 
   - title: VIII. Averos Service
     children:
       - title: "1. Description"
@@ -77,7 +75,6 @@ averosdocs:
         url: /averos/documentation/averos-domain-controller-service/
       - title: "4. Validator Service"
         url: /averos/documentation/averos-validator-service/
-
   - title: IX. Averos View Module
     children:
       - title: "1. Description"
@@ -152,17 +149,61 @@ averosdocs:
             url: /averos/documentation/averos-grouped-field-view-layout-metadata/
           - title: "11.4. Transformed View Layout"
             url: /averos/documentation/averos-transformed-view-layout/
-
   - title: X. Generic View Components
     children:
       - title: "1. Description"
         url: /averos/documentation/generic-view-components/description/
-      - title: "2. Atomic Generic View Components"
+      - title: "2. Averos Criteria"
+        url: /averos/documentation/generic-view-components/averos-criteria/
+      - title: "3. Atomic Generic View Components"
         url: /averos/documentation/generic-view-components/atomic-generic-view-component/
-      - title: "11.3. Grouped Field Attributes & UI Mapping"
-        url: /averos/documentation/averos-grouped-field-view-layout-metadata/
-      - title: "11.4. Transformed View Layout"
-        url: /averos/documentation/averos-transformed-view-layout/
+        children:
+          - title: "3.1. Search Input Generic Components"
+            url: /averos/documentation/generic-view-components/atomic-search-input-generic-view-component/
+          - title: "3.2. View, Edit Atomic Generic View Components"
+            url: /averos/documentation/generic-view-components/atomic-view-edit-generic-view-component/
+          - title: "3.3. Generic Table View Components"
+            url: /averos/documentation/generic-view-components/averos/documentation/generic-view-components/atomic-generic-table-view-component/
+      
+      - title: "4. Composite Generic View Components"
+        url: /averos/documentation/generic-view-components/composite-generic-view-component/
+        children:
+          - title: "4.1. Averos Application"
+            url: /averos/documentation/generic-view-components/averos-application/
+          - title: "4.2. Averos View-Edit Entity Component"
+            url: /averos/documentation/generic-view-components/averos-view-edit-entity-component/
+          - title: "4.3. Averos Search Entity Component"
+            url: /averos/documentation/generic-view-components/averos-search-entity/
+          - title: "4.4. Averos Search Result Component"
+            url: /averos/documentation/generic-view-components/averos-search-result-component/
+          # - title: "4.5. Averos View Entity Component"
+          #   url: /averos/documentation/generic-view-components/averos-view-entity-component/
+          # - title: "4.6. Averos Create Entity Component"
+          #   url: /averos/documentation/generic-view-components/averos-create-entity-component/
+  - title: XI. Averos Generic UseCases
+    children:
+      - title: "1. Create Entity Use Case"
+        url: /averos/documentation/generic-usecases/create-entity-usecase/
+      - title: "2. Search Entity Use Case"
+        url: /averos/documentation/generic-usecases/search-entity-usecase/
+      - title: "3. Averos CRUD"
+        url: /averos/documentation/generic-usecases/averos-crud/
+      - title: "4. Averos Create Page"
+        url: /averos/documentation/generic-usecases/averos-create-page/
+
+  - title: XII. Averos Translation Module
+    children:
+      - title: "1. Description"
+        url: /averos/documentation/averos-translation/description/
+      - title: "2. Averos i18n - Technical Overview"
+        url: /averos/documentation/averos-translation/technical-overview/
+      - title: "3. Translation Methods"
+        url: /averos/documentation/averos-translation/translation-methods/
+      - title: "4. Translation Workflow Commands"
+        url: /averos/documentation/averos-translation/translation-workflow-commands/
+
+  - title: XIII. Detailed Averos Workflow Commands
+    url: /averos/documentation/reference-detailed-averos-worflow-commands/
 
   # - title: Documentation Reference
   #   children:
@@ -188,18 +229,11 @@ averosdocs:
         url: /averos/license/
 
 gettingstarted:
-  - title: Averos Overview
+  - title: Averos Tutorial
+    url: /averos/getting-started
     children:
       - title: "Installation"
-        url: /averos/getting-started/installation/
-      - title: "Framework Overview"
-        url: /averos/getting-started/overview/
-      - title: "Benefits"
-        url: /averos/getting-started/benefits/
-      - title: "Technical Features"
-        url: /averos/getting-started/technical-features/
-      - title: "Framework Architecture"
-        url: /averos/getting-started/architecture
+        url: /averos/getting-started/
   - title: Creating Your First Averos Web Application
     children:
       - title: "I. Overview"
@@ -229,7 +263,7 @@ gettingstarted:
       - title: "VII- Actions Summary"
         url: /averos/getting-started/customize-your-app-actions-summary/
 
-  - title: Documentation Reference
+  - title: Reference
     children:
       - title: "Averos Workflow Commands"
         url: /averos/getting-started/reference-detailed-averos-worflow-commands/
@@ -242,12 +276,12 @@ gettingstarted:
       - title: "Averos Translation"
         url: /averos/getting-started/reference-averos-translation/
   
-  - title: Averos Version
-    children:
-      - title: "Latest version"
-        url: /averos/getting-started/latest-version/
+  # - title: Averos Version
+  #   children:
+  #     - title: "Latest version"
+  #       url: /averos/getting-started/latest-version/
 
-  - title: License
-    children:
-      - title: "Averos License"
-        url: /averos/license/
+  # - title: License
+  #   children:
+  #     - title: "Averos License"
+  #       url: /averos/license/

@@ -43,5 +43,5 @@ The averos Translation module is a stand alone module that could be integrated s
 Averos translation is built on top of the angular internationalization module and does not relay on any other third party library.
 The module is enabled by default for all averos application.
 
->More details on this module will be available soon on the ongoing averos documentation.
+>More details on this module is available in the [detailed averos documentation]({{"/averos/documentation/averos-translation/description/" | relative_url}} "averos translation").
 {: .notice--info}
