@@ -41,7 +41,7 @@ toc: true
 
 <div style="width: 22em;" align="center">
       <div id="averos-anim"></div>
-</div>
+</div> 
 
 
 **Averos** framework is the ultimate [Rapid](https://en.wikipedia.org/wiki/Rapid_application_development "Rapid"), fully [responsive](https://en.wikipedia.org/wiki/Responsive_web_design "Responsive") [Angular](https://angular.io/ "Angular")-powered web application development framework that is aimed to simplify web application development while hiding complex technical aspects; providing a full control on [time to market (TTM)](https://en.wikipedia.org/wiki/Time_to_market "TTM"). <br/> 
