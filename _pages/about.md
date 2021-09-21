@@ -44,8 +44,30 @@ toc: true
 </div>
 
 
-**Averos** framework is the ultimate [Rapid](https://en.wikipedia.org/wiki/Rapid_application_development "Rapid"), fully [responsive](https://en.wikipedia.org/wiki/Responsive_web_design "Responsive") [Angular](https://angular.io/ "Angular")-powered web application development framework that is aimed to simplify web application development while hiding complex technical aspects; providing a full control on [time to market (TTM)](https://en.wikipedia.org/wiki/Time_to_market "TTM"). 
-Averos let you create a fully angular blown multipurpose and highly responsive applications in only five steps: Design, Integrate, Customize, Test and Deploy.
+**Averos** framework is the ultimate [Rapid](https://en.wikipedia.org/wiki/Rapid_application_development "Rapid"), fully [responsive](https://en.wikipedia.org/wiki/Responsive_web_design "Responsive") [Angular](https://angular.io/ "Angular")-powered web application development framework that is aimed to simplify web application development while hiding complex technical aspects; providing a full control on [time to market (TTM)](https://en.wikipedia.org/wiki/Time_to_market "TTM"). <br/> 
+Averos let you create a fully angular blown multipurpose and highly responsive applications in only **five** steps: **Design**, **Integrate**, **Customize**, **Test** and **Deploy**. <br/>
+
+<br/>
+
+# About The Author
+
+This whole work including averos **architecture**, **implementation**, **UI Design**, **logos design**, averos **documentation** and **this web site** has been achieved by only one person. <br/>
+Hello 🤝 ! <br/>
+I am [Houcem LAOUITI](mailto:averos.tech@gmail.com) a cutting edge technologies' follower and avid builder who likes to make ideas happen and to play drums 🥁.<br/>
+If you you wish to get in touch with me do not hesitate to [leave me a message](mailto:averos.tech@gmail.com). <br/>
+
+<br/>
+
+# How To Participate
+
+If you have any suggestions, enhancements ideas or issues related to the averos framework, please feel free to use one of the following placeholders:
+- [**Issues**✏️](https://github.com/averos-io/averos-io-starter/issues "averos-io-starter github issues placeholder")  
+- [**Questions**🙋](https://github.com/averos-io/averos-io-starter/discussions/5 "Questions")
+- [**Suggestions, Requests or Ideas**💡](https://github.com/averos-io/averos-io-starter/discussions/7 "Suggestions, Requests, New Ideas")
+
+<br/>
+
+# About What You Will Build With **averos**
 
 {% include gallery id="layouts_gallery" caption="Examples of averos applications." %}
 
@@ -61,7 +83,7 @@ Averos let you create a fully angular blown multipurpose and highly responsive a
 
 
 
-## Notable Features
+# Notable Features
 
 - **averos** workflows for low-code development
 - full angular 12 support
@@ -83,7 +105,7 @@ Averos let you create a fully angular blown multipurpose and highly responsive a
 - microservice architecture compliant
 - and much more...
 
-## License
+# License
 
 Use of Averos framework **binary library** is permitted, **free of charge**, including for **commercial purposes**.<br/>
 However, use of Averos **source code** is governed by the Averos License that can be found [here]({{ "/averos/license/" | relative_url }} "Averos License"). 
