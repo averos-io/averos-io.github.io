@@ -221,7 +221,7 @@ averosdocs:
   - title: Averos Version
     children:
       - title: "Latest version"
-        url: /averos/documentation/latest-version/
+        url: /averos/latest-version/
 
   - title: License
     children:

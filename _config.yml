@@ -49,7 +49,7 @@ reCaptcha:
 # atom_feed:
 #   path                   : # blank (default) uses feed.xml
 
-search                   : #true # true, false (default)
+search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 search_provider          : algolia # lunr (default), algolia
 algolia:
@@ -85,11 +85,11 @@ social:
     #- "https://www.facebook.com/averosio"
 
 # Analytics
-analytics: #
-  provider               : # "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
-  google: #
-    tracking_id          : # "G-BEHL5SPG0H" # your ID
-    anonymize_ip         : # true
+analytics: 
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
+  google: 
+    tracking_id          : "G-BEHL5SPG0H" # your ID
+    anonymize_ip         : true
 
 
 # Site Author

@@ -48,3 +48,6 @@ Below are the averos compliant APIs descriptions with respect to averos framewor
 | `deleteRelationCollection(parentId: any, relationName: string, cids: {id: string}[]): Observable<T>` | Not fixed. <br/> Depends on the custom logic | Not fixed. <br/> Depends on the custom logic | COMPOSITE | Deletes one or several composite entity child that belongs to a one to many relationship. <br/> Returns the parent entity (relashionship owner) |
 | `addRelationCollection(parentId: string, relationName: string, cids: {id: string}[]): Observable<T>` | Not fixed. <br/> Depends on the custom logic | Not fixed. <br/> Depends on the custom logic | COMPOSITE | Adds one or several composite averos entity child(s) that are/is part of a one to many relationship. <br/> Returns the parent entity (relashionship owner) |
 
+
+📢 Please refer to the [averos service]({{"/averos/documentation/averos-service-description/" | relative_url}}) section for further details about how averos services specifications.
+{: .notice--success}

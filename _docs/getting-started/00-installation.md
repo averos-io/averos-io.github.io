@@ -8,7 +8,7 @@ classes: wide
 
 Before you start, make sure you have already installed one of the `angular/cli` supported version using the following command:<br/><br/>
 `npm install -g @angular/cli@x.y.z` <br/><br/>
-A list of angular supported version could be found [here]({{ "/averos/getting-started/latest-version/" | relative_url }} "angular version compatibility").
+A list of angular supported version could be found [here]({{ "/averos/latest-version/" | relative_url }} "angular version compatibility").
 {: .notice--danger}
 
 Add averos support to your angular project by executing the following command:

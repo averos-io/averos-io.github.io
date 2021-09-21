@@ -20,7 +20,7 @@ toc: true
     npm i -g @angular/cli && ng new my-averos-web-application --style=scss --routing --strict && cd my-averos-web-application
    ```
 
- >**🚩 Note:**please refer to [**angular version compatibility**]({{"/averos/getting-started/latest-version/#angular-compatibility" | relative_url}} "angular version compatibility") section, for further angular versions compatibility information support.
+ >**🚩 Note:**please refer to [**angular version compatibility**]({{"/averos/latest-version/#angular-compatibility" | relative_url}} "angular version compatibility") section, for further angular versions compatibility information support.
  {: .notice--danger}
 
 ### 3. **add averos support**

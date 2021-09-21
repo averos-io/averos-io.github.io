@@ -50,7 +50,7 @@ Averos let you create a fully angular blown multipurpose and highly responsive a
 {% include gallery id="layouts_gallery" caption="Examples of averos applications." %}
 
 
-  [Get Started]({{ "/averos/docs/overview/" | relative_url }} "Get Started"){: .btn .btn--success .btn--large}
+  [Get Started]({{ "/averos/getting-started/" | relative_url }} "Get Started"){: .btn .btn--success .btn--large}
 
 <br/> 
 
@@ -86,8 +86,7 @@ Averos let you create a fully angular blown multipurpose and highly responsive a
 ## License
 
 Use of Averos framework **binary library** is permitted, **free of charge**, including for **commercial purposes**.<br/>
-However, use of Averos **source code** is governed by the Averos License that can be found [here]({{ "/averos/license/" | relative_url }} "Averos License").
-Please read this software license agreement (“[License]({{ "/averos/license/" | relative_url }} "Averos License")”) carefully before using the framework averos. 
+However, use of Averos **source code** is governed by the Averos License that can be found [here]({{ "/averos/license/" | relative_url }} "Averos License"). 
 
 ---
 

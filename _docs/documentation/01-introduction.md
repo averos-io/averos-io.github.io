@@ -7,12 +7,16 @@ classes: wide
 ---
 _Averos...Only what matters the most_
 
-<p align="center">
+<!-- <p align="center">
 <img width="400" height="350" src="{{ site.baseurl }}/assets/logo/averos.svg">
 <br/> 
 </p>
 
-<br/>
+<br/> -->
+
+<div style="width: 22em;" align="center">
+      <div id="averos-anim"></div>
+</div>
 
 Web applications have proven to be essential nowadays in trying to meet an increasingly number of needs.<br/>
 Today’s users constantly demanding in terms of ergonomics, performance and simplicity when it comes to applications they are using every day.<br/>
