@@ -86,7 +86,7 @@ If you have any suggestions, enhancements ideas or issues related to the averos 
 # Notable Features
 
 - **averos** workflows for low-code development
-- full angular 12 support
+- full angular 13 support
 - full application multilanguage support
 - 11 languages are supported out of the box (Arabic, Chinese, English, Spanish, French, German, Japanese, Dutch, Russian, Swedish, Norwegian) 
 - intelligent and multipurposes reusable elemental components
