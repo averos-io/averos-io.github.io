@@ -8,13 +8,14 @@ toc: true
 ## **Latest Version**
 
 
-The latest **Averos** version is `1.3.0` which is compatible with angular version  `<= 13.0.3`.
+The latest **Averos** version is `1.3.2` which is compatible with angular version  `<= 13.2.2`.
 
 
 ## **angular compatibility**
 
 | **averos version** | **angular version** |
 | ------ | ------ |
+| `1.3.2` | <= `13.2.2` |
 | `1.3.0` | <= `13.0.3` |
 | `1.2.4` | <= `12.2.6` | 
 | `1.2.3` | <= `12.2.2` |
