@@ -9,9 +9,12 @@ header:
     - label: "<i class='fas fa-arrow-circle-right'></i> Get Started"
       url: "/averos/getting-started/"
       color: btn--red
-    - label: "<i class='fas fa-arrow-circle-right'></i> Documentation"
+    - label: "<i class='fas fa-book'></i> Documentation"
       url: "/averos/documentation/"
       color: btn--orange
+    - label: "<i class='fas fa-drafting-compass'></i> Averos Designer"
+      url: "https://averos.wiforge.com"
+      color: btn--blue
 feature_row:
   - image_path: /assets/home/features/innovative_.svg
     alt: "Innovative"
@@ -25,10 +28,10 @@ feature_row:
   - image_path: /assets/home/features/open_.svg
     alt: "Open Framework"
     title: "Open Framework"
-    excerpt: "**Averos** is built on an **open architecture** powered by [**angular**](https://angular.io/) which allows **developers** to **shape the framework** depending on their needs. **Averos** does not impose any restrictions on the technical approach with which the user wishes to carry out his project."
+    excerpt: "**Averos** is built on an **open architecture** powered by [**angular**](https://angular.io/) which allows **developers** to **shape the framework** depending on their needs. **Averos** imposes no restrictions on the technical approach with which the user wishes to carry out his project."
     url: "/averos/documentation/averos-architecture/"
     btn_class: "btn--pink"
-    btn_label: "<i class='fas fa-arrow-circle-right'></i> Discover Averos" 
+    btn_label: "<i class='fas fa-book-reader'></i> Discover Averos" 
 
   - image_path: /assets/home/features/creativity_.svg
     alt: "Fosters Creativity"
@@ -44,7 +47,7 @@ feature_row:
     excerpt: "**Averos** is designed in order to provide a **wonderful digital journey** by **unlocking** the access to **user exeprience centric** applications while bringing common **natural** and **obvious** end users experience to your applications providing thus a **two-way communication** between the user and his application."
     url: "/averos/getting-started/user-experience/"
     btn_class: "btn--green"
-    btn_label: "<i class='fas fa-arrow-circle-right'></i> Show me how"
+    btn_label: "<i class='fas fa-hands-helping'></i> Show me how"
 
   - image_path: /assets/home/features/responsive_.svg
     alt: "fully responsive"
@@ -60,7 +63,7 @@ feature_row:
     excerpt: "**Averos** comes with 11 languages supported out of the box. Besides **Averos** worflow comes to help developer adding more languages without writing a single line of code, in an intuitive and easy way."
     url: "/averos/documentation/averos-translation/description/"
     btn_class: "btn--darkgreen"
-    btn_label: "<i class='fas fa-arrow-circle-right'></i> Need to know more"
+    btn_label: "<i class='fas fa-globe'></i> Need to know more"
 
   - image_path: https://angular.io/assets/images/logos/angular/angular.svg
     alt: "Powered by angular"
@@ -68,7 +71,7 @@ feature_row:
     excerpt: "**Averos** is powered by the cutting edge web application development framework [**angular**](https://angular.io/) developed, maintained and backed by **Google**."
     url: "https://angular.io/features/"
     btn_class: "btn--red"
-    btn_label: "<i class='fas fa-arrow-circle-right'></i> More about Angular"
+    btn_label: "<i class='fas fa-external-link-alt'></i> More about Angular"
 ---
 
 {% include feature_row %}

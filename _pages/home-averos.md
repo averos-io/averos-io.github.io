@@ -12,6 +12,9 @@ header:
     - label: "<i class='fas fa-arrow-circle-right'></i> Documentation"
       url: "/averos/documentation/"
       color: btn--orange
+    - label: "<i class='fas fa-arrow-circle-right'></i> Averos Designer"
+      url: "https://averos.wiforge.com"
+      color: btn--blue
 feature_row:
   - image_path: /assets/home/features/innovative_.svg
     alt: "Innovative"
