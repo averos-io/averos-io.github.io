@@ -3,8 +3,8 @@ layout: splash
 permalink: /
 hidden: true
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/home/m.png
+  overlay_color: "#e7e9eb"
+  overlay_image: /assets/home/averos.svg
   actions:
     - label: "<i class='fas fa-arrow-circle-right'></i> Get Started"
       url: "/averos/getting-started/"
