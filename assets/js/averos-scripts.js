@@ -11,16 +11,16 @@ window.onscroll = function() {
 
 
 
-window.addEventListener("load", function(){
-    var el = document.getElementsByClassName('active');
-    if (el!==null && el.length > 0){
-        // window.scrollTo(el.currentScrollPos);
-        el[0].scrollIntoView();
-    }
-});
+// window.addEventListener("load", function(){
+//     var el = document.getElementsByClassName('active');
+//     if (el!==null && el.length > 0){
+//         // window.scrollTo(el.currentScrollPos);
+//         el[0].scrollIntoView();
+//     }
+// });
 
 
-var slideIndex = 1;
+var slideIndex = 0;
 showSlides(slideIndex);
 
 // Next/previous controls
