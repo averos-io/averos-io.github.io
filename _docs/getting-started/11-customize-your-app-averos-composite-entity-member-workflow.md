@@ -42,7 +42,7 @@ Handling relationships will need further complex implementations and clear desig
 Once again, averos fortunately introduced the `add-composite-member` workflow to achieve all the steps above.
 
 
->🚩 Note that `add-composite-member` - *alias* `aem` - workflow will update the project in order to support displaying relationships.
+>🚩 Note that `add-composite-member` workflow will update the project in order to support displaying relationships.
 Refer to the [**detailed averos workflow commands**]({{ "/averos/getting-started/reference-detailed-averos-worflow-commands/" | relative_url}} "Detailed averos workflow commands")  section for further details. <br/>
 {: .notice--warning}
 
@@ -52,13 +52,13 @@ Now we have'been saved, let us go ahead and add our two-way navigeable relations
     `ToDoTask` collection is also updatable from its parent entity, `ToDoArea`. This means that the user can add or remove one or several `ToDoTask` from the `ToDoTask` collection related to a given `ToDoArea` instance. Handling such requirement will result in defining a child's update strategy using the flag `--member-update-strategy`.<br/>
    
    ```bash
-   ng g @wiforge/averos:aem --ename=ToDoArea --fname=ToDoTask --fieldRelationType=OneToMany --member-update-strategy=multiple
+   ng g @wiforge/averos:add-composite-member --ename=ToDoArea --fname=ToDoTask --field-relation-type=OneToMany --member-update-strategy=multiple
    ```
 
 2. `ToDoTask` has knowledge of the `ToDoArea` to which it belongs: this is a `ManyToOne` relationship:
    
    ```bash
-   ng g @wiforge/averos:aem --ename=ToDoTask --fname=ToDoArea --fieldRelationType=ManyToOne
+   ng g @wiforge/averos:add-composite-member --ename=ToDoTask --fname=ToDoArea --field-relation-type=ManyToOne
    ```
 
 >🚩 Note that after running these two commands and deploying your application, you will be able to view the newly added relations. Further user specific business implementation could be achieved in order to customize your entity management workflow. Some of these aspects were described further below.

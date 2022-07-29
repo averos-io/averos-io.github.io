@@ -25,7 +25,7 @@ toc: true
 
 ### 3. **add averos support**
 
-     ng add @wiforge/averos --applicationName=myAverosWebApplication --auth_backend_url=http://localhost:3333 --defaultLanguageCode=en --defaults --skip-confirmation
+     ng add @wiforge/averos --applicationName=myAverosWebApplication --auth-backend-url=http://localhost:3333 --default-language-code=en --defaults --skip-confirmation
 
 > - `--defaults`: is an angular option that disables interactive input prompts for    options with a default.
 > - `--skip-confirmation`: is an angular option that forces skipping asking a confirmation prompt before installing and executing the package.
@@ -33,18 +33,18 @@ toc: true
 
 ### 4. **initiate new averos crud use cases for both ToDoArea and ToDoTask entities**
     
-     ng g @wiforge/averos:acrud --ename=ToDoArea && ng g @wiforge/averos:acrud --ename=ToDoTask
+     ng g @wiforge/averos:advanced-crud --ename=ToDoArea && ng g @wiforge/averos:advanced-crud --ename=ToDoTask
 
 ### 5. **Add entities composite relationship support**
 
-      ng g @wiforge/averos:acm --ename=ToDoArea --fename=ToDoTask --fieldRelationType=OneToMany --member-update-strategy=multiple
+      ng g @wiforge/averos:add-composite-member --ename=ToDoArea --fename=ToDoTask --field-relation-type=OneToMany --member-update-strategy=multiple
 
-      ng g @wiforge/averos:acm --ename=ToDoTask --fename=ToDoArea --fieldRelationType=ManyToOne
+      ng g @wiforge/averos:add-composite-member --ename=ToDoTask --fename=ToDoArea --field-relation-type=ManyToOne
 
 ### 6. **Add a new simple type member - taskStatus - to ToDoTask entity**
 
    ```bash
-   ng g @wiforge/averos:asm --ename=ToDoTask --mname=taskStatus --memberType=enumeration --listOfEnumValues=closed,active,pending
+   ng g @wiforge/averos:add-simple-member --ename=ToDoTask --mname=taskStatus --memberType=enumeration --list-of-enum-values=closed,active,pending
    ``` 
 
 ### 7. **Teach your application new languages**
@@ -73,7 +73,7 @@ toc: true
 **Generate a Web Application in only `5 minutes` by executing the following command:**
 
 ```bash
-    npm i -g @angular/cli && ng new my-averos-web-application --style=scss --routing --strict && cd my-averos-web-application && ng add @wiforge/averos --applicationName=myAverosWebApplication --auth_backend_url=http://localhost:3333 --defaultLanguageCode=en --defaults --skip-confirmation && ng g @wiforge/averos:acrud --ename=ToDoArea && ng g @wiforge/averos:acrud --ename=ToDoTask && ng g @wiforge/averos:acm --ename=ToDoArea --fename=ToDoTask --fieldRelationType=OneToMany --member-update-strategy=multiple && ng g @wiforge/averos:acm --ename=ToDoTask --fename=ToDoArea --fieldRelationType=ManyToOne && ng g @wiforge/averos:asm --ename=ToDoTask --mname=taskStatus --memberType=enumeration --listOfEnumValues=closed,active,pending && ng serve -o
+    npm i -g @angular/cli && ng new my-averos-web-application --style=scss --routing --strict && cd my-averos-web-application && ng add @wiforge/averos --applicationName=myAverosWebApplication --auth-backend-url=http://localhost:3333 --default-language-code=en --defaults --skip-confirmation && ng g @wiforge/averos:advanced-crud --ename=ToDoArea && ng g @wiforge/averos:advanced-crud --ename=ToDoTask && ng g @wiforge/averos:add-composite-member --ename=ToDoArea --fename=ToDoTask --field-relation-type=OneToMany --member-update-strategy=multiple && ng g @wiforge/averos:add-composite-member --ename=ToDoTask --fename=ToDoArea --field-relation-type=ManyToOne && ng g @wiforge/averos:add-simple-member --ename=ToDoTask --mname=taskStatus --member-type=enumeration --list-of-enum-values=closed,active,pending && ng serve -o
 ```
 
 <br/>

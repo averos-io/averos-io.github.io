@@ -18,12 +18,12 @@ Averos conventions are: <br/>
 **Averos workflow** allows to add new entities throught the following averos workflow command:
 
 ```bash
-    ng g @wiforge/averos:add-composite-member --ename=[Your Entity Name] --fename=[your composite new member entity name] --fieldRelationType=[the relationship type] --member-update-strategy=[the update strategy]
+    ng g @wiforge/averos:add-composite-member --ename=[Your Entity Name] --fename=[your composite new member entity name] --field-relation-type=[the relationship type] --member-update-strategy=[the update strategy]
 ```
 
 > 🚩 **ProTip**: 
 > 
-> **fieldRelationType** : Defines the relation type between two entities. It could have one of the following values:
+> **field-relation-type** : Defines the relation type between two entities. It could have one of the following values:
    - **OneToOne**
    - **ManyToOne**
    - **OneToMany**

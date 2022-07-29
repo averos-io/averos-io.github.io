@@ -15,7 +15,7 @@ Well, it turns out that one of the averos generic workflow will actually enable 
 The averos command dedicated to this type of use case is :
 
 ```bash
-ng g @wiforge/averos:acrud
+ng g @wiforge/averos:advanced-crud
 ```
 
 Running this command will result in the creation of a bunch of components that will interact with each other seamlessly in order to fullfill almost all of the application business requirements listed above including common controls and notification messages for a better user experience.
@@ -75,17 +75,17 @@ After generating our entities we will need to create our `CRUD` use cases descri
 
 ### **2- Generate your CRUD Use Cases**
 
-`advanced-crud` alias `[acrud]` is the averos workflow that is dedicated to creating fully blown `crud` use cases in oneshot. It will create the entity along with its default members and sevice. Then it will proceed by creating and configuring the related crud use cases.
+`advanced-crud` is the averos workflow that is dedicated to creating fully blown `crud` use cases in oneshot. It will create the entity along with its default members and sevice. Then it will proceed by creating and configuring the related crud use cases.
 
 Let's go ahead and execute this command in order to initiate `crud` use cases for both `ToDoArea` and `ToDoTask`:
 
 ```bash
-ng g @wiforge/averos:acrud --ename=ToDoArea
+ng g @wiforge/averos:advanced-crud --ename=ToDoArea
 
-ng g @wiforge/averos:acrud --ename=ToDoTask
+ng g @wiforge/averos:advanced-crud --ename=ToDoTask
 ```
 
->🚩 Note that **averos-crud** - *alias* **acrud** - workflow will generate all specific CRUD component use cases based on the entity name defined in the command parameter `--ename`.
+>🚩 Note that **advanced-crud** workflow will generate all specific CRUD component use cases based on the entity name defined in the command parameter `--ename`.
 Refer to the [**detailed averos workflow commands**]({{ "/averos/getting-started/reference-detailed-averos-worflow-commands/" | relative_url }} "detailed averos workflow commands") section for further details.
 {: .notice--info}
 
@@ -123,7 +123,7 @@ Those menu links could be easely modified through a simple configuration. Some o
 >More on averos specifications is available in the [detailed averos documentation]({{ "/averos/documentation/generic-usecases/averos-crud/" | relative_url}}).
 {: .notice--danger}
 
-At the end of the **averos-crud** workflow execution almost all use cases mentioned above will be available and ready for use without any additional line of code.
+At the end of the **advanced-crud** workflow execution almost all use cases mentioned above will be available and ready for use without any additional line of code.
 
 
 **🎉🎉🎉 Congratulations! Averos has spared you months of coding and environment useless configurations allowing you to focus on what really matters the most! You are ready to grow your business 🎉🎉🎉**
