@@ -72,7 +72,7 @@ Below are examples of user interfaces that are generted by **averos**. <br/>
 <br/> 
 
 Below is an animated gif describing how an averos user can create a full web application using pipelines of averos workflows command lines. <br/> 
-I am sorry but the animated gif asset is quite big and will need a fair amount of time before it is fully loaded - I will try to reduce it's size sometime in the future. <br\>
+I am sorry but the animated gif asset is quite big and will need a fair amount of time before it is fully loaded - I will try to reduce it's size sometime in the future. <br/>
 
 <p align="center">
 <img width="1024" height="576" src="{{ site.baseurl }}/assets/inaction/averos.gif">
