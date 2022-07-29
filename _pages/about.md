@@ -58,16 +58,11 @@ If you you wish to get in touch with me do not hesitate to [leave me a message](
 
 <br/>
 
-# How To Participate
-
-If you have any suggestions, enhancements ideas or issues related to the averos framework, please feel free to use one of the following placeholders:
-- [**Issues**✏️](https://github.com/averos-io/averos-io-starter/issues "averos-io-starter github issues placeholder")  
-- [**Questions**🙋](https://github.com/averos-io/averos-io-starter/discussions/5 "Questions")
-- [**Suggestions, Requests or Ideas**💡](https://github.com/averos-io/averos-io-starter/discussions/7 "Suggestions, Requests, New Ideas")
-
-<br/>
-
 # About What You Will Build With **averos**
+
+An [**Averos Application Starter**](https://github.com/averos-io/averos-io-starter/ "averos-io-starter"), that is available [here](https://github.com/averos-io/averos-io-starter/ "averos application starter"), depicts the example used in the [**getting started guide**]({{"/averos/getting-started/customize-your-app-application-design/" | relative_url}}). <br/>
+
+Below are examples of user interfaces that are generted by **averos**. <br/>
 
 {% include gallery id="layouts_gallery" caption="Examples of averos applications." %}
 
@@ -76,12 +71,22 @@ If you have any suggestions, enhancements ideas or issues related to the averos 
 
 <br/> 
 
+Below is an animated gif describing how an averos user can create a full web application using pipelines of averos workflows command lines. <br/> 
+I am sorry but the animated gif asset is quite big and will need a fair amount of time before it is fully loaded - I will try to reduce it's size sometime in the future. <br\>
+
 <p align="center">
 <img width="1024" height="576" src="{{ site.baseurl }}/assets/inaction/averos.gif">
 </p>
 <br/> 
 
+# How To Participate
 
+If you have any suggestions, enhancements ideas or issues related to the averos framework, please feel free to use one of the following placeholders:
+- [**Issues**✏️](https://github.com/averos-io/averos-io-starter/issues "averos-io-starter github issues placeholder")  
+- [**Questions**🙋](https://github.com/averos-io/averos-io-starter/discussions/5 "Questions")
+- [**Suggestions, Requests or Ideas**💡](https://github.com/averos-io/averos-io-starter/discussions/7 "Suggestions, Requests, New Ideas")
+
+<br/>
 
 # Notable Features
 
