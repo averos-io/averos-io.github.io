@@ -75,7 +75,17 @@ averosdocs:
         url: /averos/documentation/averos-domain-controller-service/
       - title: "4. Validator Service"
         url: /averos/documentation/averos-validator-service/
-  - title: IX. Averos View Module
+  
+  - title: IX. Averos Environment Configuration
+    children:
+      - title: "1. Description"
+        url: /averos/documentation/environment-configuration/environment-configuration/
+      - title: "2. Service Configuration"
+        url: /averos/documentation/environment-configuration/service-configuration/
+      - title: "3. Gateway Configuration"
+        url: /averos/documentation/environment-configuration/gateway-configuration/
+
+  - title: X. Averos View Module
     children:
       - title: "1. Description"
         url: /averos/documentation/view-module-description/
@@ -149,7 +159,8 @@ averosdocs:
             url: /averos/documentation/averos-grouped-field-view-layout-metadata/
           - title: "11.4. Transformed View Layout"
             url: /averos/documentation/averos-transformed-view-layout/
-  - title: X. Generic View Components
+  
+  - title: XI. Generic View Components
     children:
       - title: "1. Description"
         url: /averos/documentation/generic-view-components/description/
@@ -180,7 +191,8 @@ averosdocs:
           #   url: /averos/documentation/generic-view-components/averos-view-entity-component/
           # - title: "4.6. Averos Create Entity Component"
           #   url: /averos/documentation/generic-view-components/averos-create-entity-component/
-  - title: XI. Averos Generic UseCases
+  
+  - title: XII. Averos Generic UseCases
     children:
       - title: "1. Create Entity Use Case"
         url: /averos/documentation/generic-usecases/create-entity-usecase/
@@ -191,7 +203,7 @@ averosdocs:
       - title: "4. Averos Create Page"
         url: /averos/documentation/generic-usecases/averos-create-page/
 
-  - title: XII. Averos Translation Module
+  - title: XIII. Averos Translation Module
     children:
       - title: "1. Description"
         url: /averos/documentation/averos-translation/description/
@@ -202,7 +214,7 @@ averosdocs:
       - title: "4. Translation Workflow Commands"
         url: /averos/documentation/averos-translation/translation-workflow-commands/
 
-  - title: XIII. Detailed Averos Workflow Commands
+  - title: XIV. Detailed Averos Workflow Commands
     url: /averos/documentation/reference-detailed-averos-worflow-commands/
 
   # - title: Documentation Reference

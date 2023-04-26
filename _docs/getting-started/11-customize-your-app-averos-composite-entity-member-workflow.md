@@ -147,6 +147,5 @@ const opts =
 	 };
 ```	
 
-
-Please refer to the [averos-io-starter](https://github.com/averos-io/averos-io-starter "averos-io starter kit") kit for further implementation details.
+>🚩 Please refer to the [averos-io-starter](https://github.com/averos-io/averos-io-starter "averos-io starter kit") kit for further implementation details.
 {: .notice--info}
