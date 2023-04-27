@@ -446,10 +446,14 @@
   }
 
   .active {
-    margin-left: -0.5em;
+    // margin-left: 0.5em;
     padding-left: 0.5em;
-    padding-right: 0.5em;
+    // padding-right: 0.5em;
+    padding-right: 2em;
     font-weight: bold;
+    background-color: #001372;
+    color: white;
+    border-radius: 10px;
   }
 
   @include breakpoint(max-width $large - 1px) {

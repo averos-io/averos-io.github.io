@@ -4,8 +4,8 @@
 
 #main {
   @include clearfix;
-  margin-left: auto;
-  margin-right: auto;
+  // margin-left: auto;
+  // margin-right: auto;
   padding-left: 1em;
   padding-right: 1em;
   -webkit-animation: $intro-transition;
@@ -14,9 +14,9 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
 
-  @include breakpoint($x-large) {
-    max-width: $max-width;
-  }
+  // @include breakpoint($x-large) {
+  //   max-width: $max-width;
+  // }
 }
 
 body {
