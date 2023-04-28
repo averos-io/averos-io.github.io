@@ -8,7 +8,9 @@
     {% for nav in navigation %}
       <li>
         {% if nav.url %}
-          <a href="{{ nav.url | flatify | relative_url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
+          <a href="{{ nav.url | flatify | relative_url }}"{% if nav.url == page.url %} class="active-title"{% endif %}>
+            <span class="nav__sub-title">{{ nav.title }}</span>
+          </a>
         {% else %}
           <span class="nav__sub-title">{{ nav.title }}</span>
         {% endif %}
@@ -17,7 +19,9 @@
         <ul>
           {% for child in nav.children %}
               {% if child.url %}
-                <li><a href="{{ child.url | flatify | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a></li>
+              <li>
+                <a href="{{ child.url | flatify | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a>  
+              </li>
               {% else %}
                 <span class="nav__sub-title">{{ child.title }}</span>
               {% endif %}
@@ -26,7 +30,9 @@
                 <ul>
                   {% for c in child.children %}
                       {% if c.url %}
-                        <li style="padding-left: 0.9em;"><a href="{{ c.url | flatify | relative_url }}"{% if c.url == page.url %} class="active"{% endif %}>{{ c.title }} {{c.section}}</a></li>
+                        <li style="padding-left: 0.9em;">
+                          <a href="{{ c.url | flatify | relative_url }}"{% if c.url == page.url %} class="active"{% endif %}>{{ c.title }} {{c.section}}</a>
+                        </li>
                       {% else %}
                         <span class="nav__sub-title">{{ c.title }}</span>
                       {% endif %}

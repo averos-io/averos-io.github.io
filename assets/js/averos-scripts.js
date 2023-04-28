@@ -9,15 +9,18 @@ window.onscroll = function() {
     prevScrollpos = currentScrollPos;
 }
 
-
-
-// window.addEventListener("load", function(){
-//     var el = document.getElementsByClassName('active');
-//     if (el!==null && el.length > 0){
-//         // window.scrollTo(el.currentScrollPos);
-//         el[0].scrollIntoView();
-//     }
-// });
+window.onload = function(e){ 
+  e.preventDefault();
+  var activeElement = document.querySelectorAll('.active, .active-title');
+  if (activeElement!==null && activeElement.length > 0){
+    // get the current element Y position
+    var elYPosition = activeElement[0].getBoundingClientRect().y;
+    var scrollThreshold = window.screen.availHeight - 150;
+    if (elYPosition > scrollThreshold){
+      activeElement[0].scrollIntoView({block: 'center', behavior: "smooth"});
+    }
+  }
+}
 
 
 var slideIndex = 0;
