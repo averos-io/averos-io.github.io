@@ -50,8 +50,26 @@
 
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
-            <li class="masthead__menu-item">
+            <li class="masthead__menu-item drop-down-menu">
               <a href="{{ link.url | flatify | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+
+              {% if link.children != null %}
+              <div class="drop-down-menu-group">
+                  <ul>
+                    {% for child in link.children %}
+                        {% if child.url %}
+                        <li class="drop-down-menu-item">
+                          <a href="{{ child.url | flatify | relative_url }}">{{ child.title }}</a>  
+                        </li>
+                        {% else %}
+                          <span class="nav__sub-title">{{ child.title }}</span>
+                        {% endif %}
+
+                    {% endfor %}
+                  </ul>
+              </div>
+              {% endif %}
+
             </li>
           {%- endfor -%}
         </ul>

@@ -5,6 +5,13 @@ main:
     url: /averos/documentation/
   - title: "Averos Quick-Start Guide"
     url: /averos/getting-started/
+    children:
+      - title: "For Developers"
+        url: /averos/getting-started/
+      - title: "For Citizen Developers"
+        url: /averos/getting-started-citizen-developer/ 
+  - title: "For Citizen Developers"
+    url: /averos/getting-started-citizen-developer/ 
   - title: "About"
     url: /about/
   - title: "Terms & Privacy Policy"
@@ -12,7 +19,7 @@ main:
 
 # averos documentation links
 averosdocs:
-  - title: "Averos Documentation"
+  - title: "Averos Documentation v1.5.2"
     url: /averos/documentation
   - title: "I. Introduction"
     url: /averos/documentation/
@@ -53,7 +60,9 @@ averosdocs:
         url: /averos/documentation/averos-application-global-initializer/
       - title: "6. Averos Custom Initializer"
         url: /averos/documentation/averos-application-custom-initializer/
-      - title: "7. NGRX State Management Integration"
+      - title: "7. Authentication Provider"
+        url: /averos/documentation/authentication-provider/
+      - title: "8. NGRX State Management Integration"
         url: /averos/documentation/ngrx-state-management-integration/
   - title: VII.	Averos Entity
     children:
@@ -297,3 +306,10 @@ gettingstarted:
   #   children:
   #     - title: "Averos License"
   #       url: /averos/license/
+
+gettingstarted-for-cd:
+  - title: Averos Tutorial
+    url: /averos/getting-started-citizen-developer
+    children:
+      - title: "Installation"
+        url: /averos/getting-started-citizen-developer/
