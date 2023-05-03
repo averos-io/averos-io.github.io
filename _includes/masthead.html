@@ -12,6 +12,8 @@
           {{ site.masthead_title | default: site.title }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a> -->
+
+        <!-- logo -->
         <div style="display: flex; flex-direction: column;">
 
           <a class="site-title" href="{{ '/' | relative_url }}" style="align-self: flex-start;" >
@@ -48,23 +50,20 @@
           </a>
       </div>
 
+      <!-- Root menu Items -->
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             <li class="masthead__menu-item drop-down-menu">
-              <a href="{{ link.url | flatify | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              <a {% if link.url %}  href="{{ link.url | flatify | relative_url }}" {% endif %} {% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
 
               {% if link.children != null %}
               <div class="drop-down-menu-group">
+                <!-- first level sub-menu items -->
                   <ul>
                     {% for child in link.children %}
-                        {% if child.url %}
                         <li class="drop-down-menu-item">
-                          <a href="{{ child.url | flatify | relative_url }}">{{ child.title }}</a>  
+                          <a class="submenu-item" {% if child.url %} href="{{ child.url | flatify | relative_url }}" {% endif %}>{{ child.title }}</a>  
                         </li>
-                        {% else %}
-                          <span class="nav__sub-title">{{ child.title }}</span>
-                        {% endif %}
-
                     {% endfor %}
                   </ul>
               </div>

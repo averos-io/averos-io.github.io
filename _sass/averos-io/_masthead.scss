@@ -96,13 +96,22 @@
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
+  // min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin: auto;
   z-index: 1;
 }
 
-.drop-down-menu-item a:hover {
-  background-color: #f1f1f1
+.drop-down-menu-item {
+  padding: 20px 10px 10px 0px;
+}
+
+.drop-down-menu-item a {
+  font-size: smaller;
+}
+.drop-down-menu-item:hover {
+  background-color: #f1f1f1;
+  
 }
 
 .drop-down-menu:hover .drop-down-menu-group {

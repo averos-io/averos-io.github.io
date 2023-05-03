@@ -234,7 +234,7 @@
       flex: none;
     }
 
-    a {
+    a:not(.submenu-item) {
       position: relative;
 
       &:before {

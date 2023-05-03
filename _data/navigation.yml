@@ -3,15 +3,12 @@
 main:
   - title: "Documentation"
     url: /averos/documentation/
-  - title: "Averos Quick-Start Guide"
-    url: /averos/getting-started/
+  - title: "Averos Tutorial"
     children:
-      - title: "For Developers"
+      - title: "🧑‍💻 For Developers"
         url: /averos/getting-started/
-      - title: "For Citizen Developers"
+      - title: "👨‍👩‍👧‍👦 For Citizen Developers"
         url: /averos/getting-started-citizen-developer/ 
-  - title: "For Citizen Developers"
-    url: /averos/getting-started-citizen-developer/ 
   - title: "About"
     url: /about/
   - title: "Terms & Privacy Policy"
@@ -250,7 +247,7 @@ averosdocs:
         url: /averos/license/
 
 gettingstarted:
-  - title: Averos Tutorial
+  - title: "Averos Tutorial: for Developers"
     url: /averos/getting-started
     children:
       - title: "Installation"
@@ -308,7 +305,7 @@ gettingstarted:
   #       url: /averos/license/
 
 gettingstarted-for-cd:
-  - title: Averos Tutorial
+  - title: "Averos Tutorial: for Citizen Developers"
     url: /averos/getting-started-citizen-developer
     children:
       - title: "Installation"
