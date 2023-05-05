@@ -1,6 +1,6 @@
 ---
 title: "Installation"
-permalink: /averos/getting-started/
+permalink: /averos/getting-started/installation
 excerpt: "Averos installation"
 toc: false
 classes: wide

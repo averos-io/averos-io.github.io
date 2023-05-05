@@ -1,6 +1,6 @@
 ---
-title: "Reference"
-permalink: /averos/getting-started/reference-averos-service/
+title: "Averos Service : Reference & Conventions"
+permalink: /averos/documentation/references-and-conventions/reference-averos-service/
 excerpt: "Reference -  averos service"
 toc: false
 classes: wide

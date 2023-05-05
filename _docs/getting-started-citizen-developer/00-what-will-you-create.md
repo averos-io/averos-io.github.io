@@ -1,7 +1,7 @@
 ---
-title: "Installation1"
-permalink: /averos/getting-started-citizen-developer/
-excerpt: "Averos installation1"
+title: "What will you Create ?"
+permalink: /averos/getting-started-citizen-developer/what-will-you-create/
+excerpt: "What will you create ?"
 toc: false
 classes: wide
 ---

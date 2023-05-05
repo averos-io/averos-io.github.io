@@ -1,12 +1,11 @@
 ---
-title: "Reference"
-permalink: /averos/getting-started/reference-averos-entity/
+title: "Averos Entity: Reference & Conventions"
+permalink: /averos/documentation/references-and-conventions/reference-averos-entity/
 excerpt: "Reference -  averos entity"
 toc: true
 ---
 
 ## **Averos Entity**
-
 
 Averos entities are simple plain classes entities that, in addition to typescript/javascript compliancy, should follow the averos conventions while being inserted. <br/>
 Averos conventions are: <br/>

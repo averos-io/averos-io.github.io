@@ -220,21 +220,18 @@ averosdocs:
       - title: "4. Translation Workflow Commands"
         url: /averos/documentation/averos-translation/translation-workflow-commands/
 
-  - title: XIV. Detailed Averos Workflow Commands
-    url: /averos/documentation/reference-detailed-averos-worflow-commands/
-
-  # - title: Documentation Reference
-  #   children:
-  #     - title: "Averos Workflow Commands"
-  #       url: /averos/documentation/reference-detailed-averos-worflow-commands/
-  #     - title: "Averos Entity"
-  #       url: /averos/documentation/reference-averos-entity/
-  #     - title: "Averos Service"
-  #       url: /averos/documentation/reference-averos-service/
-  #     - title: "Authentication Provider"
-  #       url: /averos/documentation/reference-authentication-provider/
-  #     - title: "Averos Translation"
-  #       url: /averos/documentation/reference-averos-translation/
+  - title: XIV. References and Conventions
+    children:
+      - title: "Detailed Averos Workflow Commands"
+        url: /averos/documentation/reference-detailed-averos-worflow-commands/
+      - title: "Averos Entity"
+        url: /averos/documentation/references-and-conventions/reference-averos-entity/
+      - title: "Averos Service"
+        url: /averos/documentation/references-and-conventions/reference-averos-service/
+      - title: "Authentication Provider"
+        url: /averos/documentation/references-and-conventions/reference-authentication-provider/
+      - title: "Averos Translation"
+        url: /averos/documentation/references-and-conventions/reference-averos-translation/
   
   - title: Averos Version
     children:
@@ -251,7 +248,7 @@ gettingstarted:
     url: /averos/getting-started
     children:
       - title: "Installation"
-        url: /averos/getting-started/
+        url: /averos/getting-started/installation/
   - title: Creating Your First Averos Web Application
     children:
       - title: "I. Overview"
@@ -280,33 +277,11 @@ gettingstarted:
         url: /averos/getting-started/11.1-customize-your-app-i18n-workflows/
       - title: "VII- Actions Summary"
         url: /averos/getting-started/customize-your-app-actions-summary/
-
-  - title: Reference
-    children:
-      - title: "Averos Workflow Commands"
-        url: /averos/getting-started/reference-detailed-averos-worflow-commands/
-      - title: "Averos Entity"
-        url: /averos/getting-started/reference-averos-entity/
-      - title: "Averos Service"
-        url: /averos/getting-started/reference-averos-service/
-      - title: "Authentication Provider"
-        url: /averos/getting-started/reference-authentication-provider/
-      - title: "Averos Translation"
-        url: /averos/getting-started/reference-averos-translation/
-  
-  # - title: Averos Version
-  #   children:
-  #     - title: "Latest version"
-  #       url: /averos/getting-started/latest-version/
-
-  # - title: License
-  #   children:
-  #     - title: "Averos License"
-  #       url: /averos/license/
+ 
 
 gettingstarted-for-cd:
   - title: "Averos Tutorial: for Citizen Developers"
     url: /averos/getting-started-citizen-developer
     children:
-      - title: "Installation"
-        url: /averos/getting-started-citizen-developer/
+      - title: "What will you create"
+        url: /averos/getting-started-citizen-developer/what-will-you-create/
