@@ -1,6 +1,8 @@
 
 # main links
 main:
+  - title: "Wibuild©"
+    url: /averos/wibuild/
   - title: "Documentation"
     url: /averos/documentation/
   - title: "Averos Tutorial"
@@ -246,27 +248,36 @@ averosdocs:
 gettingstarted:
   - title: "Averos Tutorial: for Developers"
     url: /averos/getting-started
+    # children:
+    #   - title: "Installation"
+    #     url: /averos/getting-started/installation/
+  - title: I. Introduction
     children:
-      - title: "Installation"
-        url: /averos/getting-started/installation/
-  - title: Creating Your First Averos Web Application
-    children:
-      - title: "I. Overview"
+      - title: "1. Overview"
         url: /averos/getting-started/first-application-overview/
-      - title: "II. Prerequisites"
+      - title: "2. Prerequisites"
         url: /averos/getting-started/prerequisites/
-      - title: "III. Create Your Application"
-        url: /averos/getting-started/create-your-application/
-  - title: User Experience - Aside Topic
+        
+  - title: II. MyApplication Requirements & Specifications
     children:
-      - title: "Mind the User Experience"
-        url: /averos/getting-started/user-experience/
-  - title: Customize your application - A Real-life use case
-    children:
-      - title: "I. User Requirements"
+      - title: "1. User Requirements"
         url: /averos/getting-started/customize-your-app-business-requirements/
-      - title: "II. MyApplication Design"
+      - title: "2. MyApplication Design"
         url: /averos/getting-started/customize-your-app-application-design/
+
+  # - title: User Experience - Aside Topic
+  #   children:
+  #     - title: "Mind the User Experience"
+  #       url: /averos/getting-started/user-experience/
+
+  - title: III. Create Your First Averos Web Application "MyApplication"
+    children:
+      # - title: "I. User Requirements"
+      #   url: /averos/getting-started/customize-your-app-business-requirements/
+      # - title: "II. MyApplication Design"
+      #   url: /averos/getting-started/customize-your-app-application-design/
+      - title: "I. Initialize Your Application"
+        url: /averos/getting-started/create-your-application/
       - title: "III. Leveraging Averos Code Generation Workflow"
         url: /averos/getting-started/customize-your-app-averos-workflow/
       - title: "IV. Simple Entity Member Workflow"
