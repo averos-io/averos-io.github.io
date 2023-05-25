@@ -1,6 +1,6 @@
 ---
 title: "Learn New Languages"
-permalink: /averos/getting-started/11.1-customize-your-app-i18n-workflows/
+permalink: /averos/getting-started-developer/customize-your-application-translation/
 excerpt: "Let your application speaks languages"
 toc: true
 ---

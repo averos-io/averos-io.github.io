@@ -1,6 +1,6 @@
 ---
 title: "**Averos tutorial for Citizen Developers** 👨‍👩‍👧‍👦"
-permalink: /averos/getting-started-citizen-developer/
+permalink: /averos/getting-started-c-developer/
 excerpt: "Averos Introduction"
 toc: false
 classes: wide
@@ -15,6 +15,12 @@ _Averos...Only what matters the most_
     </div>
         This tutorial is intended to help developers get initiated to averos framework throughout a step by step guide into creating an averos application.<br/>
         It is recommended that you have a minimum amount of knowledge on web development; mainly HTML, CSS and javascript or trypescript, along with a basic experience with reactive develoment.<br/>
-        However, you'll still be able to follow this tutorial- thought it will be a little bit harder for you- if you haven't any knowledge on web development.
+        However, you'll still be able to follow this tutorial- thought it will be a little bit harder for you- 
+        if you haven't any knowledge on web development. <br/>
 </div>
 
+<br/>
+
+If you are a developer and are keen on knowing further technical details please head up to our tutorial dedicated to developer available through the link below:
+
+[Tutorial For Developers]({{ "/averos/getting-started-developer/" | relative_url }} "Tutorial For Developers"){: .btn .btn--green .btn--small}

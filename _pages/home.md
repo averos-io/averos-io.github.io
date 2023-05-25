@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/home/averos.svg
   actions:
     - label: "<i class='fas fa-arrow-circle-right'></i> Get Started"
-      url: "/averos/getting-started/"
+      url: "/averos/getting-started-developer/"
       color: btn--red
     - label: "<i class='fas fa-book'></i> Documentation"
       url: "/averos/documentation/"
@@ -37,7 +37,7 @@ feature_row:
     alt: "Fosters Creativity"
     title: "Fosters Creativity"
     excerpt: "**Averos** supports the **creativity** by minimizing the reflection on the technical aspects in favor of the **business** aspects. This will give the **design** its right value and **improve the quality** of the application."
-    url: "/averos/getting-started/customize-your-app-application-design/"
+    url: "/averos/getting-started-developer/customize-your-app-application-design/"
     btn_class: "btn--orange"
     btn_label: "<i class='fas fa-arrow-circle-right'></i> See it in action"
 
@@ -45,7 +45,7 @@ feature_row:
     alt: "User Experience Centric"
     title: "User Experience Centric"
     excerpt: "**Averos** is designed in order to provide a **wonderful digital journey** by **unlocking** the access to **user exeprience centric** applications while bringing common **natural** and **obvious** end users experience to your applications providing thus a **two-way communication** between the user and his application."
-    url: "/averos/getting-started/user-experience/"
+    url: "/averos/topics/user-experience/"
     btn_class: "btn--green"
     btn_label: "<i class='fas fa-hands-helping'></i> Show me how"
 

@@ -53,7 +53,7 @@ Averos let you create a fully angular blown multipurpose and highly responsive a
 
 This whole work including averos **architecture**, **implementation**, **UI Design**, **logos design**, averos **documentation** and **this web site** has been achieved by only one person. <br/>
 Hello 🤝 ! <br/>
-I am [Houcem LAOUITI](mailto:averos.tech@gmail.com) a cutting edge technologies' follower and avid builder who likes to make ideas happen and to play drums 🥁.<br/>
+I am a cutting edge technologies' follower and avid builder who likes to make ideas happen and to play drums 🥁.<br/>
 If you you wish to get in touch with me do not hesitate to [leave me a message](mailto:averos.tech@gmail.com). <br/>
 
 <br/>
@@ -67,7 +67,7 @@ Below are examples of user interfaces which were created using **averos framewor
 {% include gallery id="layouts_gallery" caption="Examples of averos applications." %}
 
 
-  [Get Started]({{ "/averos/getting-started/" | relative_url }} "Get Started"){: .btn .btn--success .btn--large}
+  [Get Started]({{ "/averos/getting-started-c-developer/" | relative_url }} "Get Started"){: .btn .btn--success .btn--small}
 
 <br/> 
 

@@ -1,6 +1,6 @@
 ---
 title: "Customize your application"
-permalink: /averos/getting-started/customize-your-app-averos-workflow/
+permalink: /averos/getting-started-developer/customize-your-applicatio/
 excerpt: "Customize your application - Leveraging Averos Workflow"
 toc: true
 ---
@@ -28,8 +28,8 @@ So far we have designed two business entities with a set of members or fields of
 
 <figure align="center">
 	<a href="{{ site.baseurl }}/assets/arch/tutorial/to-do-uml-diagram.png">
-    <img src="{{ site.baseurl }}/assets/arch/tutorial/to-do-uml-diagram.png" alt="ToDo Tracking application UML Diagram">
-      <figcaption>MyApplication UML Diagram</figcaption>
+    <img src="{{ site.baseurl }}/assets/arch/tutorial/to-do-uml-diagram.png" alt="ToDoApplication UML Diagram">
+      <figcaption>ToDoApplication UML Diagram</figcaption>
   </a>
 </figure>
 

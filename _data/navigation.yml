@@ -1,16 +1,18 @@
 
 # main links
 main:
-  - title: "Wibuild©"
-    url: /averos/wibuild/
+  - title: "Wibuild ©"
+    url: https://appbuilder.wiforge.com/
+  - title: "Averos Designer ©"
+    url: /averos/averosdesigner/
   - title: "Documentation"
     url: /averos/documentation/
   - title: "Averos Tutorial"
     children:
       - title: "🧑‍💻 For Developers"
-        url: /averos/getting-started/
+        url: /averos/getting-started-developer/
       - title: "👨‍👩‍👧‍👦 For Citizen Developers"
-        url: /averos/getting-started-citizen-developer/ 
+        url: /averos/getting-started-c-developer/ 
   - title: "About"
     url: /about/
   - title: "Terms & Privacy Policy"
@@ -245,54 +247,48 @@ averosdocs:
       - title: "Averos License"
         url: /averos/license/
 
-gettingstarted:
+gettingstarted-for-developer:
   - title: "Averos Tutorial: for Developers"
-    url: /averos/getting-started
-    # children:
-    #   - title: "Installation"
-    #     url: /averos/getting-started/installation/
+    url: /averos/getting-started-developer
+
   - title: I. Introduction
     children:
       - title: "1. Overview"
-        url: /averos/getting-started/first-application-overview/
+        url: /averos/getting-started-developer/overview/
       - title: "2. Prerequisites"
-        url: /averos/getting-started/prerequisites/
+        url: /averos/getting-started-developer/prerequisites/
         
-  - title: II. MyApplication Requirements & Specifications
+  - title: II. ToDoApplication Requirements & Specifications
     children:
-      - title: "1. User Requirements"
-        url: /averos/getting-started/customize-your-app-business-requirements/
-      - title: "2. MyApplication Design"
-        url: /averos/getting-started/customize-your-app-application-design/
+      - title: "1. Application Requirements"
+        url: /averos/getting-started-developer/application-requirements/
+      - title: "2. Application Design & Specifications"
+        url: /averos/getting-started-developer/application-design-specifications/
 
-  # - title: User Experience - Aside Topic
-  #   children:
-  #     - title: "Mind the User Experience"
-  #       url: /averos/getting-started/user-experience/
-
-  - title: III. Create Your First Averos Web Application "MyApplication"
+  - title: III. Build Your Application"
     children:
-      # - title: "I. User Requirements"
-      #   url: /averos/getting-started/customize-your-app-business-requirements/
-      # - title: "II. MyApplication Design"
-      #   url: /averos/getting-started/customize-your-app-application-design/
-      - title: "I. Initialize Your Application"
-        url: /averos/getting-started/create-your-application/
-      - title: "III. Leveraging Averos Code Generation Workflow"
-        url: /averos/getting-started/customize-your-app-averos-workflow/
-      - title: "IV. Simple Entity Member Workflow"
-        url: /averos/getting-started/customize-your-app-averos-simple-entity-member-workflow/
-      - title: "V. Entity Composite Relation Use Cases"
-        url: /averos/getting-started/customize-your-app-averos-composite-entity-member-workflow/
-      - title: "VI. What If Your Application Learns New Languages?"
-        url: /averos/getting-started/11.1-customize-your-app-i18n-workflows/
-      - title: "VII- Actions Summary"
-        url: /averos/getting-started/customize-your-app-actions-summary/
+      - title: "1. Initialize Your Application"
+        url: /averos/getting-started-developer/initialize-your-application/
+
+      - title: "2. Generate Business Entities"
+        url: /averos/getting-started-developer/customize-your-application-business-entities/
+
+      - title: "3. Generate Use Cases"
+        url: /averos/getting-started-developer/customize-your-application-use-cases/
+
+      - title: "4. ToDoApplication Learns New Languages"
+        url: /averos/getting-started-developer/customize-your-application-translation/
+
+      - title: "VI- Actions Summary"
+        url: /averos/getting-started-developer/customize-your-app-actions-summary/
  
 
 gettingstarted-for-cd:
   - title: "Averos Tutorial: for Citizen Developers"
     url: /averos/getting-started-citizen-developer
+  - title: I. Introduction
     children:
-      - title: "What will you create"
-        url: /averos/getting-started-citizen-developer/what-will-you-create/
+      - title: "1. Overview"
+        url: /averos/getting-started-c-developer/overview/
+      - title: "2. Prerequisites"
+        url: /averos/getting-started-c-developer/prerequisites/

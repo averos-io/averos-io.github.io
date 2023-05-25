@@ -1,6 +1,6 @@
 ---
-title: "Mind the User Experience (aside topic)"
-permalink: /averos/getting-started/user-experience/
+title: "Mind the User Experience"
+permalink: /averos/topics/user-experience/
 excerpt: "A glimpse on user experience"
 toc: false
 classes: wide

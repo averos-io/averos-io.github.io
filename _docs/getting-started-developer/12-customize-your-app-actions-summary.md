@@ -1,6 +1,6 @@
 ---
 title: "Customize your application"
-permalink: /averos/getting-started/customize-your-app-actions-summary/
+permalink: /averos/getting-started-developer/customize-your-app-actions-summary/
 excerpt: "Customize your application - Actions Summary"
 toc: true
 ---

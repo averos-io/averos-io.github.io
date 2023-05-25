@@ -1,6 +1,6 @@
 ---
 title: "**Averos tutorial for Developers** 🧑‍💻"
-permalink: /averos/getting-started/
+permalink: /averos/getting-started-developer/
 excerpt: "Averos Introduction"
 toc: false
 classes: wide
@@ -18,3 +18,9 @@ _Averos...Only what matters the most_
         However, you'll still be able to follow this tutorial- thought it will be a little bit harder for you- if you haven't any knowledge on web development.
 </div>
 
+
+<br/>
+
+If you have little knowledge of development please head up to our tutorial dedicated to citizen developers available through the link below:
+
+[Tutorial For Citizen Developers]({{ "/averos/getting-started-c-developer/" | relative_url }} "Tutorial For Citizen Developers"){: .btn .btn--green .btn--small}

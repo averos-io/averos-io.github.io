@@ -27,7 +27,7 @@ All of this information is not linked to anything that is personally identifiabl
 
 When you visit this site third-party advertisers may place and read cookies on your browser and/or use web beacons to collect information. This site has no access or control over these cookies. You should review the respective privacy policies on any and all third-party ad servers for more information regarding their practices and how to opt-out.
 
-If you wish to disable cookies, you may do so through your web browser options. Instructions for doing so can be found on the specific web browsers' websites.
+If you wish to disable cookies, you might do so through your web browser options. Instructions for doing so can be found on the specific web browsers' websites.
 
 #### Google Analytics
 

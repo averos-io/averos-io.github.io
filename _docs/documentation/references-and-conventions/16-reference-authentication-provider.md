@@ -21,8 +21,8 @@ When registering a new user or authenticating an existing user, averos will call
 | `loginUser(userData: {userName \|\| email: string, password: string}): B` | /auth/login | POST | `{userName \|\| email: string, password: string}` | `auth_token: {_id: string, token: string, userName: string, email: string, isEmailVerified: string, image: string, ipAddress: string, profileLanguage: string, isAccountLocked: string}}` | Attempt to perform a log in action. Returns an authorization token |
 
 >ℹ️ Note that, the current **averos** version does not support working without an authentication provider. Also, support for known authentication providers such as `auth0` is not available yet. Future versions will include these capabilities.<br/>
-Since an averos application needs an authentication provider, you may want to implement one according to the specifications above. <br/>
-Besides, **averos** offers a built-in **authentication service** that you may want to bind with your **custom authentication api** location attributes such as server location, port or uri. <br/>
+Since an averos application needs an authentication provider, you might want to implement one according to the specifications above. <br/>
+Besides, **averos** offers a built-in **authentication service** that you might want to bind with your **custom authentication api** location attributes such as server location, port or uri. <br/>
 Binding an averos service to its related api implies the creation of a specific `averos configuration`. <br/> 
 This configuration should match an **`id`** whose value is equal to **`AuthService`** which stands for the **name** of the custom built-in **averos service** that is in charge of **authenticating**, **authorizing** and **managing** averos users.<br/>
 Below is an `averos workflow command` template that should create such a configuration.
