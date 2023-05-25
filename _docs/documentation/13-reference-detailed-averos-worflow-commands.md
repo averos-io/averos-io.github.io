@@ -30,6 +30,6 @@ classes: wide
 
 
 >🚩 All averos commands could be executing either **silently** or **interactively**.<br/>
-When executed in **interactive mode**, each command workflow will guide the user through all its available customization parameters. <br/>
+When executed in **interactive mode**, each workflow command will guide the user through all its available customization parameters. <br/>
 When **silently** executed, the user should fill in all mandatory parameters, otherwise the workflow will interrupt the command execution and will ask the user to set up those missing mandatory parameters interactively.
 {: .notice--warning}

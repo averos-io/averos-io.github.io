@@ -46,6 +46,10 @@ For the sake of this tutorial, we are going to execute all commands in silent mo
 Nevertheless, it is fine to execute these commands interactively if you wish.
 {: .notice--info}
 
+
+>ℹ️ **Please make sure you execute averos workflow commands UNDER YOUR PROJECT HOME FOLDER!**
+{: .notice--danger}
+
 **Averos Framework** provides the `averos workflow` command,`averos-entity`, which will generate the target entity along with it's managing service for you.<br/>
 
 
@@ -104,7 +108,7 @@ The execution of these two averos workflow commands will result in the creation 
 According to our design, both entities have a bunch of attributes (members) that come in different types.<br/>
 At first glance you might think that those members should be generated as well.
 Well, that is partially right!<br/>
-Remember we mentioned earlier that `averos-entity` command workflow creates seven reserved members for every new generated entity. <br/>
+Remember we mentioned earlier that `averos-entity` workflow command creates seven reserved members for every new generated entity. <br/>
 Those members are, on one hand, reserved, on the other hand, automatically generated for you. So there is no need to regenerate them once again.<br/>
 
 This means that, according to our design only one member should be generated.<br/>
