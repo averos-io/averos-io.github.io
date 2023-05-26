@@ -1,5 +1,5 @@
 ---
-title: "Learn New Languages"
+title: "Multi-Languages Application - Averos Translation"
 permalink: /averos/getting-started-developer/customize-your-application-translation/
 excerpt: "Let your application speaks languages!"
 toc: true
@@ -258,7 +258,7 @@ Let's switch to `English` and see what it looks like:
 Finally, go ahead and execute the following commands to finalize your application learning.<br/>
 
 ```bash
-ng g @wiforge/averos:add-translation-entry --key=todoarea.todotasks --value='Tâches' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todotask.status --value='Etat de la tâche' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todoarea.name --value='Nom' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todoarea.description --value='Description' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todoarea.createdAt --value='Date de Création' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todotask.name --value='Nom' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todotask.description --value='Description' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todotask.createdAt --value='Date de Création' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todotask.updatedAt --value='Date de mise à jour' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todoarea.updatedAt --value='Date de mise à jour' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.create.todoarea.title --value='Créer un domaine' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.create.todoarea.label --value='Details du domaine' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.edit.todoarea.title --value='Editer un domaine' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.edit.todoarea.label --value='Détail du domaine' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.view.todoarea.title --value='Consulter un domaine' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.view.todoarea.label --value='Details du domaine' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.search.todoarea.title --value='Recherche de domaine' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.search.todoarea.label --value='Critères de recherche' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=menu.todoarea --value='Domaine' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=menu.todoarea.search --value='Rechercher' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=menu.todoarea.add --value='Ajouter' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.create.todotask.title --value='Créer Une Tâche' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.create.todotask.label --value='Détails de la tâche' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.edit.todotask.title --value='Editer une tâche' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.edit.todotask.label --value='Détails de la tâche' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.view.todotask.title --value='Consulter les Tâches' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.view.todotask.label --value='Détails de la Tâche' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=menu.todotask --value='Tâches' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=menu.todotask.add --value='Ajouter' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.search.todotask.label --value='Critères de Recherche' --lang=fr
+ng g @wiforge/averos:add-translation-entry --key=todoarea.todotasks --value='Tâches' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todotask.status --value='Etat de la tâche' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todoarea.name --value='Nom' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todoarea.description --value='Description' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todoarea.createdat --value='Date de Création' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todotask.name --value='Nom' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todotask.description --value='Description' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todotask.createdat --value='Date de Création' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todotask.updatedat --value='Date de mise à jour' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todoarea.updatedat --value='Date de mise à jour' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.create.todoarea.title --value='Créer un domaine' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.create.todoarea.label --value='Details du domaine' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.edit.todoarea.title --value='Editer un domaine' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.edit.todoarea.label --value='Détail du domaine' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.view.todoarea.title --value='Consulter un domaine' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.view.todoarea.label --value='Details du domaine' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.search.todoarea.title --value='Recherche de domaine' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.search.todoarea.label --value='Critères de recherche' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=menu.todoarea --value='Domaine' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=menu.todoarea.search --value='Rechercher' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=menu.todoarea.add --value='Ajouter' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.create.todotask.title --value='Créer Une Tâche' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.create.todotask.label --value='Détails de la tâche' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.edit.todotask.title --value='Editer une tâche' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.edit.todotask.label --value='Détails de la tâche' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.view.todotask.title --value='Consulter les Tâches' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.view.todotask.label --value='Détails de la Tâche' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=menu.todotask --value='Tâches' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=menu.todotask.add --value='Ajouter' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=uc.search.todotask.label --value='Critères de Recherche' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todotask.createdby --value='Créateur' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todotask.updatedby --value='Modificateur' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todoarea.createdby --value='Créateur' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todoarea.createdby --value='Créateur' --lang=fr && ng g @wiforge/averos:add-translation-entry --key=todoarea.updatedby --value='Modificateur' --lang=fr
 ```
 
 **Congratulations! Your application now speaks French fluently!**
@@ -282,40 +282,48 @@ Here is what our final application version looks like:
 <div style="padding: 10px;">
   <figure align="center">
     <a href="{{ site.baseurl }}/assets/tutorial/developer/45-todoarea-create-french.png">
-      <img src="{{ site.baseurl }}/assets/tutorial/developer/45-todoarea-create-french.png" alt="Edit/Create Component - French">
-        <figcaption>Edit/Create Component - French</figcaption>
+      <img src="{{ site.baseurl }}/assets/tutorial/developer/45-todoarea-create-french.png" alt="Create ToDoArea - French">
+        <figcaption>Create ToDoArea - French</figcaption>
     </a>
   </figure>
 </div>
 <div style="padding: 10px;">
   <figure align="center">
     <a href="{{ site.baseurl }}/assets/tutorial/developer/46-todoarea-created-french.png">
-      <img src="{{ site.baseurl }}/assets/tutorial/developer/46-todoarea-created-french.png" alt="View Component - French">
-        <figcaption>View Component - French</figcaption>
+      <img src="{{ site.baseurl }}/assets/tutorial/developer/46-todoarea-created-french.png" alt="ToDoArea Created - French Message">
+        <figcaption>ToDoArea Created - French Message</figcaption>
     </a>
   </figure>
 </div>
 <div style="padding: 10px;">
   <figure align="center">
-    <a href="{{ site.baseurl }}/assets/tutorial/developer/39-search-layout-french.png">
-      <img src="{{ site.baseurl }}/assets/tutorial/developer/39-search-layout-french.png" alt="Search Component - French">
-        <figcaption>Search Component - French</figcaption>
+    <a href="{{ site.baseurl }}/assets/tutorial/developer/47-todoarea-search-french.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/developer/47-todoarea-search-french.png" alt="Search ToDoArea - French">
+        <figcaption>Search ToDoArea - French</figcaption>
     </a>
   </figure>
 </div>
 <div style="padding: 10px;">
   <figure align="center">
-    <a href="{{ site.baseurl }}/assets/tutorial/developer/40-login-french.png">
-      <img src="{{ site.baseurl }}/assets/tutorial/developer/40-login-french.png" alt="Default Sign In Component - French">
-        <figcaption>Default Sign In Component - French</figcaption>
+    <a href="{{ site.baseurl }}/assets/tutorial/developer/48-todoarea-edit-french.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/developer/48-todoarea-edit-french.png" alt="Edit ToDoArea - French">
+        <figcaption>Edit ToDoArea - French</figcaption>
     </a>
   </figure>
 </div>
 <div style="padding: 10px;">
   <figure align="center">
-    <a href="{{ site.baseurl }}/assets/tutorial/developer/41-register-french.png">
-      <img src="{{ site.baseurl }}/assets/tutorial/developer/41-register-french.png" alt="Default Register Component - French">
-        <figcaption>Default Register Component - French</figcaption>
+    <a href="{{ site.baseurl }}/assets/tutorial/developer/49-todotask-create-french.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/developer/49-todotask-create-french.png" alt="ToDoArea Create - French">
+        <figcaption>ToDoTask Create - French</figcaption>
+    </a>
+  </figure>
+</div>
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/developer/50-todotask-search-french.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/developer/50-todotask-search-french.png" alt="Search ToDoTask - French">
+        <figcaption>Search ToDoTask - French</figcaption>
     </a>
   </figure>
 </div>
