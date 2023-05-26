@@ -23,7 +23,7 @@ Well it is high time you generate all of them into your application within minut
 
 In this chapter we are going to use `averos framework` to implement our use cases and start to experience them through our application.<br/>
 
-### **II- Generate Use Cases**
+### **II. Generate Use Cases**
 
 Let's step back for a moment and recall the use cases we designed earlier.<br/>
 
@@ -509,47 +509,75 @@ This is because any change in the state of an entity simple member will trigger 
 
 Do the same for the (Task2 and Task3).<br/>
 
+Our application is almost finished!<br/>
 
-############################ Activate a Task ???????
+Now, the last use case we are going to implement is `Activate/Close` a Task.<br/>
+
+One way to think about this use case is to simply `edit` the task whose `status` should be updated then perform the right update (change status to `Active` or `Closed`).<br/>
+
+The other way to design this use case is to add a **customizable dynamic row action** in the **Search Result View** that either **`activates`** or **`close`** a task.<br/>
+In this case, the customizable row action is displayed depending on the current task status. If task status is `New` then the row action `activate` is displayed otherwise the row action `close` would be displayed instead.<br/> 
+Moreover, averos service functions should be created and bound to these customizable actions in order to trigger the requested business logic behind.<br/>
+As mentioned earlier, `averos framework` provides a way to create **customizable row actions** in the **Search Result Layout**. However we are not going to delve any further into this advanced features as we want to keep this tutoril as much as simple.<br/>
+Advanced `averos capabilities` will be subject to another tutorial in the future.<br/>
+
+Below is an example of `averos customizable actions` excerpt from [**Wibuild**](https://appbuilder.wiforge.com/ "Wibuild"), our **nocode** application, built around **Averos Framework**:
+
+<figure align="center">
+	<a href="{{ site.baseurl }}/assets/tutorial/developer/33-customizable-dynamic-row-actions.png">
+    <img src="{{ site.baseurl }}/assets/tutorial/developer/33-customizable-dynamic-row-actions.png" alt="Customizable Dynamic Table Row Actions - Wibuild">
+      <figcaption>Customizable Dynamic Table Row Actions - Wibuild</figcaption>
+  </a>
+</figure>
+
+**ℹ️Note** that we have added three additional dynamic row actions named `Get`, `View` and `Download`.<br/>
+Also, notice how those actions does not exist for all records. <br/>
+This is because these actions are displayed dynamically for each record, depending on specific user criteria.<br/>
+
+Next, we are going to explain how composite members which define entities' relationships, are handled in **averos framework**. <br/>
+Though you might skip the next part to the final chapter where your application will learn and speak new languages, we still highly recommand you take few moment and read this section so that you could grasp relevant core `averos framewor`k patterns.<br/>
 
 
-### **V- Entity Composite Relation Use Cases**
+### **III. About displaying composite members (relationships) in View, Edit and Create view layouts**
 
-We have been so far able to create most of the use cases defined in our ToDo tracking application requirements listed above. <br/>
+There are a couple of thing to bear in mind when dealing with entity composite members in a context of **Create**, **View** or **Edit** entity. Those composite member are defined as either `OneToOne` or `OneToMany` relationship between a given Parent entity and another Child Entity.<br/>
 
-One special use case worth nevertheless more attention seeing its complexity since its logic depends on the user requirements and thus could not be unified for all use cases.
-This special use case concerns all entities relationships. Either it is a simple association, a composition or an aggregation it is obvious that handling such relationships depends on the final user needs. <br/>
+For exemple, you saw earlier how `ToDoArea` is composed of a collection of `ToDoTask`. This is depicted by a `OneToMany` relationship where `ToDoArea` is the parent (or owner) and `ToDoTask` is the child.<br/>
+You also saw how such relationship is displayed in **Edit** and **View** layouts as a `tab` panel that implements a **Search Result View Layout** (a table) which holds all childs (since the parent is linked to several child instances).<br/>
 
-Yet, **averos** defines some guidelines to follow when it comes to such use cases. Please refer to [Averos service apis naming conventions]({{ "/averos/getting-started-developer/reference-averos-service#averos-service-apis-naming-conventions/" | relative_url }}  "Averos Service APIs Naming Conventions") section and look at COMPOSITE API Logic Type. These are the conventions when dealing with entities relationships. <br/>
+Similarely, a `OneToOne`, relationship is displayed in a `tab` panel that implements a **View/Edit View Layout** (since only one instance is displayed).<br/>
 
->🚩 Notice that in this example averos has already added a `One To One` composite relationship between your business entities and the averos entity `User`.
-The relationship is represented by the two class members `createdBy` and `updatedBy` and could be visible in all view use cases. 
+From APIs call perspective, `edit entity` and `view entity` use cases relies on call to `getEntityById(id: string)` in order to retrieve the parent instance.<br/> 
+This apis is generated by default by `averos workflow command` when the managing service related to the parent entity is generated. <br/>
+
+>🚩 Do not attempt to change or modify the signature of any generated function in averos managing services since this will break .<br/>
+Those are core framework functions that are used under the hood.<br/>
+On the contrary, you might modify the default logic within these function or add more functions to averos services at your convenience.<br/>
+Again, only function signature matters, so you should keep them as is. <br/>
+Thus, any modification on core framework function signature-depicted by the **function name**, **input parameters** and **output parameters**- will break the framework capabilities.<br/>
 {: .notice--warning}
 
+As a result, if you would like to display a `OneToMany` relationship (by showing the collection of child items in a seperate tab) then your api should return, aside from your parent entity, the collection of child items **`Ids`** to be displayed.<br/> 
+Those child items **`ids`** will be used accordingly by the child entity managing service api `getEntitiesByIds(ids: string[]): Observable<any>` in order to retrieve the related child actual instances collection. 
 
 
-
-
-#### **V.1- Displaying Relationship of type Collection in View, Edit and Create Use Cases**
-
-There are a couple of thing to bear in mind when dealing with composite entity relationship in a context of **Create**, **View** or **Edit** entity.
-
-`edit` and `view` entity use cases uses the mandatory auto-generated api `getEntityById(id: string)` located in the averos entity managing service. So if you would like to display a `OneToMany` relationship by showing the collection of child items in a seperate tab then your api should return, aside from your parent entity, a collection of child items IDs to display. Those child items ids will be therefore used by the child entity managing service api `getEntitiesByIds(ids: string[]): Observable<any>` in order to retrieve the related Child collection. 
-
-
->ℹ️ Given a parent entity, if you are willing to display child items within a `create`, an `edit` or a `view` entity use case you need to adapt you backend api so that : <br/>
-- In the Parent entity managing service, `getEntityById(id: string)` should return aside from the parent entity the list Child ids collection
-- Decide which strategy you will follow when updating/creating a One to Many relationships: Update happens either in a `single` or in `multiple` transcations.<br/> 
+>ℹ️ Given a parent entity, if you are willing to display child items within a `create`, an `edit` or a `view` entity use case you need to adapt you **backend api** so that : <br/>
+- In the Parent entity managing service, `getEntityById(id: string)` should return aside from the parent entity instance, a collection of child **`ids`**
+- Decide which strategy you will follow when updating/creating a `OneToMany` relationships: Update happens either in a `single` or in `multiple` transcations.<br/> 
 A `single` transaction implies one api call which will handle the child items.<br/> 
 `multiple` transactions, on the other side, implies multiple api calls for each child.
 You should mind these aspects when designing your API logic. Please refer to [averos entity update strategy]({{"/averos/documentation/references-and-conventions/reference-averos-entity/#a--single-transaction-strategy" | relative_url }} "Averos Entity Update Strategy") to learn more about update strategies that come with averos.
 {: .notice--info}
-
 
 >🚩 Note that **relationship update strategy** is customizable using the averos workflow command `add-composite-member` by setting the flag `--member-update-strategy` to either `single` or `multiple`. The related logic implementation will be automatically generated for you by the workflow command.
 {: .notice--success}
 
 
 
-**🎉🎉🎉 Congratulations! Averos has spared you months of coding and environment useless configurations allowing you to focus on what really matters the most! You are ready to grow your business 🎉🎉🎉**
+**🎉🎉🎉 Congratulations On making it so far! 🎉🎉🎉**<br/> <br/>
+Your **ToDoApplication** is now fully functional and ready to be taken to the next level!<br/>
+How about your application learns new languages?<br/>
+Sounds great ?<br/><br/>
+Ok then, let's move on to the final chapter!<br/>
+**See you soon!**
 {: .notice--info}
