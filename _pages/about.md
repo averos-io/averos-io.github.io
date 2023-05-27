@@ -49,7 +49,10 @@ Averos let you create a fully angular blown multipurpose and highly responsive a
 
 <br/>
 
+
+
 # About The Author
+--------
 
 This whole work including averos **architecture**, **implementation**, **UI Design**, **logos design**, averos **documentation** and **this web site** has been achieved by only one person. <br/>
 Hello 🤝 ! <br/>
@@ -58,9 +61,9 @@ If you you wish to get in touch with me do not hesitate to [leave me a message](
 
 <br/>
 
-# About What You Will Build With **averos**
 
-<!-- An [**Averos Application Starter**](https://github.com/averos-io/averos-io-starter/ "averos-io-starter"), that is available [here](https://github.com/averos-io/averos-io-starter/ "averos application starter"), depicts the example used in the [**getting started guide**]({{"/averos/getting-started/customize-your-app-application-design/" | relative_url}}). <br/> -->
+# About What You Will Build With **averos**
+--------
 
 Below are examples of user interfaces which were created using **averos framework**. <br/>
 
@@ -71,15 +74,9 @@ Below are examples of user interfaces which were created using **averos framewor
 
 <br/> 
 
-<!-- Below is an animated gif describing how an averos user can create a full web application using pipelines of averos workflows command lines. <br/> 
-I am sorry but the animated gif asset is quite big and will need a fair amount of time before it is fully loaded - I will try to reduce it's size sometime in the future. <br/>
-
-<p align="center">
-<img width="1024" height="576" src="{{ site.baseurl }}/assets/inaction/averos.gif">
-</p>
-<br/>  -->
 
 # How To Participate
+--------
 
 If you have any suggestions, enhancements ideas or issues related to the averos framework, please feel free to use one of the following placeholders:
 - [**Issues**✏️](https://github.com/averos-io/averos-io-starter/issues "averos-io-starter github issues placeholder")  
@@ -88,7 +85,9 @@ If you have any suggestions, enhancements ideas or issues related to the averos 
 
 <br/>
 
+
 # Notable Features
+--------
 
 - **averos** workflows for low-code development
 - full angular 14 support
@@ -113,6 +112,7 @@ If you have any suggestions, enhancements ideas or issues related to the averos 
 - and much more...
 
 # License
+--------
 
 Use of Averos framework **binary library** is permitted, **free of charge**, including for **commercial purposes**.<br/>
 However, use of Averos **source code** is governed by the Averos License that can be found [here]({{ "/averos/license/" | relative_url }} "Averos License"). 

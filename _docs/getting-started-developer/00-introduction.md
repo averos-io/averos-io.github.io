@@ -21,6 +21,6 @@ _Averos...Only what matters the most_
 
 <br/>
 
-If you have little knowledge of development please head up to our tutorial dedicated to citizen developers available through the link below:
+If you have little knowledge of development please head up to our tutorial dedicated to citizen developers available via the link below:
 
-[Tutorial For Citizen Developers]({{ "/averos/getting-started-c-developer/" | relative_url }} "Tutorial For Citizen Developers"){: .btn .btn--green .btn--small}
+[Averos Tutorial For Citizen Developers]({{ "/averos/getting-started-c-developer/" | relative_url }} "Averos Tutorial For Citizen Developers"){: .btn .btn--green .btn--small}

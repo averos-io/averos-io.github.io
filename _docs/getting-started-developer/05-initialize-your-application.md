@@ -214,7 +214,7 @@ Don't worry, your application itself, will guide you in creating a compliant pas
   </a>
 </figure>
 
-This is what an **averos private space** looks like:
+This is what **averos private space** looks like:
 
 <figure align="center">
 	<a href="{{ site.baseurl }}/assets/tutorial/developer/6-basic-private-space.png">

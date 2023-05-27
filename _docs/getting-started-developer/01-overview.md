@@ -7,7 +7,7 @@ classes: wide
 ---
 <br/>
 
-Welcome to averos getting started tutorial! <br/>
+Welcome to averos getting started tutorial for developers ! <br/>
 
 This tutorial is exclusively dedicated to developers and will walk you through basics steps of creating a web application using averos framework. <br/>
 It is assumed that you have basic software development knowledge including **`UML design`**, **`typescript`** or **`JavaScript`**, **`json`**, **`angular`** and **`reactive programming`**. <br/>

@@ -285,10 +285,20 @@ gettingstarted-for-developer:
 
 gettingstarted-for-cd:
   - title: "Averos Tutorial: for Citizen Developers"
-    url: /averos/getting-started-citizen-developer
+    url: /averos/getting-started-c-developer
   - title: I. Introduction
     children:
       - title: "1. Overview"
         url: /averos/getting-started-c-developer/overview/
       - title: "2. Prerequisites"
         url: /averos/getting-started-c-developer/prerequisites/
+  - title: II. ToDoApplication Requirements & Specifications
+    children:
+      - title: "1. Application Requirements"
+        url: /averos/getting-started-c-developer/application-requirements/
+      - title: "2. Application Design & Specifications"
+        url: /averos/getting-started-c-developer/application-design-specifications/
+  - title: III. Create Your Application - averos designer"
+    children:
+      - title: "1. Initialize Your Application"
+        url: 
