@@ -6,15 +6,19 @@ toc: true
 ---
 
 
-#### **1. Nodejs**
-   
-`@wiforge/averos` is an npm package, so `nodejs` will be required in order to use the library.
-Please follow the installation instructions [here](https://nodejs.org/ "Nodejs") for further details about setting up **nodejs**.
+
+#### **1. Git**
+
+Please follow the installation instructions [here](https://git-scm.com/downloads "git") for further details about installing **git**.
+
+#### **2. Nodejs**
+
+Please follow the installation instructions [here](https://nodejs.org/ "Nodejs") for further details about installing **nodejs**.
 
 
-#### **2. Angular cli**
+#### **3. Angular CLI**
 
- `@angular/cli` is required in order to run `averos workflows`.
+ Please make sure you have already installed **`NodeJs`** before installing **`Angular CLI`**.
 
 Before you start, make sure you have already installed one of the `angular/cli` supported version using the following command:<br/><br/>
 `npm install -g @angular/cli@x.y.z` <br/><br/>
@@ -30,7 +34,7 @@ A list of angular supported version could be found [here]({{ "/averos/latest-ver
  >**🚩 Note:** Please refer to [**angular version compatibility**]({{"/averos/latest-version/#angular-compatibility" | relative_url}} "angular version compatibility") section, for further angular versions compatibility information support.
  {: .notice--success}
 
-#### **3. Authentication Provider**
+#### **4. Authentication Provider**
 
 Averos application uses [jwt](https://jwt.io "JSON Web Token") as the default authentication and authorization schema. It relies on authentication providers which could be considered as authentication APIs that handle and manage users along with the authentication and authorization processes. <br/>
 For the sake of this tutorial, we are going to use an authentication mock server that I made available in the following github [repository](https://github.com/averos-io/averos-backend-mock "Averos Backend Mock").<br/>
@@ -45,7 +49,7 @@ ng g @wiforge/averos:averos-config --id=AuthService --type=service --host=[your-
 {: .notice--info}
 
 
->🚩 More details on averos authentication provider specifications could be found in the [**Authentication Provider**]({{"/averos/documentation/references-and-conventions/reference-authentication-provider/" | relative_url}} "Authentication Provider") section, further below.
+>🚩 More details on averos authentication provider specifications could be found in the [**Authentication Provider**]({{"/averos/documentation/references-and-conventions/reference-authentication-provider/" | relative_url}} "Authentication Provider") section.
 {: .notice--warning}
 
 You might want to locally install and run **averos backend mock** authentication provider back end mock by proceeding with the following command line:

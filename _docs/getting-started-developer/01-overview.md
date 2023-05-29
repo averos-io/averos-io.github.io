@@ -5,9 +5,8 @@ excerpt: "Creating your first application"
 toc: false
 classes: wide
 ---
-<br/>
 
-Welcome to averos getting started tutorial for developers ! <br/>
+**Welcome to averos getting started tutorial for developers !** <br/>
 
 This tutorial is exclusively dedicated to developers and will walk you through basics steps of creating a web application using averos framework. <br/>
 It is assumed that you have basic software development knowledge including **`UML design`**, **`typescript`** or **`JavaScript`**, **`json`**, **`angular`** and **`reactive programming`**. <br/>
@@ -28,7 +27,7 @@ We love to hear from you!
 
 ## **I. Overview**
 
-Before starting the creation of our application let have a high level technical view regarding how `averos` is used in conjunction with `angular` in building web applications. <br/> 
+Before starting the creation of our application let us have a high level technical view regarding how `averos` is used in conjunction with `angular` in building web applications. <br/> 
 Creating an angular based web application with averos is only 3 steps away:
 
 - [x] **Create** an angular application

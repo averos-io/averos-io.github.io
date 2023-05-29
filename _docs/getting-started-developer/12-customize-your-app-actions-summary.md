@@ -103,7 +103,7 @@ Nevertheless, a lot of topics and advanced features was not mentioned in this tu
 These features could the subject of other dedicated tutorials in the future.<br/>
 Also, it is worth mentioning that since you are using `averos framework`, your `ToDoApplication` is by default fully responsive and progressive-ready.<br/>
 You might test your application on your mobile so that you take a look at what the responsive layout looks like on mobile devices.<br/><br/>
-If you are interested in lowcode, you might want to know more about how `averos framework` is used in lowcode development by checking out our step-by-step tutorial for citizen developers available through the link below.<br/><br/>
+If you are interested in lowcode, you might want to know more about how `averos framework` is used in lowcode development by checking out our step-by-step tutorial for citizen developers available via the link below.<br/><br/>
 [Averos Tutorial For Citizen Developers]({{ "/averos/getting-started-c-developer/" | relative_url }} "Averos Tutorial For Citizen Developers"){: .btn .btn--green .btn--small}
 {: .notice--success}
 

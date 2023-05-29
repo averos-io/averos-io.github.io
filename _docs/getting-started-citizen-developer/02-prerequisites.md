@@ -5,57 +5,94 @@ excerpt: "prerequisites"
 toc: true
 ---
 
+#### **1. Git**
 
-#### **1. Nodejs**
-   
-`@wiforge/averos` is an npm package, so `nodejs` will be required in order to use the library.
-Please follow the installation instructions [here](https://nodejs.org/ "Nodejs") for further details about setting up **nodejs**.
+Please follow the installation instructions [here](https://git-scm.com/downloads "git") for further details about installing **git**.
 
 
-#### **2. Angular cli**
+#### **2. Nodejs**
 
- `@angular/cli` is required in order to run `averos workflows`.
+Please follow the installation instructions [here](https://nodejs.org/ "Nodejs") for further details about installing **nodejs**.
 
-Before you start, make sure you have already installed one of the `angular/cli` supported version using the following command:<br/><br/>
-`npm install -g @angular/cli@x.y.z` <br/><br/>
-A list of angular supported version could be found [here]({{ "/averos/latest-version/" | relative_url }} "angular version compatibility").
+
+#### **3. Averos Backend Mock**
+
+>
+Please make sur you have installed **`Git`** and **`NodeJS`** before installing **`Averos Backend Mock`**.
+{: .notice--error}
+
+Though it is not always the case especially with **monolithic applications**, but usually **Information Technology Applications**, at the highest level, are composed of **frontend interfaces** that interacts with **backend services**.<br/>
+Of course these two layers could be subject to further decompositions; but the grouping category still remains the same: a component either belongs to a **frontend** category or is part of a **backend** category.<br/>
+
+Still, how can we identify both contexts ?
+
+Long story short; everything that is directly exposed to Humains belongs to the **frontend** category; and everything that is not exposed to Humains and which directly interacts with the lowest systems (ex. databases) fall under the **backend** category.<br/>
+
+Now, this definition is the easiest one a citizen developer could grasp and you may find advanced definitions somewhere else but let's not complicate our lifes any further just yet.<br/> 
+So, feel free to delve deep into the **application architecture** topic if you want to know more about it; but what you have just learnt is more than enough to successfully carry out this tutorial.<br/>
+
+Let's get back to our application; shall we ?<br/>
+
+In light of the preceeding, note that the current `averos framework` version will provide you **nocode** visual tools so that you create **frontend applications** and ONLY **frontend applications**. <br/>
+Future `averos` version may include additional tools that provides **backend services**.<br/>
+
+Below is the high level architecture that depicts your **averos application** as a **`frontend application`**, the **`backend service`** as well as their interactions.<br/>
+
+<div style="display: flex;flex-direction: row;justify-content: center;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/1-frontend-backend-interaction.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/1-frontend-backend-interaction.png" alt="Frontend and Backend Interactions">
+    </a>
+  </figure>
+</div>
+
+
+As a result, your application will need a service that handles **authentication**, **user management** and **business entities management**.<br/>
+These are not, and should not, be managed by **averos applications**. They should be managed by external services.<br/>
+
+That's why we created a **backend service** mock named **averos backend mock** that you will use with your application so that you could be able to experience with your **frontend** application that you are going to create.<br/>
+**Averos backend mock** will provide you basic **backend** functionnalities such as, authentication, user management and business entities management.<br/>
+
+>ℹ️ Please note that **averos backend mock** is only made for testing purposes and thus is not intended to be used in production.<br/>
+If you are willing to use your application in production, you have to use ready for production **backend services**.<br/>
+**Backend services** could be either developed from scratch or created on the cloud using for example [**google functions**](https://cloud.google.com/functions "Google Functions"), [**aws lambda**](https://aws.amazon.com/lambda/ "AWS Lambda") or [**azure functions**](https://azure.microsoft.com/en-us/products/functions "Azure Functions").<br/>
 {: .notice--info}
 
- Install `angular/cli` by executing the following command:
 
- ```bash
-  npm install -g @angular/cli
- ```
+Now, let's go ahead and install and run **averos backend mock** locally by following these steps:
 
- >**🚩 Note:** Please refer to [**angular version compatibility**]({{"/averos/latest-version/#angular-compatibility" | relative_url}} "angular version compatibility") section, for further angular versions compatibility information support.
- {: .notice--success}
+1.  Open a command line 
+  - **Windows users:** Click Start → All Programs → Accessories → click on `Command Prompt` 
+  - **Mac users:**  Click the `Launchpad icon` in the Dock → type `Terminal` in the search field → then click `Terminal`
+  - **Linux users:** Open a shell command line _(but you already know how to procede, don't you ?)_
 
-#### **3. Authentication Provider**
-
-Averos application uses [jwt](https://jwt.io "JSON Web Token") as the default authentication and authorization schema. It relies on authentication providers which could be considered as authentication APIs that handle and manage users along with the authentication and authorization processes. <br/>
-For the sake of this tutorial, we are going to use an authentication mock server that I made available in the following github [repository](https://github.com/averos-io/averos-backend-mock "Averos Backend Mock").<br/>
-This authentication api mock, available for forking at will, will be used as our authentication provider. 
-
->ℹ️ Note that, the current **averos** version does not support working without an authentication provider. Also, support for known authentication providers such as `auth0` is not available yet. <br/> Future versions will include these capabilities.<br/>
-Since your application needs an authentication provider, you might want to implement one according to averos specifications available [here]({{"/averos/documentation/references-and-conventions/reference-authentication-provider/" | relative_url}} "Authentication Provider") or use the authentication mock server available [here](https://github.com/averos-io/averos-backend-mock "Averos Backend Mock"). <br/>
-Besides, you might want to configure your default `averos service configuration` bindings for your application **`authentication service`** to match with your authentication provider server location attributes (server, port, uri...). This could be achieved by creating/updating the existing averos service configuration whose **`id`** should be equal to the value **`AuthService`**, using the averos workflow command `averos-config` as described below:
-```js
-ng g @wiforge/averos:averos-config --id=AuthService --type=service --host=[your-auth-server-address] --port=[our-auth-server-port] --protocol=[our-auth-server-protocol] --endpoint=[your-auth-api-uri]
-```
-{: .notice--info}
-
-
->🚩 More details on averos authentication provider specifications could be found in the [**Authentication Provider**]({{"/averos/documentation/references-and-conventions/reference-authentication-provider/" | relative_url}} "Authentication Provider") section, further below.
-{: .notice--warning}
-
-You might want to locally install and run **averos backend mock** authentication provider back end mock by proceeding with the following command line:
-
+2. copy/paste the following command into the `terminal` the hit `enter`:
 ```bash
   git clone https://github.com/averos-io/averos-backend-mock && cd averos-backend-mock && npm install && npm start
  ```
+
+ 3. Wait until the service starts. Leave the service up and do not close the window. (closing the terminal window will shutdown the service)
+
 <br/>
 
-Now let's first have a look at the application business requirements and see what are the capablities and features that we are going to implement. <br/>
-Once the application requirements are defined, we will move on to the design step where we will specify our application in a design close to `UML language`. <br/> 
+ If everything went ok you shall see an output similar to the following:
+
+<div style="display: flex;flex-direction: row;justify-content: center;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/2-averos-backend-mock-running.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/2-averos-backend-mock-running.png" alt="Averos Backend Mock Running">
+      <figcaption>Averos Backend Mock Running</figcaption>
+    </a>
+  </figure>
+</div>
+
+<br/>
+
+**🎉🎉🎉 Congratulations! Your service backend is up and running ! 🎉🎉🎉**<br/><br/>
+**Let's start creating our application!**
+{: .notice--info}
+
+Before starting to create our application we first have to look at the business requirements and see what are the capablities and features that we are going to implement in our application. <br/>
+Once the application requirements are defined, we will move on to the design step where we will specify our application in a design close to [UML Language](https://en.wikipedia.org/wiki/Unified_Modeling_Language "UML Language") using `Averos Designer`, then finally generate it. <br/> 
 
 These topics will be explained in the next chapter.

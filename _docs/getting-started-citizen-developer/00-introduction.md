@@ -21,6 +21,6 @@ _Averos...Only what matters the most_
 
 <br/>
 
-If you are a developer and are keen on knowing further technical details please head up to our tutorial dedicated to developer available via the link below:
+If you are a developer and are keen on knowing further technical details about **averos framework** please head up to our tutorial, dedicated to developers, available via the link below:
 
 [Averos Tutorial For Developers]({{ "/averos/getting-started-developer/" | relative_url }} "Averos Tutorial For Developers"){: .btn .btn--green .btn--small}

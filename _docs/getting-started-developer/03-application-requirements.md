@@ -5,7 +5,7 @@ excerpt: "Business Requirements"
 toc: false
 classes: wide
 ---
-<br/>
+
 
 ### **I- Definitions**
 

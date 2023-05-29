@@ -68,8 +68,26 @@ The averos integration wizard, triggered via `ng add @wiforge/averos`, will take
 {: .notice--success}
 
  After running `ng add @wiforge/averos` which results in integrating `averos framework` into your angular project, the latter will now be updated with all averos features.<br/>
- Next, you might want to test your averos application and see how does it look and what features are already available. The easiest way to do that is to run your application using (`ng serve ToDoApplication`). <br/><br/>
- **CONGRATULATIONS! YOU ARE READY TO GO!** 🚀
+
+ As a result your application architecture is now driven by averos framework architecture providing a set of features and capabilities described in the picture below.
+ 
+<div style="display: flex;flex-direction: row;justify-content: center;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/doc/averos-application-detailed-architecture.png">
+      <img src="{{ site.baseurl }}/assets/doc/averos-application-detailed-architecture.png" alt="Averos application detailed architecture">
+    </a>
+  </figure>
+</div>
+
+ Next, you might want to test your averos application and see how does it look and what features are already available. The easiest way to do that is to run your application using the following command: 
+ ```sh
+ `ng serve ToDoApplication`
+ ```
+ The other way of deploying your application is to use a **`web server`** such as `nginx`.<br/>
+ 
+ In this tutorial, we will use the second method and deploy our application to the lightweight `http-server`; but you are free to choose whatever method and web server you like to procede with. <br/>
+
+ 🚀 **CONGRATULATIONS! YOU ARE READY TO GO!** 🚀
  {: .notice--info}
 
 ### **III- Run your application** 
