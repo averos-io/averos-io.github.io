@@ -454,7 +454,7 @@ You will find that, switching the application language to `English`, will modify
 **🎉🎉🎉 Congratulations and thank you for finishing this tutorial! 🎉🎉🎉**<br/> <br/>
 Your **ToDoApplication** is now fully functional and ready to use!
 <br/>
-In this detailed tutorial you have first designed your **`ToDoApplication`** and defined your business requirement.<br/>
+In this step-by-step tutorial you have first designed your **`ToDoApplication`** and defined your business requirement.<br/>
 Then, you have used `averos framework` to generate your application entities and to implement your business requirement. <br/>
 Finally, you have added a new language to your application making it available for a wider audience. <br/><br/>
 In the next optional chapter, we are going to summarize what we have done so far.<br/>

@@ -94,15 +94,17 @@ ng g @wiforge/averos:add-translation-entry --key=todoarea.todotasks --value='Tâ
 npm install http-server && ng build ToDoApplication && http-server -p 8080 -c-1 dist/to-do-application
 ```
 
-**🎉🎉🎉 Congratulations! You created your `ToDoApplication` in no time! 🎉🎉🎉**
+**🎉🎉🎉 Congratulations! You created your `ToDoApplication` in NO TIME ! 🎉🎉🎉**
 {: .notice--info}
 
 
-ℹ️ This tutorial was intended to give developers a general view on the main capabilities offered by `averos framework`.<br/>
+ℹ️ This tutorial was intended to give developers an overview of the main capabilities offered by `averos framework`.<br/>
 Nevertheless, a lot of topics and advanced features was not mentioned in this tutorial.<br/>
 These features could the subject of other dedicated tutorials in the future.<br/>
 Also, it is worth mentioning that since you are using `averos framework`, your `ToDoApplication` is by default fully responsive and progressive-ready.<br/>
-You might test your application on your mobile so that you take a look at what the responsive layout looks like on mobile devices.<br/>
+You might test your application on your mobile so that you take a look at what the responsive layout looks like on mobile devices.<br/><br/>
+If you are interested in lowcode, you might want to know more about how `averos framework` is used in lowcode development by checking out our step-by-step tutorial for citizen developers available through the link below.<br/><br/>
+[Averos Tutorial For Citizen Developers]({{ "/averos/getting-started-c-developer/" | relative_url }} "Averos Tutorial For Citizen Developers"){: .btn .btn--green .btn--small}
 {: .notice--success}
 
 <br/>
