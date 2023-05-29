@@ -169,6 +169,7 @@ Notice that the following items have been already translated for you:
 - action button labels
 - default layout labels
 - default application messages (try to create a new Task for example and check the message)
+- entities' displayed values
 - default sign in and register Component
 
 
@@ -180,7 +181,7 @@ Let's improve our application vocabulary and teach it new French words!
 
 With `Averos Framework`, your application can be tought new words related to its echosystem.<br/>
 
-From **`components and use cases labels/titles`**, to `entities and members labels` throughout `action labels`; every thing can be tought to your application in a new language.<br/>
+From **`components and use cases labels/titles`**, to **`entities and members labels`** throughout **`action labels`**; every thing can be tought to your application in a new language.<br/>
 
 OK! Let's do this!<br/>
 
@@ -205,7 +206,7 @@ In order to teach your application new words in a specific language, **Averos** 
 {: .notice--info}
 
 
-Now you know how to teach your application new words in different language, go ahead and try to teach it how to say "Search a Task" in French by executing the following commands:<br/>
+Now you know how to teach your application new words in different language, go ahead and try to teach it how to say _"Search a Task"_ in `French` (or in whatever language you proceeded with) by executing the following commands:<br/>
 
 ℹ️ Note that the first command will update the `Search ToDoTask Use Case Title` in french language; whereas the second one will update the `menu link item label` related to the previous use case also in French.
 {: .notice--info}
@@ -266,7 +267,7 @@ ng g @wiforge/averos:add-translation-entry --key=todoarea.todotasks --value='Tâ
 
 <br/>
 
-Let's rebuild and redeploy the final version of our application, and see what it looks like:
+Let's rebuild and redeploy our application, and see what it looks like:
 
    >  **1.** shutdown the running server `http-server`<br/>
       **2.** build and deploy `ToDoApplication` by running the following command: <br/>  
@@ -276,7 +277,7 @@ Let's rebuild and redeploy the final version of our application, and see what it
    ```
 
 
-Here is what our final application version looks like:
+Here is what our application now looks like (Everything is almost translated into the new language you chose-`French` in my case):
 
 <div style="display: flex;flex-direction: row;justify-content: space-between;"> 
 <div style="padding: 10px;">
@@ -330,7 +331,122 @@ Here is what our final application version looks like:
 </div>
 
 You might notice that almost every label and title available in your application have been translated into `French`. <br/>
-You might also find that, switching the application language to `English`, will modify the whole application language context and display almost instantly. <br/>
+
+Now let's see another cool feature regarding entity values translation. Shall we ?
+
+
+### **IV. Take Translation Even Further - Combo Values Translation**
+
+Remember, we defined the member `status` of type `enumeration` in the entity `ToDoTask` as a set of pre-defined values, namely, `Active`, `Closed` and `New`. <br/>
+
+Do you recall how this member is displayed in a `create/edit` layout ? <br/>
+In a combo`ComboBox`! Yes!<br/>
+
+Here is a reminder on what the member `status` of type `enumeration` looks like in `create/edit` layouts ?
+
+<div style="display: flex;flex-direction: row;justify-content: space-between;"> 
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/developer/51-todotask-status-create-french.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/developer/51-todotask-status-create-french.png" alt="STATUS display in a CREATE layout - French">
+        <figcaption>STATUS display in a CREATE layout - French</figcaption>
+    </a>
+  </figure>
+</div>
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/developer/52-todotask-status-edit-french.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/developer/52-todotask-status-edit-french.png" alt="STATUS display in an EDIT layout - French">
+        <figcaption>STATUS display in an EDIT layout - French</figcaption>
+    </a>
+  </figure>
+</div>
+</div>
+
+>ℹ️ Note that the defined values of the `status` member are displayed **as is** in `create` and `edit` layouts.<br/>
+
+Since `status` has a meaning, it is worth displaying it in the users' language.<br/>
+Naturally, users tend to spend much time with applications they understand but do not return to applications they do not understand.<br/>
+
+Bringing a comprehensible application content to users, has the potential to considerably improve the user experience.<br/> 
+
+So, how about we change that member content into something `French` users would understand better ?<br/>
+
+Sound good ? Let's doi it then!<br/>
+
+we are aiming to display a meaningful content for each `status` value instead of displaying the member values as they are defined.<br/>
+Fortunately, `averos framework` comes handy for such a requirement.<br/>
+
+>ℹ️ Note that when you create a member of type `enumeration` with a default set of values using `averos command workflow`, **averos frameworks** creates translation keys for each value in the default set.<br/>
+Translation keys for `enumeration` values are created according to the following pattern:<br/>
+> ```properties
+> [entityname].lowercase().[memberName].lowercase().[enum_Value].uppercase()
+> ```
+> This means that if we want to create translations for the the three `status` values (`Active`, `Closed` and `New`) we will need to address the following translation keys:
+> - `todotask.status.ACTIVE`
+> - `todotask.status.CLOSED`
+> - `todotask.status.NEW`
+{: .notice--info}
+
+
+In light of the preceding, let's create meaningful `French` translation values for the following translation keys:
+- `todotask.status.ACTIVE`
+- `todotask.status.CLOSED`
+- `todotask.status.NEW`
+
+Go ahead and execute the following three commands:
+
+```bash
+ng g @wiforge/averos:add-translation-entry --key=todotask.status.ACTIVE --value='Tâche Activée' --lang=fr 
+```
+
+```bash
+ng g @wiforge/averos:add-translation-entry --key=todotask.status.CLOSED --value='Tâche Finalisée' --lang=fr 
+```
+
+```bash
+ng g @wiforge/averos:add-translation-entry --key=todotask.status.NEW --value='Tâche Initiée' --lang=fr 
+```
+
+Let's rebuild and redeploy our application, and see how the member `status` is displayed now:
+
+   >  **1.** shutdown the running server `http-server`<br/>
+      **2.** build and deploy `ToDoApplication` by running the following command: <br/>  
+   >
+   ```bash
+   ng build ToDoApplication && http-server -p 8081 -c-1 dist/to-do-application
+   ```
+
+Here is what the member `status` looks like in `create/edit` layouts ?
+
+<div style="display: flex;flex-direction: row;justify-content: space-between;"> 
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/developer/53-todotask-translated-status-create-french.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/developer/53-todotask-translated-status-create-french.png" alt="Translated STATUS display in a CREATE layout - French">
+        <figcaption>Translated STATUS display in a CREATE layout - French</figcaption>
+    </a>
+  </figure>
+</div>
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/developer/54-todotask-translated-status-edit-french.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/developer/54-todotask-translated-status-edit-french.png" alt="STATUS display in an EDIT layout - French">
+        <figcaption>Translated STATUS display in an EDIT layout - French</figcaption>
+    </a>
+  </figure>
+</div>
+</div>
+
+>🚩 So far, we have only translated fixed values related to `enumerations`. <br/>
+In some cases, `enumeration` values are translated and displayed dynamically, depending on specific criteria.<br/>
+This could be done using `averos domain controllers` which we won't go into in this tutorial.<br/>
+Please refer to the documentation for further details about **Averos Domain Controllers**.
+{: .notice--success}
+
+Nice work! Your new application is humain friendly, supports multilanguage and cares about user experience.<br/>
+You will find that, switching the application language to `English`, will modify the whole application language context and display almost instantly. <br/>
+
 `Averos Framework` supports up to 11 languages out of the box, so you might want to experience with the framework by adding more languages and exposing your application to even wider audience.<br/>
 
 

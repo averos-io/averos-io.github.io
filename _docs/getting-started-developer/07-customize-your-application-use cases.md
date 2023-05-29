@@ -534,8 +534,53 @@ Below is an example of `averos customizable actions` excerpt from [**Wibuild**](
 Also, notice how those actions does not exist for all records. <br/>
 This is because these actions are displayed dynamically for each record, depending on specific user criteria.<br/>
 
+
+#### **3. Averos Raw Pages**
+
+Now, imagine you would like to create a personal page with a link to the menu in the public context.<br/>
+A raw page that you will populate yourself (a public dashboard or a very special use case for example, ).<br/>  
+
+**ℹ️`Averos`** provides a `workflow command` that allows to create a `raw page` in either public or private contexts, with or without a menu link.<br/>
+A `raw page` is simply an empty angular component that is intended to help developers customize their own use cases, if they wish to.<br/>
+`Averos` users could decide in which `access context` the component will be available (`public`, `private` or `both`).<br/>
+`Averos` users could choose whether to create and show a default menu link in the chosen context or not.<br>
+{: .notice--info}
+
+In this tutorial, you are going to create a `raw page` named `MyPublicPage` in the `public context` and add a link to this page in the `public menu` (`top menu`). <br/>
+
+Let's go ahead and execute the following `averos workflow command` to create `MyPublicPage`:
+
+```bash
+ng g @wiforge/averos:create-page --name=MyPublicPage --target-menu=top --space=public --update-route-menu --defaults 
+```
+
+Now go ahead and re-build/re-deploy your application by following these steps:<br/>
+   >  **1.** shutdown the running server `http-server`<br/>
+      **2.** build and deploy `ToDoApplication` by running the following command: <br/>  
+   >
+   ```bash
+   ng build ToDoApplication && http-server -p 8081 -c-1 dist/to-do-application
+   ```
+
+Once **ToDoApplication** is up and running, go ahead navigate to [http://localhost:8081](http://localhost:8081) <br/>
+
+Here is what your application looks like:<br/>
+
+<figure align="center">
+	<a href="{{ site.baseurl }}/assets/tutorial/developer/55-mypublicpage.png">
+    <img src="{{ site.baseurl }}/assets/tutorial/developer/55-mypublicpage.png" alt="ToDoApplication - After Generating MyPublicPage">
+      <figcaption>ToDoApplication - After Generating MyPublicPage</figcaption>
+  </a>
+</figure>
+
+The workflow command has created an empty component, a link to this component page, in the top menu, named `My Public Page` and a grouping menu named `Default Pages`.<br/>
+Note that all raw pages links are, by default, created under the grouping menu named `Default Pages`.<br/>
+`Averos Framework` provides a way to change the menu layout by configuration, however this will not be covered in this tutorial and will be the subject of other advanced tutorials.<br/>
+
+Now, go ahead and start customizing your new page at your will !
+
 Next, we are going to explain how composite members which define entities' relationships, are handled in **averos framework**. <br/>
-Though you might skip the next part to the final chapter where your application will learn and speak new languages, we still highly recommand you take few moment and read this section so that you could grasp relevant core `averos framewor`k patterns.<br/>
+Though you might skip the next part to the final chapter where your application will learn and speak new languages, we still highly recommand you take few moment and read this section so that you could grasp relevant core `averos framework` patterns.<br/>
 
 
 ### **III. About displaying composite members (relationships) in View, Edit and Create view layouts**
