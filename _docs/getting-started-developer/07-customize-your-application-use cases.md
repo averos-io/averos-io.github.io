@@ -437,7 +437,7 @@ As mentioned earlier, once you create an entity via **`Create entity UC`**, the 
   </a>
 </figure>
 
-Now go ahead and assign each Task to its related area as follow:
+Now go ahead and assign each Task to its related area as follows:
   - Task1 &rarr; Area1
   - Task2 &rarr; Area2
   - Task3 &rarr; Home

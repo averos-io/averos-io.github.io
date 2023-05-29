@@ -33,7 +33,7 @@ So, feel free to delve deep into the **application architecture** topic if you w
 
 Let's get back to our application; shall we ?<br/>
 
-In light of the preceeding, note that the current `averos framework` version will provide you **nocode** visual tools so that you create **frontend applications** and ONLY **frontend applications**. <br/>
+In light of the preceding, note that the current `averos framework` version will provide you **nocode** visual tools so that you create **frontend applications** and ONLY **frontend applications**. <br/>
 Future `averos` version may include additional tools that provides **backend services**.<br/>
 
 Below is the high level architecture that depicts your **averos application** as a **`frontend application`**, the **`backend service`** as well as their interactions.<br/>
@@ -95,4 +95,4 @@ Now, let's go ahead and install and run **averos backend mock** locally by follo
 Before starting to create our application we first have to look at the business requirements and see what are the capablities and features that we are going to implement in our application. <br/>
 Once the application requirements are defined, we will move on to the design step where we will specify our application in a design close to [UML Language](https://en.wikipedia.org/wiki/Unified_Modeling_Language "UML Language") using `Averos Designer`, then finally generate it. <br/> 
 
-These topics will be explained in the next chapter.
+These topics will be explained in the next sections.

@@ -170,7 +170,7 @@ Once again, averos fortunately introduced the `add-composite-member` workflow to
 Refer to the [**detailed averos workflow commands**]({{ "/averos/documentation/reference-detailed-averos-worflow-commands/" | relative_url}} "Detailed averos workflow commands")  section for further details. <br/>
 {: .notice--warning}
 
-Our **one-way navigeable relationship** is described as follow: <br/>
+Our **one-way navigeable relationship** is described as follows: <br/>
 
 - `ToDoArea` has knowledge of its `ToDoTasks`. This is a `OneToMany` relationship.
     `ToDoTask` collection is also updatable from its parent entity, `ToDoArea`. This means that the user can add or remove one or several `ToDoTask` from the `ToDoTask` collection related to a given `ToDoArea` instance. Handling such requirement will result in defining a child's update strategy using the flag `--member-update-strategy`.<br/>

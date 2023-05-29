@@ -298,7 +298,17 @@ gettingstarted-for-cd:
         url: /averos/getting-started-c-developer/application-requirements/
       - title: "2. Application Design & Specifications"
         url: /averos/getting-started-c-developer/application-design-specifications/
-  - title: III. Create Your Application - averos designer"
+  - title: III. Create Your Application - Wibuild / Averos Designer
     children:
-      - title: "1. Initialize Your Application"
-        url: 
+      - title: "1. Before you start"
+        url: /averos/getting-started-c-developer/before-you-start/
+      - title: "2. Create a New Project"
+        url: /averos/getting-started-c-developer/create-new-project/
+      - title: "3. Create Business Entities"
+        url: /averos/getting-started-c-developer/create-business-entities/
+      - title: "4. Create Use Cases"
+        url: /averos/getting-started-c-developer/create-use-cases/
+      - title: "5. Create a Public Raw Page"
+        url: /averos/getting-started-c-developer/create-raw-pages/
+      - title: "6. Create Service Configurations"
+        url: /averos/getting-started-c-developer/create-service-configurations/

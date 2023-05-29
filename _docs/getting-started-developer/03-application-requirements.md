@@ -12,16 +12,16 @@ classes: wide
 In this tutorial we will create a basic web application named **`ToDoApplication`** that stores, manages and tracks `To do Tasks` per `To do Area` or `domain`. <br/>
 
 A `To Do Task` defines a simple task that should be achieved. An example of `To Do Task` could be `Change light bulbs`. <br/>
-A `To Do Task` belongs to one or more `To Do Area`. <br/>
-A `To Do Area` is a specific domain or area of interest to which a `To Do Task` belong. For example, our previous task `Change light bulbs` could belong to `Home` domain, to `Chores` domain or both. <br/>
+A `To Do Task` can belong to one or more `To Do Area`. <br/>
+A `To Do Area` is a specific domain or area of interest to which a `To Do Task` belongs. For example, our previous task `Change light bulbs` could belong to `Home` domain, to `Chores` domain or to both. <br/>
 Furthermore, `ToDoApplication` users should be able to store, manage and track `To Do Areas` and `To Do Tasks`. <br/>
 On the other hand, `ToDoApplication` should support multiple users alongs with privacy. Thus, the application should not allow any unauthorized access. <br/>
 Each user has it's own private logged space where he can access only his `To Do Tasks` and `To Do Areas`. <br/>
 
 ### **II- Business Requirements**
 
-A `ToDoApplication` user should be able to perform a couple of actions so that he can store, manage and track `ToDo Tasks and Areas`. <br/>
-Therefore, the target application must allow a user to:
+A `ToDoApplication` user should be able to perform a couple of actions so that he can **store**, **manage** and **track** `ToDo Tasks and Areas`. <br/>
+Therefore, the target application must allow the user to:
 
 >
   - [x] **Create** `ToDo Area`
