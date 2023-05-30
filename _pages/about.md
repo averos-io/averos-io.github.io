@@ -108,7 +108,7 @@ If you have any suggestions, enhancements ideas or issues related to the averos 
 - scalable architecture
 - microservice architecture compliant
 - leverage command lines for basic application components and workflows development : add new entities, create entities relations, create use cases, add new language support, add translation records, create and assign services...
-- leverage `averos designer` capabilities for no-code application development by installing [Wibuild](https://appbuilder.wiforge.com/) application either on mobile or on desktop devices
+- leverage `Averos Designer` capabilities for no-code application development by installing [WiBuild](https://appbuilder.wiforge.com/) application either on mobile or on desktop devices
 - and much more...
 
 # License

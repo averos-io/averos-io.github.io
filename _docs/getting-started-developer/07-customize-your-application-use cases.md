@@ -521,12 +521,12 @@ Moreover, averos service functions should be created and bound to these customiz
 As mentioned earlier, `averos framework` provides a way to create **customizable row actions** in the **Search Result Layout**. However we are not going to delve any further into this advanced features as we want to keep this tutoril as much as simple.<br/>
 Advanced `averos capabilities` will be subject to another tutorial in the future.<br/>
 
-Below is an example of `averos customizable actions` excerpt from [**Wibuild**](https://appbuilder.wiforge.com/ "Wibuild"), our **nocode** application, built around **Averos Framework**:
+Below is an example of `averos customizable actions` excerpt from [**WiBuild**](https://appbuilder.wiforge.com/ "WiBuild"), our **nocode** application, built around **Averos Framework**:
 
 <figure align="center">
 	<a href="{{ site.baseurl }}/assets/tutorial/developer/33-customizable-dynamic-row-actions.png">
-    <img src="{{ site.baseurl }}/assets/tutorial/developer/33-customizable-dynamic-row-actions.png" alt="Customizable Dynamic Table Row Actions - Wibuild">
-      <figcaption>Customizable Dynamic Table Row Actions - Wibuild</figcaption>
+    <img src="{{ site.baseurl }}/assets/tutorial/developer/33-customizable-dynamic-row-actions.png" alt="Customizable Dynamic Table Row Actions - WiBuild">
+      <figcaption>Customizable Dynamic Table Row Actions - WiBuild</figcaption>
   </a>
 </figure>
 

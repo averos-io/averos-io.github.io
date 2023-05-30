@@ -1,7 +1,7 @@
 
 # main links
 main:
-  - title: "Wibuild ©"
+  - title: "WiBuild ©"
     url: https://appbuilder.wiforge.com/
   - title: "Averos Designer ©"
     url: /averos/averosdesigner/
@@ -298,7 +298,7 @@ gettingstarted-for-cd:
         url: /averos/getting-started-c-developer/application-requirements/
       - title: "2. Application Design & Specifications"
         url: /averos/getting-started-c-developer/application-design-specifications/
-  - title: III. Create Your Application - Wibuild / Averos Designer
+  - title: III. Create Your Application - WiBuild / Averos Designer
     children:
       - title: "1. Before you start"
         url: /averos/getting-started-c-developer/before-you-start/

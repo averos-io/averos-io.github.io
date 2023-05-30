@@ -1,5 +1,5 @@
 ---
-# title: "Wibuild©"
+# title: "WiBuild©"
 layout: splash
 permalink: /averos/averosdesigner/
 toc: false
