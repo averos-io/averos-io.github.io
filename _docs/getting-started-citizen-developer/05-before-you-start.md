@@ -95,6 +95,9 @@ Below are **Averos Designer** features:
 - copy / paste components using (Ctrt+c / Ctrl+v)
 - copy / paste components using context menu
 - remove components
+- scale in / scale out
+- dark/light modes
+- touch gestures support
 
 Now, you have learnt about **WiBuild** application and how it is used to create web applications, let's switch gears and start creating our **`ToDoApplication`**.<br/>
 
