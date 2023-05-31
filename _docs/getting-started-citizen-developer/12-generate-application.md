@@ -17,7 +17,7 @@ Therefore, an `angular` project should be created in order to initialize your pr
    npm i -g @angular/cli
    ```
 
- >**🚩 Note:**please refer to [**angular version compatibility**]({{"/averos/latest-version/#angular-compatibility" | relative_url}} "angular version compatibility") section, for further angular versions compatibility information support.
+ >🙋‍♂️ please refer to [**angular version compatibility**]({{"/averos/latest-version/#angular-compatibility" | relative_url}} "angular version compatibility") section, for further angular versions compatibility information support.
  {: .notice--danger}
  
 Once the cli is installed, we can use the angular `ng new` schematics to initiate a new angular application. <br/>
@@ -28,7 +28,7 @@ ng new ToDoApplication --style=scss --routing --strict
 
 ```
 
->**🚩 Note:** Since `averos` does not support other styling types, you should specify `scss` styling type when creating a new angular application. Other styling types will not be supported in future releases.
+>**🔖 Note:** Since `averos` does not support other styling types, you should specify `scss` styling type when creating a new angular application. Other styling types will not be supported in future releases.
 {: .notice--danger}
 
 ### **II. Initialize an averos application**
@@ -49,7 +49,7 @@ While inside `ToDoApplication` project directory, go ahead and execute the follo
     ng add @wiforge/averos 
    ```
 
->**🚩 Note:** Averos could also be installed via `npm install` but we recommand to use the `ng add` schematics in order to trigger the integration wizard that will integrate all averos key features for you.
+>**🔖 Note:** Averos could also be installed via `npm install` but we recommand to use the `ng add` schematics in order to trigger the integration wizard that will integrate all averos key features for you.
 {: .notice--warning}
 
 The averos integration wizard, triggered via `ng add @wiforge/averos`, will take you through the following customizations details:
@@ -60,7 +60,7 @@ The averos integration wizard, triggered via `ng add @wiforge/averos`, will take
  - [x] Specify your default application language (default is english)
  - [x] Specify an additional application language (if you wish to setup an additional language support)
 
- >**🚩 Note:** You might want to run the `averos framework` integration process workflow automatically without beeing prompted to several customization steps by simply executing the same command `ng add @wiforge/averos` and mentioning its customization parameters.
+ >**🔖 Note:** You might want to run the `averos framework` integration process workflow automatically without beeing prompted to several customization steps by simply executing the same command `ng add @wiforge/averos` and mentioning its customization parameters.
  If you wish to bypass command prompts then go ahead and use the following command instead of the previous one:
  ```bash
  ng add @wiforge/averos --application-name=cd ToDoApplication --enable-authentication --authentication-provider=custom --default-language-code=en --defaults --skip-confirmation
@@ -96,7 +96,7 @@ Congratulations! You have so far created an averos application named `ToDoApplic
 Your new web application is already **responsive**, **progressive** with pre-defined handy layout, `jwt` authentication support and multi-language capability. <br/>
 Go ahead and run your application so that you can have a glimpse of the overall layout and basic features.
 
-> **ProTip**: Running your application could either be by executing the following command `ng serve ToDoApplication` or by deploying it to an external application server such as `nginx` or `http-server` for testing purposes.
+>💡 **ProTip**: Running your application could either be by executing the following command `ng serve ToDoApplication` or by deploying it to an external application server such as `nginx` or `http-server` for testing purposes.
 {: .notice--info}
 
 #### **1. Deploy your application to http-server**
@@ -246,7 +246,7 @@ Go ahead and change your `avatar` for example.
 Also, you can `edit` your profile and check your `settings`.
 {: .notice--success}
 
->🚩 Averos based applications have by default two domain spaces :
+>🔖 Averos based applications have by default two domain spaces :
 >- **public space**  : available for public anonymous users
 >- **private space** : only available for authenticated users
 {: .notice--info}

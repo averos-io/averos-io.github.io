@@ -31,7 +31,7 @@ A list of angular supported version could be found [here]({{ "/averos/latest-ver
   npm install -g @angular/cli
  ```
 
- >**🚩 Note:** Please refer to [**angular version compatibility**]({{"/averos/latest-version/#angular-compatibility" | relative_url}} "angular version compatibility") section, for further angular versions compatibility information support.
+ >🙋‍♂️ Please refer to [**angular version compatibility**]({{"/averos/latest-version/#angular-compatibility" | relative_url}} "angular version compatibility") section, for further angular versions compatibility information support.
  {: .notice--success}
 
 #### **4. Authentication Provider**

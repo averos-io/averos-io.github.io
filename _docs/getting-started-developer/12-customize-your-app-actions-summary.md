@@ -22,7 +22,7 @@ Here is a summary of this tutorial steps to create a fully functional web applic
     npm i -g @angular/cli && ng new ToDoApplication --style=scss --routing --strict && cd ToDoApplication
    ```
 
- >**🚩 Note:**please refer to [**angular version compatibility**]({{"/averos/latest-version/#angular-compatibility" | relative_url}} "angular version compatibility") section, for further angular versions compatibility information support.
+ >🙋‍♂️ Please refer to [**angular version compatibility**]({{"/averos/latest-version/#angular-compatibility" | relative_url}} "angular version compatibility") section, for further angular versions compatibility information support.
  {: .notice--danger}
 
 ### 3. **add averos support**

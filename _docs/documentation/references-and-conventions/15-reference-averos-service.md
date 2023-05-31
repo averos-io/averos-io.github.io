@@ -26,7 +26,7 @@ Data structure and data flow should be json compliant.
 
 Given an entity of type T, api services entity should follow the naming conventions below. The user should implement the related apis logic depending on his own business requirement.
 
->🚩 Note that averos automatically generates the target entity service, when requested via one of its code generation workflow.
+>🔖 Note that averos automatically generates the target entity service, when requested via one of its code generation workflow.
 Those services logic could be updated with your business logic accordingly. 
 Keep in mind that function names should remains as is as they follow averos naming conventions listed below.
 {: .notice--warning}
@@ -49,5 +49,5 @@ Below are the averos compliant APIs descriptions with respect to averos framewor
 | `addRelationCollection(parentId: string, relationName: string, cids: {id: string}[]): Observable<T>` | Not fixed. <br/> Depends on the custom logic | Not fixed. <br/> Depends on the custom logic | COMPOSITE | Adds one or several composite averos entity child(s) that are/is part of a one to many relationship. <br/> Returns the parent entity (relashionship owner) |
 
 
-📢 Please refer to the [averos service]({{"/averos/documentation/averos-service-description/" | relative_url}}) section for further details about how averos services specifications.
+🙋‍♂️ Please refer to the [averos service]({{"/averos/documentation/averos-service-description/" | relative_url}}) section for further details about how averos services specifications.
 {: .notice--success}

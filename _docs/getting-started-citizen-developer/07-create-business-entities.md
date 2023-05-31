@@ -6,295 +6,356 @@ toc: true
 ---
 <br/>
 
-Since `Averos Framework` is powered by `angular`, any `averos` project is actually an `angular` project. <br/>
-Therefore, an `angular` project should be created in order to initialize your project. 
+Remember earlier in the design phase we have identified an entity named **`ToDoTask`** whose attributes are as follows:
+  >*  `id`  : defines the entity's identifier. Is of type `number`
+  >*  `name`: defines the entity's name. Is of type text
+  >*  `description`: defines the entity's description. Is of type `text`
+  >*  `createdBy`  : defines who created the entity. Is of type `User`
+  >*  `updatedBy`  : defines who updated the entity. Is of type `User`
+  >*  `createdAt`  : defines when the entity was created. Is of type `date`
+  >*  `updatedAt`  : defines when the entity was updated. Is of type `date`
+  >*  `status`     : defines the **status** of the task. It could be one of these fixed values: **`Active`**, **`Closed`** or **`New`** (A task can be **new**, **active** or **closed**. We could have thought about other statuses; but we wanted to keep it as much simple as possible for this tutorial). Since this attribute has a set of predefined values it is of type `enumeration`
+
+We have also identifier a related managing service for the entity **`ToDoTask`** named **`ToDoTaskService`**.<br/>
+
+Likewise, we have identified another entity named **`ToDoArea`** that has the following attributes:<br/>
+  >*  `id`  : defines the entity's identifier. Is of type `number`
+  >*  `name`: defines the entity's name. Is of type `text`
+  >*  `description`: defines the entity's description. Is of type `text`
+  >*  `createdBy`  : defines who created the entity. Is of type `User`
+  >*  `updatedBy`  : defines who updated the entity. Is of type `User`
+  >*  `createdAt`  : defines when the entity was created. Is of type `date`
+  >*  `updatedAt`  : defines when the entity was updated. Is of type `date`
+  >*  a relationship with **`ToDoTask`** entity: depicted by the fact that **zero or one** `(0..1)` **`ToDoArea`** contains **zero or many** `(0..*)` **`ToDoTask`**
+
+  Finally, as done with the entity **`ToDoTask`**, the entity **`ToDoArea`** is managed by a service that we named **`ToDoAreaService`**.<br/>
+  
+Well, in this section we are going to create these entities along with their managing services using **`Averos Designer`**.<br/>
+
+ >**🔖 Note:** It is worth mentioning that **`Averos Framework`** generates a set of default attributes under the hood for any generated entity. These attributes are:
+  >*  `id` 
+  >*  `name`
+  >*  `description`
+  >*  `createdBy`  
+  >*  `updatedBy` 
+  >*  `createdAt`  
+  >*  `updatedAt` 
+>
+>As a result, you will not be invited to create these attributes when you will start creating these entities using **`Averos Designer`**, since they will be created for you by the framework.
+ {: .notice--info}
+
+>🔖 Also, as we have seen earlier, **`ToDoArea`** is related to **`ToDoTask`**.<br/>
+And since this relationship is part of **`ToDoArea`** attributes (**`ToDoArea`** is composed of `zero or many` **`ToDoTask`**), we will - for the sake of simplicity - first create **`ToDoTask`** then create **`ToDoArea`**.
+ {: .notice--success}
+
+ 🙋‍♂️**Please feel free to get back to your design and business requirements from time to time so that you understand what you are doing and why you are doing it this way.**
+ {: .notice--warning}
+
+<br/>
+🔥 Now, let's create our entities along with their services 🔥
+
+## **I. Create `ToDoTask` Entity**   
+
+### **Step 1 - Drag&Drop an <<AverosEntity>>** 
+-------
+
+From **Averos Components** (left side panel), click on `Entities & Services`, drag an `Entity` component and drop it into the canvas.
+
+Here is what you should have:
+<div style="display: flex;flex-direction: row;justify-content: center;"> 
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/10-new-entity.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/10-new-entity.png" alt="Create a New Entity">
+        <figcaption>Create a New Entity</figcaption>
+    </a>
+  </figure>
+</div>
+</div>
+
+>🙋‍♂️ The displayed entity's **name** (`MyEntity193`) is a random name that has been generated for you.<br/>
+You will change this property among other in the next step.
 {: .notice--success}
 
-### **I- Create a new angular application**
+### **Step 2 - Update the entity's properties** 
+-------
 
->As mentioned in the prerequisites section, creating a new angular application will require to install `@angular/cli`, so let us go ahead and install it, if not already done, using the following command :
-   ```bash
-   npm i -g @angular/cli
-   ```
+Select the previous entity from the canvas to open the **Properties Panel** as described below:<br/>
 
- >**🚩 Note:**please refer to [**angular version compatibility**]({{"/averos/latest-version/#angular-compatibility" | relative_url}} "angular version compatibility") section, for further angular versions compatibility information support.
- {: .notice--danger}
- 
-Once the cli is installed, we can use the angular `ng new` schematics to initiate a new angular application. <br/>
-Go ahead and execute the following command in order to initialize a new angular project named `ToDoApplication`
+<div style="display: flex;flex-direction: row;justify-content: center;"> 
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/11-new-entity-properties.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/11-new-entity-properties.png" alt="Entity Properties">
+        <figcaption>Entity Properties</figcaption>
+    </a>
+  </figure>
+</div>
+</div>
 
-```bash 
-ng new ToDoApplication --style=scss --routing --strict 
+Go to **Entity Properties** and update the entity name with the value **`ToDoTask`** then click **Apply**.<br/>
 
-```
-
->**🚩 Note:** Since `averos` does not support other styling types, you should specify `scss` styling type when creating a new angular application. Other styling types will not be supported in future releases.
-{: .notice--danger}
-
-### **II. Initialize an averos application**
-
-After creating a new angular project, you will want to add `averos` features and capabilities to your project.<br/>
-This will trigger an averos process that will guide you through a set of customizations including application name, default language, additional language and authentication provider. <br/>
-The process execution will result in an initialization of your angular project with `averos framework`. <br/>
-
-Change your current directory to `ToDoApplication` project directory by executing the following command:
-
-```bash
-cd ToDoApplication
-```
-
-While inside `ToDoApplication` project directory, go ahead and execute the following command in order to trigger `averos framework` integration process workflow and convert your angular project into an `averos project`.
-
-   ```bash
-    ng add @wiforge/averos 
-   ```
-
->**🚩 Note:** Averos could also be installed via `npm install` but we recommand to use the `ng add` schematics in order to trigger the integration wizard that will integrate all averos key features for you.
+> Do not forget to apply your changes, by clicking on the button `Apply`, before leaving the **Properties Panel** so that changes take place.
 {: .notice--warning}
 
-The averos integration wizard, triggered via `ng add @wiforge/averos`, will take you through the following customizations details:
 
- - [x] Specify your application name 
- - [x] Choose whether `authentication` is enabled or not (enabled by default)
- - [x] the authentication provider (In case `authentication` is enabled). If you are willing to implement your own authentication provider then please refer to [**authentication provider reference**]({{"/averos/documentation/references-and-conventions/reference-authentication-provider/" | relative_url}} "Authentication Provider SetUp") section.
- - [x] Specify your default application language (default is english)
- - [x] Specify an additional application language (if you wish to setup an additional language support)
-
- >**🚩 Note:** You might want to run the `averos framework` integration process workflow automatically without beeing prompted to several customization steps by simply executing the same command `ng add @wiforge/averos` and mentioning its customization parameters.
- If you wish to bypass command prompts then go ahead and use the following command instead of the previous one:
- ```bash
- ng add @wiforge/averos --application-name=cd ToDoApplication --enable-authentication --authentication-provider=custom --default-language-code=en --defaults --skip-confirmation
- ```
-{: .notice--success}
-
- After running `ng add @wiforge/averos` which results in integrating `averos framework` into your angular project, the latter will now be updated with all averos features.<br/>
-
- As a result your application architecture is now driven by averos framework architecture providing a set of features and capabilities described in the picture below.
- 
-<div style="display: flex;flex-direction: row;justify-content: center;">
+<div style="display: flex;flex-direction: row;justify-content: center;"> 
+<div style="padding: 10px;">
   <figure align="center">
-    <a href="{{ site.baseurl }}/assets/doc/averos-application-detailed-architecture.png">
-      <img src="{{ site.baseurl }}/assets/doc/averos-application-detailed-architecture.png" alt="Averos application detailed architecture">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/11-new-entity-properties.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/11-new-entity-properties.png" alt="Entity Properties">
+        <figcaption>Entity Properties</figcaption>
     </a>
   </figure>
 </div>
 
- Next, you might want to test your averos application and see how does it look and what features are already available. The easiest way to do that is to run your application using the following command: 
- ```sh
- `ng serve ToDoApplication`
- ```
- The other way of deploying your application is to use a **`web server`** such as `nginx`.<br/>
- 
- In this tutorial, we will use the second method and deploy our application to the lightweight `http-server`; but you are free to choose whatever method and web server you like to procede with. <br/>
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/12-todotask-entity-properties-update.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/12-todotask-entity-properties-update.png" alt="Update entity name - ToDoTask">
+        <figcaption>Update entity name - ToDoTask</figcaption>
+    </a>
+  </figure>
+</div>
 
- 🚀 **CONGRATULATIONS! YOU ARE READY TO GO!** 🚀
- {: .notice--info}
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/13-todotask-entity-properties-apply-update.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/13-todotask-entity-properties-apply-update.png" alt="Apply Updates to entity name - ToDoTask">
+        <figcaption>Apply Updates to entity name - ToDoTask</figcaption>
+    </a>
+  </figure>
+</div>
+</div>
 
-### **III- Run your application** 
+### **Step 3 - Create the entity member `status`** 
+-------
 
-Congratulations! You have so far created an averos application named `ToDoApplication`.<br/>
-Your new web application is already **responsive**, **progressive** with pre-defined handy layout, `jwt` authentication support and multi-language capability. <br/>
-Go ahead and run your application so that you can have a glimpse of the overall layout and basic features.
+As mentioned earlier, for any generated entity, **averos** creates a default set of attributes.<br/>
+As a result we will exclude those attributes from our design.<br/>
+This leaves us with one attribute to create named `status` of type `enumeration`.<br/>
 
-> **ProTip**: Running your application could either be by executing the following command `ng serve ToDoApplication` or by deploying it to an external application server such as `nginx` or `http-server` for testing purposes.
+>🙋‍♂️ you might want to have a look at your business description so that you recall how your entities looks like.
 {: .notice--info}
 
-#### **1. Deploy your application to http-server**
+Go ahead and select your entity **ToDoTask**.<br/>
+On the right panel, click on the tab `entity members` in the **`Entities Properties`** panel to display the list of entity members.<br/>
+Click on the `table actions` button located on the table header actions then choose `add`.<br/>
 
-The easiest way to deploy your application to an external server is to use the lightweight **`http-server`**. Of course there are plenty of ways and servers out there to use but we are going to keep it simple for the sake of this tutorial. <br/>
+Create a new **`simple entity member`** with the following values:
+>* **Simple Member Name** : `status`
+>* **Member Type** : `ENUMERATION`
+>* **Member Domain** : `Active,Closed,New`
 
-Please go ahead and execute the following command in order to  deploy your application to the lightweight [**http-server**](https://github.com/http-party/http-server "http-server").
+<div style="display: flex;flex-direction: row;justify-content: center;"> 
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/14-todotask-entity-properties.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/14-todotask-entity-properties.png" alt="Entity Properties">
+        <figcaption>Entity Properties</figcaption>
+    </a>
+  </figure>
+</div>
 
- ```bash
- npm install http-server && ng build ToDoApplication && http-server -p 8080 -c-1 dist/to-do-application
- ```
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/15-todotask-entity-members-action-add.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/15-todotask-entity-members-action-add.png" alt="Entity Members Tab">
+        <figcaption>Entity Members Tab</figcaption>
+    </a>
+  </figure>
+</div>
 
-> **Note**: The previous command does a couple of things besides deploying your applications: 
-- installs `http-server`
-- builds `ToDoApplication` (by default build output is placed under `dist/to-do-application`)
-- deploy `ToDoApplication` to `http-server` 
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/16-todotask-add-entity-members.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/16-todotask-add-entity-members.png" alt="Add New Member">
+        <figcaption>Add New Member</figcaption>
+    </a>
+  </figure>
+</div>
+</div>
+
+Click on `save` button to save your new member, then close the **`Simple Member Window`**.
+
+<div style="display: flex;flex-direction: row;justify-content: center;"> 
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/17-todotask-save-entity-member.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/17-todotask-save-entity-member.png" alt="Save Entity Member">
+        <figcaption>Save Entity Member</figcaption>
+    </a>
+  </figure>
+</div>
+</div>
+
+
+Next, we are going to create **`ToDoTask`** managing service named **`ToDoTaskService`**.<br/>
+
+#### **Step 4 - Create the entity's managing service named **`ToDoTaskService`**
+
+Go ahead and drag & drop a `service` component from the right side panel to the canvas. <br/>
+
+<div style="display: flex;flex-direction: row;justify-content: center;"> 
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/18-create-new-service.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/18-create-new-service.png" alt="Create New Service">
+        <figcaption>Create New Service</figcaption>
+    </a>
+  </figure>
+</div>
+</div>
+
+Select your service and change its name to `ToDoTaskService` from the **Service Properties** panel located in the right side.<br/>
+Do not forget to **Apply** your changes before leaving the configuration panel.
+
+<div style="display: flex;flex-direction: row;justify-content: center;"> 
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/19-update-service-name.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/19-update-service-name.png" alt="Update Service Name">
+        <figcaption>Update Service Name</figcaption>
+    </a>
+  </figure>
+</div>
+</div>
+
+Now, since your entity **`ToDoTask`** is managed by the service **`ToDoTaskService`** you will need to link them to each other.<br/>
+
+So go ahead and select the entity **`ToDoTask`** then open the listbox `Service Name` located in the `Entity` tab properties.<br/>
+Choose **`ToDoTaskService`** then click on `apply`.<br/>
+
+<div style="display: flex;flex-direction: row;justify-content: center;"> 
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/20-link-service-to-entity.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/20-link-service-to-entity.png" alt="Link Service To Entity">
+        <figcaption>Link Service To Entity</figcaption>
+    </a>
+  </figure>
+</div>
+</div>
+
+
+**Averos** will automatically link the service to its entity.<br/>
+
+<div style="display: flex;flex-direction: row;justify-content: center;"> 
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/21-service-linked-to-entity.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/21-service-linked-to-entity.png" alt="Service Linked To Entity">
+        <figcaption>Service Linked To Entity</figcaption>
+    </a>
+  </figure>
+</div>
+</div>
+
+## **II. Create `ToDoArea` Entity**   
+
+### **Step 1: Create `ToDoArea` and `ToDoAreaService` then link them**
+-------
+
+Repeat the same **Steps 1, 2 & 4** exactly as you did earlier for **`ToDoTask`** entity.<br/>
+Use the **name** `ToDoArea` for your new entity along with the managing service name **`ToDoAreaService`**.<br/>
+
+🙋‍♂️ Note that **`ToDoArea`** entity does not have any additional **simple members** apart from the default ones.<br/>
+Nevertheless, **`ToDoArea`** has a relationship with **`ToDoTask`** that is depicted by a **composite member**.<br/>
+Since this would be the first time we came across such type of member, we will leave this **Step 3** to the end, after finishing **Step 1, 2 & 4**.
+{: .notice--info} 
+
+🙋‍♂️ Do not forget to link the managing service **`ToDoAreaService`** to its managed entity **`ToDoArea`**.<br/>
+
+You should end up with the following configuration:
+
+<div style="display: flex;flex-direction: row;justify-content: center;"> 
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/22-todoarea-todoareaservice-created.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/22-todoarea-todoareaservice-created.png" alt="ToDoArea & ToDoAreaService Created and linked">
+        <figcaption>ToDoArea & ToDoAreaService Created and linked</figcaption>
+    </a>
+  </figure>
+</div>
+</div>
+
+### **Step 2: Create the relationship with **`ToDoTask`** 
+-------
+
+Remember that **`ToDoArea`** has a relationship with **`ToDoTask`** depicted by the fact that **zero or one** `(0..1)` **`ToDoArea`** could contain **zero or many** `(0..*)` **`ToDoTask`**.<br/>
+In other words, **`ToDoArea`** is composed by zero or many **`ToDoTask`**.<br/>
+This means that a **`ToDoArea`** instance can be empty, or can contain one or many **`ToDoTask`** instances.<br/>
+
+Let's go ahead and create this relationship.<br/>
+
+From the **Averos Components** panel, expand `Connectors` list and drag & drop a `connector` into the canvas as described in the picture below.<br/>
+
+<div style="display: flex;flex-direction: row;justify-content: center;"> 
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/23-add-connector.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/23-add-connector.png" alt="Add a new Connector">
+        <figcaption>Add a new Connector</figcaption>
+    </a>
+  </figure>
+</div>
+</div>
+
+Your `connector` has the shape of an arrow with four nodes and two connection sides, namely `sourceEntity` and `targetEntity`.<br/>
+
+You will use this **connector** to link **`ToDoArea`** as the `sourceEntity` to **`ToDoTask`** as the `targetEntity`.<br/>
+
+Go ahead and drag the first node located in the `sourceEntity` and drop it on **`ToDoArea`** entity.<br/>
+
+Now, drag the last node located in the `targetEntity` side and drop it on **`ToDoTask`** entity.<br/>
+
+Your diagram whould look like this one in the picture below:
+
+<div style="display: flex;flex-direction: row;justify-content: center;"> 
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/24-connect-todoarea-to-todotask.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/24-connect-todoarea-to-todotask.png" alt="Connect ToDoArea to ToDoTask">
+        <figcaption>Connect ToDoArea to ToDoTask</figcaption>
+    </a>
+  </figure>
+</div>
+</div>
+
+Now, try to drag each entity apart and make sure that the connected arrow will follow the dragged entity.<br/>
+Thus, you will be sure that the connection has occured. Otherwise you should repeat the connection process described earlier untill your entities are connected to the arrow.<br/>
+
+Once connected, arrange the whole digram so that it looks like the one in the picture below.<br/>
+
+<div style="display: flex;flex-direction: row;justify-content: center;"> 
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/25-rearranged-diagram.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/25-rearranged-diagram.png" alt="Re-arranged Diagram">
+        <figcaption>Re-arranged Diagram</figcaption>
+    </a>
+  </figure>
+</div>
+</div>
+
+
+>💡 **Protip**: In order to move the arrow, use the **four nodes** that appear when you **select** the connector.<br/>
+Initially the connector could be moved using four nodes, but once connected to an entity, you will not be able to move the connector from the connecting nodes unless you release the connection.<br/>
+{: .notice--info}
+
+>💡 **Protip**: Notice that once connected to an entity, a connector will follow that entity wherever it is dragged to.<br/>
+Also, notice that the arrow changes its connection side with respect to the connected entity while you are dragging this entity.<br/> 
 {: .notice--info}
 
 
-#### **2. Log into your application**
-
-As mentioned earlier, your new web application `ToDoApplication` has `jwt authentication` support which activates private logged spaces for you, meaning that your application already supports mutlti-users. <br/>
-Currently it is not possible to exclude such capability since its is forced by default in every averos project.<br/>
-However, future `averos` version may include the possibility to bypass authentication. <br/>
-Thus, every averos application will need an authentication provider in order to allow users to log into their defaut private spaces where entities and use cases are handled. <br/>
-
-##### **2.1. Check your authentication provider server**
-
-For the sake of this example we are going to use the authentication mock server available [here](https://github.com/averos-io/averos-backend-mock "Averos Backend Mock"). <br/>
-This mock api provides **Jwt Authentication and User management services**.
 
 
->ℹ️ Please make sure you already followed the [**prerequisites** section]({{"/averos/getting-started-developer/prerequisites/#3-authentication-provider" | relative_url}} "Authentication Provider") instruction.<br/>
-`The authentication backend mock server` should be up and running.
-{: .notice--info}
-
-##### **2.2. Authentication Service Binding - User Service Binding**
-
-As you might already know, your **`application authentication service`** needs to be bound to one `authentication backend service` so that it could be activated. <br/>
-Similarely, your **`application user service`** - the service in charge of user management - needs to be bound to one **`User Management Api Server Backend`**.<br/> 
-Again **Authentication and User Management** will be provided by our **`authentication backend mock server`** mentioned earlier.<br/>
-As a result, two `averos service configurations` should be created using the reserved identifiers **`AuthService`** and **`UserService`**. <br/>
-
-Please go ahead and execute the following command in order to create an **Authentication Service Binding Configuration**.
-
-```bash
-ng g @wiforge/averos:averos-config --id=AuthService --type=service --host=localhost --port=3333 --protocol=http --endpoint=/auth/ --defaults
-```
-You should see similar output if the command executed successfully:
-
-<figure align="center">
-	<a href="{{ site.baseurl }}/assets/tutorial/developer/1-create-authservice-service-config.png">
-    <img src="{{ site.baseurl }}/assets/tutorial/developer/1-create-authservice-service-config.png" alt="AuthService Config command">
-      <figcaption>AuthService Config command</figcaption>
-  </a>
-</figure>
 
 
-Similarely, go ahead and execute the following command in order to create a **User Management Service Binding Configuration**.
-
-```bash
-ng g @wiforge/averos:averos-config --id=UserService --type=service --host=localhost --port=3333 --protocol=http --endpoint=/uapi/users/ --defaults
-```
-
->Note that we are assuming that your `authentication backend service` mock is running in localhost (`--host=localhost`), on port 3333 (`--port=3333`) through http protocol (`--protocol=http`). <br/>
-If you have changed these parameters please update the previous command accordingly. <br/>
-Also, make sure not to change the other parameters (i.e. `id=AuthService`, `type=service` and `endpoint=/auth/`) since those has specific fixed values for **`averos application authentication service`**.
-{: .notice--success}
 
 
->ℹ️ More detail on **averos configuration** could be found [**here**]({{"/averos/documentation/environment-configuration/service-configuration/" | relative_url}} "Averos Configuration").
-{: .notice--info}
-
-Once your configurations are created, go ahead an redeploy your application by following these steps:<br/>
-   >  **1-** shutdown the running server `http-server`<br/>
-      **2-** build and deploy `ToDoApplication` by running the following command: <br/>
-     
-   >
-   ```bash
-   ng build ToDoApplication && http-server -p 8081 -c-1 dist/to-do-application
-   ```
 
 
-##### **2.3. Log Into your Application**
 
-Now your application is deployed and configured you will be able to sign into your account. <br/>
-Open your favorite web browser and navigate to `http://127.0.0.1:8081`. <br/>
-
-Here is what your application will look like. The public space is what a user will see first. <br/>
-Once logged in, the layout will be switched to the private space context. More on that later.<br/>
-
-Averos application template provides an additional dark mode available via the button highlighted in the picture below.:
-
-<figure align="center">
-	<a href="{{ site.baseurl }}/assets/tutorial/developer/2-application-init-white.png">
-    <img src="{{ site.baseurl }}/assets/tutorial/developer/2-application-init-white.png" alt="averos application">
-      <figcaption>Averos Application</figcaption>
-  </a>
-</figure>
-
-<figure align="center">
-	<a href="{{ site.baseurl }}/assets/tutorial/developer/3-application-init-dark.png">
-    <img src="{{ site.baseurl }}/assets/tutorial/developer/3-application-init-dark.png" alt="averos application-dark mode">
-      <figcaption>Averos Application - Dark Mode</figcaption>
-  </a>
-</figure>
-
->ℹ️ Since we have not added any languages yet, our application is available only in `English` which is the default language. <br/>
-You will be able to add another language to your application very soon, but before that, let's create a new account and sign into our application.
-{: .notice--info}
-
-Go ahead and hit `Sign up` button in order to create a new account.<br/>
-
-Here is what the registration screen looks like. I prefer **dark mode** that's why all my screenshots will be made in that mode but you are free to choose whatever mode you like.
-
-<figure align="center">
-	<a href="{{ site.baseurl }}/assets/tutorial/developer/4-registration.png">
-    <img src="{{ site.baseurl }}/assets/tutorial/developer/4-registration.png" alt="averos registration">
-      <figcaption>Averos Registration</figcaption>
-  </a>
-</figure>
-
-Now our user is registered, we can use our credentials to log into our private space.<br/>
-
-Go ahead and sign into your application by hitting the `sign in` button then entering your credentials as shown below. I am using a user identifier named `testuser` along with the password `testUser00`, but you can choose whatever user/password you wish. <br/>
-Please keep in mind that `averos passwords` are subject to validations. Therefore, you should choose a password that is compliant with `averos validation rules`.<br/>
-Don't worry, your application itself, will guide you in creating a compliant password thanks to the validation error messages you will encounter.<br/>
-
-<figure align="center">
-	<a href="{{ site.baseurl }}/assets/tutorial/developer/5-signin.png">
-    <img src="{{ site.baseurl }}/assets/tutorial/developer/5-signin.png" alt="averos sign in">
-      <figcaption>Averos Sign In</figcaption>
-  </a>
-</figure>
-
-This is what **averos private space** looks like:
-
-<figure align="center">
-	<a href="{{ site.baseurl }}/assets/tutorial/developer/6-basic-private-space.png">
-    <img src="{{ site.baseurl }}/assets/tutorial/developer/6-basic-private-space.png" alt="averos private space">
-      <figcaption>Averos Private Space</figcaption>
-  </a>
-</figure>
-
->Now you are logged into your basic averos application, you might want to have a look at all available features.
-Go ahead and change your `avatar` for example.
-Also, you can `edit` your profile and check your `settings`.
-{: .notice--success}
-
->🚩 Averos based applications have by default two domain spaces :
->- **public space**  : available for public anonymous users
->- **private space** : only available for authenticated users
-{: .notice--info}
-
-###### **2.3.1. Averos private space**
-
-Averos private space is the space that is accessible only for authenticated users. <br/>
-It is composed of a **top menu**, a **left side bar** dedicated for the user profile and the menu and a **content area**. <br/>
-
-Earlier, when you logged into your application, you noticed that there were no menu configured yet (the menu is located in the left side bar).<br/>
-Actually, **averos menu** is generated based on the `use cases` that have been initiated by the user.  <br/>
-This means that, since we have not created any custom entities or use cases yet; there will be no menu available in your application at this point.
-
-Once we will start adding entities and business logics to our application, the default menu will be created and updated accordingly.
-
-###### **2.3.2 Averos public space**
-
-Averos public space is available in order to allow unauthenticated users to access any public information that is meant to be shared in the application.<br/>
-The application owner decides wether to restrict access to a specific component, page or use case or to fully disclose it.<br/>
-If you chooses to make a use case anonymously accessible, averos gives you the ability to add a default menu link in that public space using the dedicated averos workflow command `create-page`. <br/>
-The public menu link will be available in the application home page **top menu** as part of the default generated menu. 
-
->🚩 Averos menu could be easely configured in many ways.
-Different configurations aspect are available to the end user in order to allow the finest customizations.
-The configuration includes: 
->- adding, removing, updating or grouping menu items;
->- icon to display on the menu item/group,
->- the target link or route
->- the ability to configure external links like websites or external applications URLs.
->- the ability to disable a menu/submenu/menuItem
->- let the menu available in public spaces
-{: .notice--info}
-
-📢 More on this topic is available in the [detailed averos documentation]({{"/averos/documentation/view-context/" | relative_url}} "averos view context").
-{: .notice--warning}
-
-While navigating through the application, you will mainly notice the following points:
-- all of your **chosen languages are supported** and you can actually switch between them flawlessly (more on this topic later).
-- All the application components are **translated** to the requested languages (buttons, input placeholders, tooltips, labels, error messages, form validation messages, notification messages... )
-- **login/logout** menu are pre-built but could be also customized by bringing your own components
-- **pwa** support is obvious since we are still in the angular echosystem
-- your application is **fully responsive** (check it by turning on the mobile preview in your browser devtools)
-- **dark mode** is supported ( dark mode is supported, alternatively, averos styles could be easely overridden so that you can fully customize your application layout, but we recommand keeping the default layout for better stability)
-- APIs backends are easely bound to your application services using **`averos configurations`**
-
-> **🎉🎉🎉 Congratulations! for making it so far! 🎉🎉🎉** <br/><br/>
-[Further]({{"/averos/getting-started-developer/customize-your-application/" | relative_url }}  "Customize Your Application") in this guide we are going to learn how to customize our application in order to meet our business requirements by adding use cases, actions, translation capabilities, view layouts and much more.<br/>
-*See you in the next chapter!*
-{: .notice--success}
-
-**[⬆ Back to Top](#top)**
+>💡 **Protip**: You might want to `drag` the `canvas` to reach some part of your design.<br/>
+Just hold `ctrl` and the `left mouse button` in an empty space on the canvas and move your mouse.

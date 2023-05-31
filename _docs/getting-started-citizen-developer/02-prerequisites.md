@@ -53,7 +53,7 @@ These are not, and should not, be managed by **averos applications**. They shoul
 That's why we created a **backend service** mock named **averos backend mock** that you will use with your application so that you could be able to experience with your **frontend** application that you are going to create.<br/>
 **Averos backend mock** will provide you basic **backend** functionnalities such as, authentication, user management and business entities management.<br/>
 
->ℹ️ Please note that **averos backend mock** is only made for testing purposes and thus is not intended to be used in production.<br/>
+>🔖 Please note that **averos backend mock** is only made for testing purposes and thus is not intended to be used in production.<br/>
 If you are willing to use your application in production, you have to use ready for production **backend services**.<br/>
 **Backend services** could be either developed from scratch or created on the cloud using for example [**google functions**](https://cloud.google.com/functions "Google Functions"), [**aws lambda**](https://aws.amazon.com/lambda/ "AWS Lambda") or [**azure functions**](https://azure.microsoft.com/en-us/products/functions "Azure Functions").<br/>
 {: .notice--info}

@@ -16,7 +16,7 @@ In this tutorial you will be taken through key steps of creating a basic web app
 
 By the end of this tutorial you will aqcuire solid knowledge about how **`averos designer`** is used in order to rapidly create applications and will be able to leverage all **`averos framework`** features and capabilities to barge your way, as a citizen developer, into the creation of cutting edge web applications in no time. <br/>
 
-🚩 Please note that **`averos framework`** is fully described in the  [**Documentation**]({{"/averos/documentation/" | relative_url}} "Reference") section.
+🔖 Please note that **`averos framework`** is fully described in the  [**Documentation**]({{"/averos/documentation/" | relative_url}} "Reference") section.
 {: .notice--info}
 
 Should you have any **`issues`**, **`suggestions`** or **`enhancements`** related to **`Averos Designer`** please let us know using the following placeholders. <br/>

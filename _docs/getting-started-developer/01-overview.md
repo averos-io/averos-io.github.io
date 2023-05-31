@@ -14,7 +14,7 @@ It is assumed that you have basic software development knowledge including **`UM
 In this tutorial you will be taken through key steps of creating a basic web application named **`ToDoApplication`** where you will build a `ToDo tracking application` that stores and manages **`Tasks`** you need to achieve into seperate **`Domains`**. <br/>
 By the end of this tutorial you will aqcuire solid knowledge about how **`averos framework`** is used in order to rapidly create applications and will be able to leverage all `averos` features and capabilities to barge your way into the creation of cutting edge web applications in no time. <br/>
 
-🚩 Please note that **`averos framework`** is fully described in the  [**Documentation**]({{"/averos/documentation/" | relative_url}} "Reference") section.
+🔖 Please note that **`averos framework`** is fully described in the  [**Documentation**]({{"/averos/documentation/" | relative_url}} "Reference") section.
 {: .notice--info}
 
 Should you have any `issues`, `suggestions` or `enhancements` related to `averos framework` please let us know using the following placeholders. <br/>

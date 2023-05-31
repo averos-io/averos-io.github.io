@@ -84,7 +84,7 @@ The execution of these two averos workflow commands will result in the creation 
   2. an entity called `ToDoArea` and a service called `ToDoAreaService`
 
 
->🚩 **Note** that `averos framework`, when calling `averos-entity`, will create by default the following entity members:
+>🔖 **Note** that `averos framework`, when calling `averos-entity`, will create by default the following entity members:
    - **id**: annotated by the averos @ID() decorator in order to tell the framework that it should handle this field as an identifier
    - **name**: a string member describing the name of the entity
    - **description**: a string member related to the entity description
@@ -97,10 +97,10 @@ The execution of these two averos workflow commands will result in the creation 
 >At this point you might want to open your project using your favorite IDE so that you can carefully examine the generated code for your project.
 {: .notice--warning}
 
->ℹ️ Please refer to the [**averos service**]({{ "/averos/documentation/references-and-conventions/reference-averos-service/" | relative_url }} "Averos Service") section for further details about **averos services**.
+>🙋‍♂️ Please refer to the [**averos service**]({{ "/averos/documentation/references-and-conventions/reference-averos-service/" | relative_url }} "Averos Service") section for further details about **averos services**.
 {: .notice--info}
 
->🚩 Further details about averos commands are available in the [**detailed averos workflow commands**]({{ "/averos/documentation/reference-detailed-averos-worflow-commands/" | relative_url }} "detailed averos workflow commands") section.
+>💡 Further details about averos commands are available in the [**detailed averos workflow commands**]({{ "/averos/documentation/reference-detailed-averos-worflow-commands/" | relative_url }} "detailed averos workflow commands") section.
 {: .notice--success}
 
 #### **2. Generate `ToDoArea` and `ToDoTask` Simple Members**
@@ -166,7 +166,7 @@ Handling relationships will need further complex implementations and clear desig
 Once again, averos fortunately introduced the `add-composite-member` workflow to achieve all the steps above.
 
 
->🚩 Note that `add-composite-member` workflow will update the project in order to automatically configure and display relationships in the user interface.<br/>
+>🔖 Note that `add-composite-member` workflow will update the project in order to automatically configure and display relationships in the user interface.<br/>
 Refer to the [**detailed averos workflow commands**]({{ "/averos/documentation/reference-detailed-averos-worflow-commands/" | relative_url}} "Detailed averos workflow commands")  section for further details. <br/>
 {: .notice--warning}
 
@@ -191,7 +191,7 @@ The command output should be similar to the output below:
 </figure>
 
 
->🚩 Note that after running these two commands and deploying your application, you will be able to view the newly added relations. Further user specific business implementation could be achieved in order to customize your entity management workflow. Some of these aspects were described in the next chapter.
+>🔖 Note that after running these two commands and deploying your application, you will be able to view the newly added relations. Further user specific business implementation could be achieved in order to customize your entity management workflow. Some of these aspects were described in the next chapter.
 {: .notice--info}
 
 

@@ -6,18 +6,18 @@ toc: true
 ---
 <br/>
 
-Before, you start creating your application let's explain how application generation works when working with **`averos framework`**.<br/>
+Before, you start let's have a glimpse on the tools which you will use in order to generate your application and, obviously, explain how application generation works in **`averos framework`**.<br/>
 
 With `Averos Framework` application creation is achieved using our **lowcode** service called [**Wibuild©**](https://appbuilder.wiforge.com/ "Wibuild©").<br/> 
 
-[**Wibuild©**](https://appbuilder.wiforge.com/ "Wibuild©") is an application, available for the whole public, that provides a designer, namely **`averos designer`**, and an **application management system**.<br/> 
+[**Wibuild©**](https://appbuilder.wiforge.com/ "Wibuild©") is an application, available for free to the whole public, either on mobile device or desktop computers, which provides a visual designer, namely **`averos designer`**, and an **application management system**.<br/> 
 
->**🚩 Note** that the designer itself is available anonymously.<br/>
+>**🔖 Note** that the designer itself is available anonymously.<br/>
 However, submitting a request of a new application generation is available only for authenticated users.<br/> 
 So please go ahead and create an account at [**Wibuild©**](https://appbuilder.wiforge.com/ "Wibuild©") in order to be able to generate and download your application.<br/>
  {: .notice--success}
 
-### **I- WiBuild© Application**
+## **I- WiBuild© Application**
 
 [**Wibuild©**](https://appbuilder.wiforge.com/ "Wibuild©") is a free **lowcode** platform available in the cloud for everyone.<br/>
 **Wibuild©** is composed of an application designer named **averos designer** and an **application management system**.<br/>
@@ -70,12 +70,12 @@ So, the main steps a **citizen developer** should follow, in order,to generate a
 > 5. Go back to **WiBuild** main menu then search your application and check its generation status
 > 6. Once the application status is `Ready`, download your application binary files using the dedicated `download` button
 
- >**🚩 Note** that **Wibuild** is very responsive and mobile friendly.<br/>
+ >**🔖 Note** that **Wibuild** is very responsive and mobile friendly.<br/>
  It could also be installed and used on mobile devices.<br/>
  Go ahead and try it!
  {: .notice--info}
 
-### **II. Averos Designer**
+## **II. Averos Designer**
 
 **Averos Designer**, as part or **WiBuild** application, is a **lowcode** designer for application development built arount **`averos framework`**.</br>
 It allows citizen developers to design an application in an UML-like style.<br/>
