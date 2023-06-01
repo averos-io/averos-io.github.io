@@ -192,7 +192,7 @@ Click on `save` button to save your new member, then close the **`Simple Member 
 
 Next, we are going to create **`ToDoTask`** managing service named **`ToDoTaskService`**.<br/>
 
-#### **Step 4 - Create the entity's managing service named **`ToDoTaskService`**
+#### **Step 4 - Create the entity's managing service named `ToDoTaskService`**
 
 Go ahead and drag & drop a `service` component from the right side panel to the canvas. <br/>
 
@@ -279,7 +279,7 @@ You should end up with the following configuration:
 </div>
 </div>
 
-### **Step 2: Create the relationship with **`ToDoTask`** 
+### **Step 2: Create the relationship with `ToDoTask`** 
 -------
 
 Remember that **`ToDoArea`** has a relationship with **`ToDoTask`** depicted by the fact that **zero or one** `(0..1)` **`ToDoArea`** could contain **zero or many** `(0..*)` **`ToDoTask`**.<br/>
@@ -305,7 +305,7 @@ Your `connector` has the shape of an arrow with four nodes and two connection si
 
 You will use this **connector** to link **`ToDoArea`** as the `sourceEntity` to **`ToDoTask`** as the `targetEntity`.<br/>
 
-Go ahead and drag the first node located in the `sourceEntity` and drop it on **`ToDoArea`** entity.<br/>
+Go ahead and drag the first node located in the `sourceEntity` side and drop it on **`ToDoArea`** entity.<br/>
 
 Now, drag the last node located in the `targetEntity` side and drop it on **`ToDoTask`** entity.<br/>
 
@@ -323,9 +323,9 @@ Your diagram whould look like this one in the picture below:
 </div>
 
 Now, try to drag each entity apart and make sure that the connected arrow will follow the dragged entity.<br/>
-Thus, you will be sure that the connection has occured. Otherwise you should repeat the connection process described earlier untill your entities are connected to the arrow.<br/>
+Thus, you will make sure that the connection has occured between the connector and each entity. Otherwise you should repeat the connection process described earlier untill your entities are connected to the arrow.<br/>
 
-Once connected, arrange the whole digram so that it looks like the one in the picture below.<br/>
+Once connected, arrange the components so that the diagram looks like the one in the picture below.<br/>
 
 <div style="display: flex;flex-direction: row;justify-content: center;"> 
 <div style="padding: 10px;">
@@ -338,6 +338,10 @@ Once connected, arrange the whole digram so that it looks like the one in the pi
 </div>
 </div>
 
+Dont worry if you did not succed to arrange the component like suggested.<br/>
+However you need to make sure that:
+- the entities are each linked to the connector (try to move each entity and see whether the connecting arrow follows it or not)
+- The services are linked to their managed entities (check the property `Service Name` in the entity's properties, it should match the managing service name) 
 
 >💡 **Protip**: In order to move the arrow, use the **four nodes** that appear when you **select** the connector.<br/>
 Initially the connector could be moved using four nodes, but once connected to an entity, you will not be able to move the connector from the connecting nodes unless you release the connection.<br/>
@@ -348,14 +352,106 @@ Also, notice that the arrow changes its connection side with respect to the conn
 {: .notice--info}
 
 
+We still have not configured the relationship yet, so let's do it.<br/>
+
+Click on the connector to display its properties in the right panel as described in the picture below.<br/>
+
+<div style="display: flex;flex-direction: row;justify-content: center;"> 
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/26-connector-properties.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/26-connector-properties.png" alt="Connector's Properties">
+        <figcaption>Connector's Properties</figcaption>
+    </a>
+  </figure>
+</div>
+</div>
+
+Update the connector properties with the following values as follows:
+>- **Source Description**: `toDoTasks` (the path from `ToDoArea` to `ToDoTask` -an Area contains a **colection** of Tasks)
+- **Target Description**: `toDoArea` (the path from `ToDoTask` to `ToDoArea` - A task belongs to **one** Area)
+- **Source Cardinality**: `0..1` (A task belongs to **zero or one** Area)
+- **Target Cardinality**: `*` (An Area contain zero or many Tasks)
+
+Do not forget to click on `apply` after modifying the connector properties.<br/>
+
+>🙋‍♂️ Note that the disabled property **Relationship Type** was automatically set according to the value of both properties **Source Cardinality** and **Target Cardinality**.<br/>
+Try to change these two properties and look how **Relationship Type** changes accordingly.<br/>
+{: .notice--info}
 
 
+Your connector properties should look like the one below:
 
+<div style="display: flex;flex-direction: row;justify-content: center;"> 
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/27-connector-properties-updated.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/27-connector-properties-updated.png" alt="Connector's Properties - Updated">
+        <figcaption>Connector's Properties - Updated</figcaption>
+    </a>
+  </figure>
+</div>
+</div>
 
-
-
-
+>💡 **Protip**: You might want to `drag` the `canvas` to reach some part of your design.<br/>
+Just hold `ctrl` and the `left mouse button` in an empty space on the canvas and move your mouse.
+{: .notice--info}
 
 
 >💡 **Protip**: You might want to `drag` the `canvas` to reach some part of your design.<br/>
 Just hold `ctrl` and the `left mouse button` in an empty space on the canvas and move your mouse.
+{: .notice--info}
+
+## **III. Save your Project**
+
+At this point you might want to save your project so that you mark your progress.<br/>
+
+**Averos Designer** provides you the possibility to **save** your project by exporting it to a file.<br/>
+**Exported projects** could be then **imported** into **Averos Designer**.<br/>
+
+In order to export your project g ahead and validate it using the button displayed below:
+
+<div style="display: flex;flex-direction: row;justify-content: center;"> 
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/28-validate-project-button.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/28-validate-project-button.png" alt="Validate Project">
+        <figcaption>Validate Project</figcaption>
+    </a>
+  </figure>
+</div>
+</div>
+
+Once the project validated, a success message will pop up and both `export project` and `generate project` will be available.
+
+<div style="display: flex;flex-direction: row;justify-content: center;"> 
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/29-project-validated.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/29-project-validated.png" alt="Validate Project">
+        <figcaption>Validate Project</figcaption>
+    </a>
+  </figure>
+</div>
+</div>
+
+Now, go ahead and export your project to your local disk.<br/>
+
+
+<div style="display: flex;flex-direction: row;justify-content: center;"> 
+<div style="padding: 10px;">
+  <figure align="center">
+    <a href="{{ site.baseurl }}/assets/tutorial/c-developer/30-project-exported.png">
+      <img src="{{ site.baseurl }}/assets/tutorial/c-developer/30-project-exported.png" alt="Project Exported">
+        <figcaption>Project Exported</figcaption>
+    </a>
+  </figure>
+</div>
+</div>
+
+If you want to start from where you finished last time, just **import** your project into **Averos Designer**.<br/>
+
+**Congratulations** on making it this far! 🚀<br/>
+In the next section, we are going to create our **use cases** as expected by our **business requirements**.<br/>
+**See you there!**
+{: .notice--info}

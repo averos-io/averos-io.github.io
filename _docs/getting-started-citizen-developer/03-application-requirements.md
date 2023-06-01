@@ -7,7 +7,7 @@ classes: wide
 ---
 <br/>
 
-### **I- Definitions**
+## **I- Definitions**
 
 In this tutorial we will create a basic web application named **`ToDoApplication`** that stores, manages and tracks `To do Tasks` per `To do Area` or `domain`. <br/>
 
@@ -25,7 +25,7 @@ Finally, we gave the following name to our application: `ToDoApplication`.<br/><
 All of these informations will help us designing our application. 
 {: .notice--info}
 
-### **II- Business Requirements**
+## **II- Business Requirements**
 
 A `ToDoApplication` user should be able to perform a couple of actions so that he can **store**, **manage** and **track** `ToDo Tasks and Areas`. <br/>
 Therefore, the application must allow the user to:
@@ -46,3 +46,17 @@ Therefore, the application must allow the user to:
   - [x] **Activate** a `ToDo Task` 
   - [x] **Close** a `ToDo Task`
 
+## **III- Additional Requirements**
+
+Since we are targetting users speaking different languages, our application should support multi-languages.<br/>
+For the sake of this tutorial, we are going to include `English`, which is the default language, along with `French` as an additional language.<br/>
+
+💡 `Averos Framework` supports 11 languages, in the same time, out of the box; so you might choose whatever additional language that suits you for this tutorial instead of `French`.<br/>
+{: .notice--success}
+
+Also, let's assume that you know few things about `frontend development` and that you want to create your own `page` with your own implementation and design.<br/> 
+In this case your generated application should include a `raw page` or `blank page` which has a predefined menu link in the application menus and which will serve as a scaffolding for this specific page.<br/>
+We will get back to these additional features once we will start creating our application.<br/>
+
+Now we have known what kind of application we want to build, and what are the main features that it should provide,let's move forward and start thinking about how our application is designed by delving into its features and specifications details a bit more.<br/>
+{: .notice--info}
