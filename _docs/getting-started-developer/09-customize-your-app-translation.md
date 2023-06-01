@@ -14,10 +14,10 @@ but, what if you decide to target other markets that dont speak `English` ? <br/
 
 Well, you should probably consider re-writing the whole application display in your target language ? Or shouldn't you ?<br/>
 
-What if you want your application to support multiple languages ?<br/>
-Should you re-write an application instance in the target language for each language ?<br/>
+What if you want your application to support more than two languages ?<br/>
+Should you re-write an application instance for each language ?<br/>
 
-Well, believe it or not your **ToDoApplication** already supports **multi-language**!<br/>
+Well, believe it or not, your **ToDoApplication** already supports **multi-language**!<br/>
 Better! Learning new languages does not require any additional code into your application. <br/> 
 
 Now your application is ready, what if you take it to the next level and let it speak multiple languages so that you can target a wider audience ?<br/>
@@ -79,7 +79,7 @@ The command output should look like the following:
 
 
 By the end of the workflow execution, Your application will be able to speak french at a beginner level.<br/>
-THis means that all generated default user interfaces-including default labels, default actions, default validation messages, default process messages and default domain values- are already translated in `French`.<br/>
+This means that all generated default user interfaces-including default labels, default actions, default validation messages, default process messages and default domain values- are already translated in `French`.<br/>
 {: .notice--info}
 
 
