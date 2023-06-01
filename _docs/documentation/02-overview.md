@@ -3,7 +3,8 @@ title: "Averos Overview"
 permalink: /averos/documentation/overview/
 excerpt: "averos overview"
 toc: true
-classes: wide
+# classes: wide
+toc_sticky: true
 ---
 
 

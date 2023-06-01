@@ -3,6 +3,7 @@ title: "Create Service Configurations"
 permalink: /averos/getting-started-c-developer/create-service-configurations/
 excerpt: "Create Service Configurations"
 toc: true
+toc_sticky: true
 ---
 <br/>
 

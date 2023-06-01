@@ -3,6 +3,7 @@ title: "Customize your application - Generate Use Cases"
 permalink: /averos/getting-started-developer/customize-your-application-use-cases/
 excerpt: "Customize your application - Generate Use Cases"
 toc: true
+toc_sticky: true
 ---
 
 ### **I. Introduction**

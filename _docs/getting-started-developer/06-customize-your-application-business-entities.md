@@ -3,6 +3,7 @@ title: "Customize your application - Generate Business Entities"
 permalink: /averos/getting-started-developer/customize-your-application-business-entities/
 excerpt: "Customize your application - Generate Business Entities"
 toc: true
+toc_sticky: true
 ---
 
 ### **I. Introduction**

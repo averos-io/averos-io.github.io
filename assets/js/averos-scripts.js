@@ -1,4 +1,25 @@
 var prevScrollpos = window.pageYOffset;
+var tocPosition = window.pageYOffset;
+
+function translateTOC() {
+  // if wide layout do nothing
+  if (document.getElementsByClassName("wide").length > 0){
+    return;
+  }
+  var attributes = {};
+  var currentWindowOffset = window.pageYOffset;
+  var tocOffset = currentWindowOffset+50;
+  // if bottom reached adjust the toc position
+  // if (window.innerHeight){
+  //   tocOffset = tocOffset - 50;
+  // }
+  attributes["translateY"] = "translateY("+tocOffset+"px)";
+  var toc = document.getElementsByClassName("sidebar__right ")[0];
+
+  toc.style.transform=attributes.translateY;
+  toc.style.transition=" all 2s";
+  }
+
 window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
@@ -7,6 +28,7 @@ window.onscroll = function() {
     document.getElementsByClassName("masthead")[0].style.top = "-5em";
     }
     prevScrollpos = currentScrollPos;
+    // translateTOC();
 }
 
 window.onload = function(e){ 

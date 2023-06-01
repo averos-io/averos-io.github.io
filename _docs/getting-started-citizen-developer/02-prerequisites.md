@@ -3,6 +3,7 @@ title: "Prerequisites"
 permalink: /averos/getting-started-c-developer/prerequisites/
 excerpt: "prerequisites"
 toc: true
+toc_sticky: true
 ---
 
 #### **1. Git**

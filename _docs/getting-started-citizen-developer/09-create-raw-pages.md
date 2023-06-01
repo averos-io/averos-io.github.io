@@ -3,6 +3,7 @@ title: "Create Use Cases"
 permalink: /averos/getting-started-c-developer/create-raw-pages/
 excerpt: "Create Use Cases"
 toc: true
+toc_sticky: true
 ---
 <br/>
 

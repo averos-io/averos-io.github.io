@@ -3,6 +3,7 @@ title: "Averos Version"
 permalink: /averos/latest-version/
 excerpt: "Reference -  Averos Version"
 toc: true
+toc_sticky: true
 ---
 
 ## **Latest Version**

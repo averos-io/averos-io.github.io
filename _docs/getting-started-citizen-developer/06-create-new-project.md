@@ -3,6 +3,7 @@ title: "Create or Import a Project"
 permalink: /averos/getting-started-c-developer/create-new-project/
 excerpt: "Create or Import a Project"
 toc: true
+toc_sticky: true
 ---
 
  >🚩As mentioned in the previous section, **Averos Designer** is available anonymously for the whole public.<br/>

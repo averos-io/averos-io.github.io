@@ -3,6 +3,7 @@ title: "Averos Translation: Reference & Conventions"
 permalink: /averos/documentation/references-and-conventions/reference-averos-translation/
 excerpt: "Reference - Averos Translation"
 toc: true
+toc_sticky: true
 ---
 
 ## **Averos Translation**

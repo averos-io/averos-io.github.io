@@ -2,6 +2,7 @@
 permalink: /terms/
 title: "Terms and Privacy Policy"
 toc: true
+toc_sticky: true
 ---
 
 ## Privacy Policy

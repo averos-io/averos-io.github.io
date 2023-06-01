@@ -3,6 +3,7 @@ title: "Averos Entity: Reference & Conventions"
 permalink: /averos/documentation/references-and-conventions/reference-averos-entity/
 excerpt: "Reference -  averos entity"
 toc: true
+toc_sticky: true
 ---
 
 ## **Averos Entity**

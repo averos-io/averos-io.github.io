@@ -3,6 +3,7 @@ title: "Initialize Your Application - ToDoApplication"
 permalink: /averos/getting-started-developer/initialize-your-application/
 excerpt: "Initialize ToDoApplication"
 toc: true
+toc_sticky: true
 ---
 <br/>
 

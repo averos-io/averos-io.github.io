@@ -3,6 +3,7 @@ title: "Customize your application"
 permalink: /averos/getting-started-developer/customize-your-app-actions-summary/
 excerpt: "Customize your application - Actions Summary"
 toc: true
+toc_sticky: true
 ---
 
 ## **I. Step-By-Step Actions Summary**

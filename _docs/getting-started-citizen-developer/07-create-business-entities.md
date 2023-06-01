@@ -3,6 +3,7 @@ title: "Create Business Entities"
 permalink: /averos/getting-started-c-developer/create-business-entities/
 excerpt: "Create Business Entities"
 toc: true
+toc_sticky: true
 ---
 <br/>
 

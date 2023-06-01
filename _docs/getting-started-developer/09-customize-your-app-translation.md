@@ -3,6 +3,7 @@ title: "Multi-Languages Application - Averos Translation"
 permalink: /averos/getting-started-developer/customize-your-application-translation/
 excerpt: "Let your application speaks languages!"
 toc: true
+toc_sticky: true
 ---
 
 ### **I. Introduction**

@@ -33,6 +33,7 @@ layouts_gallery:
     image_path: /assets/inaction/mobile_ar.png
     alt: "Averos mobile arabic"
 toc: true
+toc_sticky: true
 ---
 
 <!-- <p align="center">

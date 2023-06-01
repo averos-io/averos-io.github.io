@@ -3,6 +3,7 @@ title: "Before you start"
 permalink: /averos/getting-started-c-developer/before-you-start/
 excerpt: "Before you start"
 toc: true
+toc_sticky: true
 ---
 <br/>
 

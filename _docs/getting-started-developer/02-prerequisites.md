@@ -3,6 +3,7 @@ title: "Prerequisites"
 permalink: /averos/getting-started-developer/prerequisites/
 excerpt: "prerequisites"
 toc: true
+toc_sticky: true
 ---
 
 
