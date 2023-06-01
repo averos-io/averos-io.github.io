@@ -2,8 +2,9 @@
 title: "Application Requirements"
 permalink: /averos/getting-started-c-developer/application-requirements/
 excerpt: "Business Requirements"
-toc: false
-classes: wide
+toc: true
+toc_sticky: true
+# classes: wide
 ---
 <br/>
 
@@ -55,8 +56,8 @@ For the sake of this tutorial, we are going to include `English`, which is the d
 {: .notice--success}
 
 Also, let's assume that you know few things about `frontend development` and that you want to create your own `page` with your own implementation and design.<br/> 
-In this case your generated application should include a `raw page` or `blank page` which has a predefined menu link in the application menus and which will serve as a scaffolding for this specific page.<br/>
+In this case your generated application should include a `blank page` or `blank page` which has a predefined menu link in the application menus and which will serve as a scaffolding for this specific page.<br/>
 We will get back to these additional features once we will start creating our application.<br/>
 
-Now we have known what kind of application we want to build, and what are the main features that it should provide,let's move forward and start thinking about how our application is designed by delving into its features and specifications details a bit more.<br/>
+Now we have have an idea about what kind of application we want to build, and what are the main features that it should provide,let's move forward and start thinking about how our application is designed by delving into its features and specifications details a bit more.<br/>
 {: .notice--info}

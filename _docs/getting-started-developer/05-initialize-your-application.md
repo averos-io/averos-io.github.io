@@ -293,7 +293,7 @@ While navigating through the application, you will mainly notice the following p
 - **dark mode** is supported ( dark mode is supported, alternatively, averos styles could be easely overridden so that you can fully customize your application layout, but we recommand keeping the default layout for better stability)
 - APIs backends are easely bound to your application services using **`averos configurations`**
 
-> **🎉🎉🎉 Congratulations! for making it so far! 🎉🎉🎉** <br/><br/>
+> **🎉🎉🎉 Congratulations! on making it this far! 🎉🎉🎉** <br/><br/>
 [Further]({{"/averos/getting-started-developer/customize-your-application/" | relative_url }}  "Customize Your Application") in this guide we are going to learn how to customize our application in order to meet our business requirements by adding use cases, actions, translation capabilities, view layouts and much more.<br/>
 *See you in the next chapter!*
 {: .notice--success}

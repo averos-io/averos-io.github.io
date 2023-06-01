@@ -536,18 +536,18 @@ Also, notice how those actions does not exist for all records. <br/>
 This is because these actions are displayed dynamically for each record, depending on specific user criteria.<br/>
 
 
-#### **3. Averos Raw Pages**
+#### **3. Averos Blank Pages**
 
 Now, imagine you would like to create a personal page with a link to the menu in the public context.<br/>
-A raw page that you will populate yourself (a public dashboard or a very special use case for example, ).<br/>  
+A blank page that you will populate yourself (a public dashboard or a very special use case for example, ).<br/>  
 
-**ℹ️`Averos`** provides a `workflow command` that allows to create a `raw page` in either public or private contexts, with or without a menu link.<br/>
-A `raw page` is simply an empty angular component that is intended to help developers customize their own use cases, if they wish to.<br/>
+**ℹ️`Averos`** provides a `workflow command` that allows to create a `blank page` in either public or private contexts, with or without a menu link.<br/>
+A `blank page` is simply an empty angular component that is intended to help developers customize their own use cases, if they wish to.<br/>
 `Averos` users could decide in which `access context` the component will be available (`public`, `private` or `both`).<br/>
 `Averos` users could choose whether to create and show a default menu link in the chosen context or not.<br>
 {: .notice--info}
 
-In this tutorial, you are going to create a `raw page` named `MyPublicPage` in the `public context` and add a link to this page in the `public menu` (`top menu`). <br/>
+In this tutorial, you are going to create a `blank page` named `MyPublicPage` in the `public context` and add a link to this page in the `public menu` (`top menu`). <br/>
 
 Let's go ahead and execute the following `averos workflow command` to create `MyPublicPage`:
 
@@ -575,7 +575,7 @@ Here is what your application looks like:<br/>
 </figure>
 
 The workflow command has created an empty component, a link to this component page, in the top menu, named `My Public Page` and a grouping menu named `Default Pages`.<br/>
-Note that all raw pages links are, by default, created under the grouping menu named `Default Pages`.<br/>
+Note that all blank pages links are, by default, created under the grouping menu named `Default Pages`.<br/>
 `Averos Framework` provides a way to change the menu layout by configuration, however this will not be covered in this tutorial and will be the subject of other advanced tutorials.<br/>
 
 Now, go ahead and start customizing your new page at your will !
@@ -620,7 +620,7 @@ You should mind these aspects when designing your API logic. Please refer to [av
 
 
 
-**🎉🎉🎉 Congratulations On making it so far! 🎉🎉🎉**<br/> <br/>
+**🎉🎉🎉 Congratulations on making it this far! 🎉🎉🎉**<br/> <br/>
 Your **ToDoApplication** is now fully functional and ready to be taken to the next level!<br/>
 How about your application learns new languages?<br/>
 Sounds great ?<br/><br/>

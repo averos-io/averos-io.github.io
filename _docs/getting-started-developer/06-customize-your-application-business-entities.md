@@ -262,7 +262,7 @@ Depending on the use case to be added, menu links will be added to the applicati
 Well that is what we will do in the next chapter!<br/>
 
 
-**🎉🎉🎉 Congratulations on making it so far! 🎉🎉🎉**<br/>
+**🎉🎉🎉 Congratulations on making it this far! 🎉🎉🎉**<br/>
 You have generated your business entities along with their managing services in no time!
 In the next chapter you are going to create the use cases you defined earlier in the design phase and start playing with your entities.<br/><br/>
 **Let's take your `ToDoApplication` to the next level!**

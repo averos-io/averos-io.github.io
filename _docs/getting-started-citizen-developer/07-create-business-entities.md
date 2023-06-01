@@ -227,6 +227,11 @@ Now, since your entity **`ToDoTask`** is managed by the service **`ToDoTaskServi
 So go ahead and select the entity **`ToDoTask`** then open the listbox `Service Name` located in the `Entity` tab properties.<br/>
 Choose **`ToDoTaskService`** then click on `apply`.<br/>
 
+>🙋‍♂️ Notice that the service listbox contains two additional services, namely **`AuthService`** and **`UserService`**.<br/>
+These are two **averos** pre-defined services that provides **Authentication & User Management capabilities** to our application.<br/>
+**`AuthService`** and **`UserService`** should be bound to your **authentication & user management provider** - **`averos backend mock`** in our case - introduced and explained earlier in the [prerequisites section]({{"averos/getting-started-c-developer/prerequisites/#3-averos-backend-mock" | relative_url}} "prerequisites section").<br/>
+{: .notice--success}
+
 <div style="display: flex;flex-direction: row;justify-content: center;"> 
 <div style="padding: 10px;">
   <figure align="center">
@@ -407,10 +412,10 @@ Just hold `ctrl` and the `left mouse button` in an empty space on the canvas and
 
 At this point you might want to save your project so that you mark your progress.<br/>
 
-**Averos Designer** provides you the possibility to **save** your project by exporting it to a file.<br/>
-**Exported projects** could be then **imported** into **Averos Designer**.<br/>
+**Averos Designer** provides you the possibility to **save** your project by exporting it to a file on your local disk.<br/>
+An **Exported project** could be **imported** into **Averos Designer** as a starting point for any future updates.<br/>
 
-In order to export your project g ahead and validate it using the button displayed below:
+In order to export your project go ahead and validate it using the button displayed below:
 
 <div style="display: flex;flex-direction: row;justify-content: center;"> 
 <div style="padding: 10px;">

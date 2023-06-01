@@ -300,7 +300,15 @@ gettingstarted-for-cd:
         url: /averos/getting-started-c-developer/create-business-entities/
       - title: "4. Create Use Cases"
         url: /averos/getting-started-c-developer/create-use-cases/
-      - title: "5. Create a Public Raw Page"
+      - title: "5. Create a Public Blank Page"
         url: /averos/getting-started-c-developer/create-raw-pages/
       - title: "6. Create Service Configurations"
         url: /averos/getting-started-c-developer/create-service-configurations/
+      - title: "7. New Language Support & Translations"
+        url: /averos/getting-started-c-developer/create-translations/
+      - title: "8. Generate Application"
+        url: /averos/getting-started-c-developer/generate-application/
+      - title: "9. Download & Run your Application"
+        url: /averos/getting-started-c-developer/download-run-application/
+      - title: "10. Explore your Application"
+        url: /averos/getting-started-c-developer/explore-application/
