@@ -195,7 +195,7 @@ One you finish all the translations in the language of your choice, you should h
 </div>
 </div>
 
-🙋‍♂️ Don't worry, In the next section, I will leave a link to [download]({{ site.baseurl }}/examples/ToDoApplication.json) the full averos design project so that you will be able to import it to **Averos Designer** and generate a **`ToDoApplication`**.
+🙋‍♂️ Don't worry, in the next section, I will leave a link to download the full averos design project so that you will be able to import it to **Averos Designer** and generate a **`ToDoApplication`**.
 {: .notice--info}
 
 

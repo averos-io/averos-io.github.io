@@ -71,6 +71,10 @@ Now, let's go ahead and install and run **averos backend mock** locally by follo
 ```bash
   git clone https://github.com/averos-io/averos-backend-mock && cd averos-backend-mock && npm install && npm start
  ```
+  If you have already executed the previous command and you want to run the backend mock once again, just execute the following command using a `terminal` from within `averos-backend-mock` home folder :
+```bash
+ npm start
+ ```
 
  3. Wait until the service starts. Leave the service up and do not close the window. (closing the terminal window will shutdown the service)
 

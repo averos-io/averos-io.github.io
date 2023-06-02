@@ -107,7 +107,7 @@ The easiest way to deploy your application to an external server is to use the l
 Please go ahead and execute the following command in order to  deploy your application to the lightweight [**http-server**](https://github.com/http-party/http-server "http-server").
 
  ```bash
- npm install http-server && ng build ToDoApplication && http-server -p 8080 -c-1 dist/to-do-application
+ npm install http-server && npm install && ng build ToDoApplication && http-server -p 8080 -c-1 dist/to-do-application
  ```
 
 > **Note**: The previous command does a couple of things besides deploying your applications: 

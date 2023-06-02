@@ -67,7 +67,7 @@ ng g @wiforge/averos:add-translation-entry --key=todoarea.todotasks --value='Tâ
 ###  8. **Build & Deploy your application to `http-server`**
 
     ```bash
-    npm install http-server && ng build ToDoApplication && http-server -p 8080 -c-1 dist/to-do-application
+    npm install http-server && npm install && ng build ToDoApplication && http-server -p 8080 -c-1 dist/to-do-application
     ```
 
 <br/>
@@ -75,7 +75,7 @@ ng g @wiforge/averos:add-translation-entry --key=todoarea.todotasks --value='Tâ
 
 ## **II. Create & Deploy `ToDoApplication` in 3 Steps**
 
-### **Step1: prerequisites**
+### **Step1: Prerequisites**
 
 ```bash
    npm i -g @angular/cli && git clone https://github.com/averos-io/averos-backend-mock && cd averos-backend-mock && npm install && npm start
@@ -92,7 +92,7 @@ ng g @wiforge/averos:add-translation-entry --key=todoarea.todotasks --value='Tâ
 ### **Step3: Build & Deploy your application to `http-server`**
 
 ```bash
-npm install http-server && ng build ToDoApplication && http-server -p 8080 -c-1 dist/to-do-application
+npm install http-server && npm install && ng build ToDoApplication && http-server -p 8080 -c-1 dist/to-do-application
 ```
 
 **🎉🎉🎉 Congratulations! You created your `ToDoApplication` in NO TIME ! 🎉🎉🎉**
@@ -102,9 +102,9 @@ npm install http-server && ng build ToDoApplication && http-server -p 8080 -c-1 
 ℹ️ This tutorial was intended to give developers an overview of the main capabilities offered by `averos framework`.<br/>
 Nevertheless, a lot of topics and advanced features was not mentioned in this tutorial.<br/>
 These features could the subject of other dedicated tutorials in the future.<br/>
-Also, it is worth mentioning that since you are using `averos framework`, your `ToDoApplication` is by default fully responsive and progressive-ready.<br/>
-You might test your application on your mobile so that you take a look at what the responsive layout looks like on mobile devices.<br/><br/>
-If you are interested in lowcode, you might want to know more about how `averos framework` is used in lowcode development by checking out our step-by-step tutorial for citizen developers available via the link below.<br/><br/>
+Also, it is worth mentioning that since you are using `averos framework`, your generated applications are by default fully responsive and progressive-ready.<br/>
+So you might want to test your applications on your mobile so that you take a look at what the responsive layout looks like on mobile devices.<br/><br/>
+Besides, if you are interested in lowcode, you might want to know more about how `averos framework` is used in lowcode development by checking out our step-by-step tutorial for citizen developers available via the link below.<br/><br/>
 [Averos Tutorial For Citizen Developers]({{ "/averos/getting-started-c-developer/" | relative_url }} "Averos Tutorial For Citizen Developers"){: .btn .btn--green .btn--small}
 {: .notice--success}
 

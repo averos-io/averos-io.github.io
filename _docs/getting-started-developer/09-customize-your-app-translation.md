@@ -456,7 +456,7 @@ You will find that, switching the application language to `English`, will modify
 Your **ToDoApplication** is now fully functional and ready to use!
 <br/>
 In this step-by-step tutorial you have first designed your **`ToDoApplication`** and defined your business requirement.<br/>
-Then, you have used `averos framework` to generate your application entities and to implement your business requirement. <br/>
+Then, you have used `averos framework` to generate your application entities along with relevant use cases according to your business requirements. <br/>
 Finally, you have added a new language to your application making it available for a wider audience. <br/><br/>
 In the next optional chapter, we are going to summarize what we have done so far.<br/>
 Additionally, you will have the opportunity to learn how you can achieve all the things we have done in this tutorial in one shot.<br/>
