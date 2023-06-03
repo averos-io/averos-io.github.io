@@ -1,18 +1,20 @@
 
 # main links
 main:
-  - title: "WiBuild ©"
-    url: https://appbuilder.wiforge.com/
-  - title: "Averos Designer ©"
-    url: /averos/averosdesigner/
-  - title: "Documentation"
-    url: /averos/documentation/
   - title: "Averos Tutorial"
     children:
       - title: "🧑‍💻 For Developers"
         url: /averos/getting-started-developer/
       - title: "👨‍👩‍👧‍👦 For Citizen Developers"
         url: /averos/getting-started-c-developer/ 
+  - title: "Documentation"
+    url: /averos/documentation/
+  - title: "Solutions"
+    children:
+      - title: "Averos Designer ©"
+        url: https://appbuilder.wiforge.com/averosdesigner/ 
+      - title: "WiBuild ©"
+        url: https://appbuilder.wiforge.com/
   - title: "About"
     url: /about/
   - title: "Terms & Privacy Policy"

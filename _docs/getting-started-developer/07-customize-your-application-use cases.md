@@ -73,7 +73,7 @@ Those command are:
 >
 > These commands will generate the following layouts:
 > - **View Layout** : the entity subject to this layout is displayed in **read-only mode**
-> - **Edit Layout** : the entity subject to this layout is displayed in **write mod**e
+> - **Edit Layout** : the entity subject to this layout is displayed in **write mode**
 > - **Search Layout**: Is a composite layout, composed of a **Search Input Layout** and a **Search Result Layout** 
 >   - **Search Input Layout**: A simple **Edit Layout** with a default **search** action button
 >   - **Search Result Layout**: A table that depicts the searched entities with the following use case actions:

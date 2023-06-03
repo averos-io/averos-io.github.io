@@ -13,7 +13,7 @@ header:
       url: "/averos/documentation/"
       color: btn--orange
     - label: "<i class='fas fa-drafting-compass'></i> Averos Designer"
-      url: "https://appbuilder.wiforge.com"
+      url: "https://appbuilder.wiforge.com/averosdesigner"
       color: btn--blue
 feature_row:
   - image_path: /assets/home/features/innovative_.svg
