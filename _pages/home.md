@@ -37,7 +37,7 @@ feature_row:
     alt: "Fosters Creativity"
     title: "Fosters Creativity"
     excerpt: "**Averos** supports the **creativity** by minimizing the reflection on the technical aspects in favor of the **business** aspects. This will give the **design** its right value and **improve the quality** of the application."
-    url: "http://localhost:4001/averos/getting-started-c-developer/"
+    url: "/averos/getting-started-c-developer/"
     btn_class: "btn--orange"
     btn_label: "<i class='fas fa-arrow-circle-right'></i> See it in action"
 
