@@ -9,13 +9,14 @@ toc_sticky: true
 ## **Latest Version**
 
 
-The latest **Averos** version is `1.6.2` which is compatible with angular version  `<= 16.2.2`.
+The latest **Averos** version is `1.7.0` which is compatible with angular version  `<= 17.0.4`.
 
 
 ## **angular compatibility**
 
 | **averos version** | **angular version** |
 | ------ | ------ |
+| `1.7.0` | <= `17.0.4` |
 | `1.6.2` | <= `16.2.2` |
 | `1.6.0` | <= `16.0.4` |
 | `1.5.2` | <= `15.2.7` |
