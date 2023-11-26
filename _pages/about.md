@@ -65,7 +65,7 @@ So, if you are planning to create a **website**, do not use **Averos** and inste
 This whole work including averos **architecture**, **implementation**, **UI Design**, **logos design**, averos **documentation** and **this web site** has been achieved by only one person. <br/>
 Hello 🤝 ! <br/>
 I am a cutting edge technologies' follower and avid builder who likes to make ideas happen and to play drums 🥁.<br/>
-If you you wish to contact me should you have any questions, suggestions or simply willing to get in touch then do not hesitate to [leave me a message](mailto:averos.tech@gmail.com) I will gladly respond to you. <br/>
+If you wish to contact me should you have any questions, suggestions or simply willing to get in touch then do not hesitate to [leave me a message](mailto:averos.tech@gmail.com) I will gladly respond to you. <br/>
 
 <br/>
 
