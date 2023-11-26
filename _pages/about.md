@@ -123,8 +123,8 @@ Below are examples of user interfaces which were created using **averos framewor
 - light / dark mode support
 - fully responsive components
 - scalable architecture
-- microservice architecture compliant
-- leverage command lines for basic application components and workflows development : add new entities, create entities relations, create use cases, add new language support, add translation records, create and assign services...
+- flawless integration with microservice architecture
+- leverage command lines for application components creation and workflows development (add new entities, create entities relations, create use cases, add new language support, add translation records, create and assign services, create configurations, link backend APIs...)
 - leverage `averos designer` capabilities for NoCode application development by installing [Wibuild](https://appbuilder.wiforge.com/) application either on mobile or on desktop devices
 - and much more...
 
