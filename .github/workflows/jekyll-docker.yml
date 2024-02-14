@@ -5,13 +5,19 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
+  deploy:
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     runs-on: ubuntu-latest
+    needs: jekyll-build
+    environment:
+      name: github-pages
+      url: ${{steps.deployment.outputs.page_url}}
     steps:
-    - uses: actions/checkout@v3
-    # - name: Build the site in the jekyll/builder container
-    #   run: |
-    #     docker run \
-    #     -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-    #     jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
-    - uses: fabacab/jekyll-builder-for-github-pages-action@master
+      - uses: actions/checkout@v3
+        name: checking out src
+      - name: Deploy artifact
+        id: deployment
+        uses: actions/deploy-pages@v1
