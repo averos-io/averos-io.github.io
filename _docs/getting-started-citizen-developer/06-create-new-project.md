@@ -17,7 +17,7 @@ However, submitting an application generation request will requires you to be si
 
 ### **Step 1 - Navigate to WiBuild** 
 -------
-Navigate to [**WiBuild**](https://appbuilder.wiforge.com/ "WiBuild") and **sign into** your  account using a **valid** user 
+Navigate to [**WiBuild**](https://appbuilder.wiforge.com/ "WiBuild©") and **sign into** your  account using a **valid** user 
 
 <div style="display: flex;flex-direction: row;justify-content: center;"> 
 <div style="padding: 10px;">
