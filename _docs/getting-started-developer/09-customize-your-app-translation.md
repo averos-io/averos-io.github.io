@@ -463,7 +463,7 @@ Additionally, you will have the opportunity to learn how you can achieve all the
 {: .notice--info}
 
 
-🔖 Please note that, since this tutorial is dedicated to developers, we have not mentioned [**`averos designer`**](https://appbuilder.wiforge.com/averosdesigner "averos designer") for **nocode** application development.<br/>
-But if you are willing to know how `averos framework` addresses **nocode** topic, then you can check out our [tutorial]({{"/averos/getting-started-c-developer/" | relative_url }} "Tutorial For Citizen Developers") dedicated to **citizen developers**, into which, a simple user will create the same `ToDoApplication` you created in this tutorial using [**`averos designer`**](https://appbuilder.wiforge.com/averosdesigner "averos designer").<br/><br/>
+🔖 Please note that, since this tutorial is dedicated to developers, we have not mentioned [**`averos designer`**](https://appbuilder.wiforge.com/ "averos designer") for **nocode** application development.<br/>
+But if you are willing to know how `averos framework` addresses **nocode** topic, then you can check out our [tutorial]({{"/averos/getting-started-c-developer/" | relative_url }} "Tutorial For Citizen Developers") dedicated to **citizen developers**, into which, a simple user will create the same `ToDoApplication` you created in this tutorial using [**`averos designer`**](https://appbuilder.wiforge.com/ "averos designer").<br/><br/>
 **Hope to see you there!**
 {: .notice--success}

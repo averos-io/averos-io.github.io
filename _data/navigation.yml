@@ -12,7 +12,7 @@ main:
   - title: "Solutions"
     children:
       - title: "Averos Designer ©"
-        url: https://appbuilder.wiforge.com/averosdesigner/ 
+        url: https://appbuilder.wiforge.com/ 
       - title: "WiBuild ©"
         url: https://appbuilder.wiforge.com/
   - title: "About"

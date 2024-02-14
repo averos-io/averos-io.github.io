@@ -96,7 +96,7 @@ Below are examples of user interfaces which were created using **averos framewor
 - transform your existing angular applications
 - leverage an intuitive user interface design powered by angular **material**, **html5** and **CSS**
 - target multiple languages by leveraging averos translation capabilities
-- leverage [**averos designer**](https://appbuilder.wiforge.com/averosdesigner) for NoCode application development
+- leverage [**averos designer**](https://appbuilder.wiforge.com/) for NoCode application development
 - and much more...
 
 <br/>
