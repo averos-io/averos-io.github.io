@@ -96,7 +96,7 @@ Below are examples of user interfaces which were created using **averos framewor
 - transform your existing angular applications
 - leverage an intuitive user interface design powered by angular **material**, **html5** and **CSS**
 - target multiple languages by leveraging averos translation capabilities
-- leverage [**averos designer**](https://appbuilder.wiforge.com/) for NoCode application development
+- leverage [**averos designer**](https://appbuilder.wiforge.com/averos-designer/) for NoCode application development
 - and much more...
 
 <br/>
@@ -105,12 +105,12 @@ Below are examples of user interfaces which were created using **averos framewor
 --------
 
 - use **averos workflows** for low-code development
-- create your application in one or many languages that are already supported out of the box (Arabic, Chinese, English, Spanish, French, German, Japanese, Dutch, Russian, Swedish, Norwegian)
+- create your application in one or many languages that are already supported out of the box (English, Spanish, French, German, Arabic, Chinese, Japanese, Dutch, Russian, Swedish, Norwegian)
 - easy translation of the finest view details to up to 11 languages (or customize your own language)
 - define your components validation workflows
 - customize and internationalize your validation messages for a better customer experience
 - generate customizable menu - setup and configure your application menu
-- full angular 12/13/14/15/16/17 support for legacy or new angular application projects
+- full angular support for legacy or new angular application projects
 - intelligent/multipurposes reusable atomic components
 - complex various reusable CRUD use cases
 - extendable components
@@ -125,7 +125,7 @@ Below are examples of user interfaces which were created using **averos framewor
 - scalable architecture
 - flawless integration with microservice architecture
 - leverage command lines for application components creation and workflows development (add new entities, create entities relations, create use cases, add new language support, add translation records, create and assign services, create configurations, link backend APIs...)
-- leverage `averos designer` capabilities for NoCode application development by installing [Wibuild](https://appbuilder.wiforge.com/) application either on mobile or on desktop devices
+- leverage `averos designer` capabilities for NoCode application development by installing [Averos Designer](https://appbuilder.wiforge.com/averos-designer/) application either on mobile or on desktop devices
 - and much more...
 
 <br/>

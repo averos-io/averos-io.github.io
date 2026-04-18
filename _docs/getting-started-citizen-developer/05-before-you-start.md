@@ -11,7 +11,7 @@ Before, you start let's have a glimpse on the tools which you will use in order 
 
 With `Averos Framework` application creation is achieved using our **lowcode** service called [**Wibuild©**](https://appbuilder.wiforge.com/ "Wibuild©").<br/> 
 
-[**Wibuild©**](https://appbuilder.wiforge.com/ "Wibuild©") is an application, available for free to the whole public, either on mobile device or desktop computers, which provides a visual designer, namely **`averos designer`**, and an **application management system**.<br/> 
+[**Wibuild©**](https://appbuilder.wiforge.com/ "Wibuild©") is an application, available for free, either on mobile device or desktop computers, which provides a visual designer, namely **`averos designer`**, and an **application management system**.<br/> 
 
 >**🔖 Note** that the designer itself is available anonymously.<br/>
 However, submitting a request of a new application generation is available only for authenticated users.<br/> 
