@@ -4,31 +4,21 @@
 
 .page__footer {
   @include clearfix;
+
   float: left;
-  margin-left: 0;
-  margin-right: 0;
   width: 100%;
   margin-top: 3em;
+
   color: $muted-text-color;
+  background-color: $footer-background-color;
+
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
-  background-color: $footer-background-color;
-  display: flex;
 
-  footer {
-    @include clearfix;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
-    max-width: 100%;
-    padding: 0 1em 2em;
-
-    @include breakpoint($x-large) {
-      max-width: $x-large;
-    }
-  }
+  /* Override the original Minimal Mistakes horizontal footer layout */
+  display: block;
 
   a {
     color: inherit;
@@ -47,49 +37,148 @@
   }
 }
 
-.page__footer-copyright {
-  font-family: $global-font-family;
-  font-size: $type-size-7;
-  flex-direction: column;
-}
+
+/* --------------------------------------------------------------------------
+   Averos footer content
+   -------------------------------------------------------------------------- */
 
 .page__footer-follow {
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 2.5em 1em 2em;
+}
+
+
+/* --------------------------------------------------------------------------
+   Averos brand
+   -------------------------------------------------------------------------- */
+
+.averos-footer-brand {
+  text-align: center;
+  margin-bottom: 2.5rem;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0rem;
+
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 
-  li {
+  svg {
     display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    vertical-align: middle;
+    flex-shrink: 0;
+  }
+}
+
+.averos-footer-tagline {
+  margin-top: 0;
+
+  font-family: $global-font-family;
+  font-size: $type-size-7;
+
+  opacity: 0.75;
+}
+
+
+/* --------------------------------------------------------------------------
+   Footer navigation
+   -------------------------------------------------------------------------- */
+
+.averos-footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  gap: 5rem;
+
+  width: 100%;
+  max-width: 800px;
+
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+.averos-footer-column {
+  display: flex;
+  flex-direction: column;
+
+  min-width: 130px;
+
+  gap: 0.45rem;
+
+  text-align: left;
+
+  strong {
+    margin-bottom: 0.35rem;
+
     font-family: $sans-serif-narrow;
     font-size: $type-size-6;
     text-transform: uppercase;
   }
 
-  li + li:before {
-    content: "";
-    padding-right: 5px;
-  }
-
   a {
-    padding-right: 10px;
-    font-weight: bold;
-  }
-
-  .social-icons {
-    a {
-      white-space: nowrap;
-    }
+    font-size: $type-size-7;
   }
 }
 
-.wiforge-footer{
-  display: inline-block;
+
+/* --------------------------------------------------------------------------
+   Footer copyright / credits
+   -------------------------------------------------------------------------- */
+
+.page__footer-copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+
+  margin: 2rem 0 0;
+  padding: 1.5rem 1rem 2rem;
+
+  border-top: 1px solid rgba(127, 127, 127, 0.2);
+
+  font-family: $global-font-family;
+  font-size: $type-size-8;
+
+  text-align: center;
+
+  div {
+    margin-top: 0.35rem;
+  }
 }
 
-.averos-footer{
-  display: inline-block;
+
+/* --------------------------------------------------------------------------
+   Responsive footer
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 600px) {
+
+  .averos-footer-links {
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1.75rem;
+
+    text-align: center;
+  }
+
+  .averos-footer-column {
+    align-items: center;
+
+    text-align: center;
+  }
+
+  .page__footer-follow {
+    padding-top: 2rem;
+  }
 }

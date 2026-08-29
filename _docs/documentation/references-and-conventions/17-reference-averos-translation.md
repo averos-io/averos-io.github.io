@@ -37,7 +37,7 @@ The module is enabled by default for all averos application.
 **Averos** workflow allows to add specific language support using the workflow command:
  
 ```bash
-    ng g @wiforge/averos:add-language --languageCode=[language code]
+    ng g @averos/workflow:add-language --languageCode=[language code]
 ```
 
 ### **Add Translation Entry**
@@ -45,7 +45,7 @@ The module is enabled by default for all averos application.
 **Averos** workflow allows to add a new translation entry related to a specific language by running the command below:
 
 ```bash
-    ng g @wiforge/averos:add-translation-entry --key=[yourKey] --value=[Your Translation] --lang=[language code]
+    ng g @averos/workflow:add-translation-entry --key=[yourKey] --value=[Your Translation] --lang=[language code]
 ```
 
 📢 More details on this module is available in the [detailed averos documentation]({{"/averos/documentation/averos-translation/description/" | relative_url}} "averos translation").

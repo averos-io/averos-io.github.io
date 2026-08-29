@@ -1,4 +1,97 @@
-{% if page.previous or page.next %}
+<!-- {% if page.previous or page.next %}
+  <nav class="pagination">
+    {% if page.previous %}
+      <a href="{{ page.previous.url | relative_url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+    {% else %}
+      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+    {% endif %}
+    {% if page.next %}
+      <a href="{{ page.next.url | relative_url }}" class="pagination--pager" title="{{ page.next.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
+    {% else %}
+      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
+    {% endif %}
+  </nav>
+{% endif %} -->
+
+{% assign navigation = site.data.navigation[page.sidebar.nav] %}
+
+{% comment %} Normalize current page URL — same logic as nav_list_custom.html {% endcomment %}
+{% assign page_url = page.url | default: "/" %}
+{% unless page_url contains "." %}
+  {% assign last_char = page_url | slice: -1, 1 %}
+  {% if last_char != "/" %}{% assign page_url = page_url | append: "/" %}{% endif %}
+{% endunless %}
+
+{% comment %} Flatten nav -> children -> grandchildren into one ordered list {% endcomment %}
+{% capture flat_titles_raw %}{% endcapture %}
+{% capture flat_urls_raw %}{% endcapture %}
+
+{% for nav in navigation %}
+  {% if nav.url %}
+    {% assign nav_url = nav.url | flatify %}
+    {% unless nav_url contains "." %}
+      {% assign last_char = nav_url | slice: -1, 1 %}
+      {% if last_char != "/" %}{% assign nav_url = nav_url | append: "/" %}{% endif %}
+    {% endunless %}
+    {% capture flat_titles_raw %}{{ flat_titles_raw }}{{ nav.title }}|~|{% endcapture %}
+    {% capture flat_urls_raw %}{{ flat_urls_raw }}{{ nav_url }}|~|{% endcapture %}
+  {% endif %}
+  {% if nav.children %}
+    {% for child in nav.children %}
+      {% if child.url %}
+        {% assign child_url = child.url | flatify %}
+        {% unless child_url contains "." %}
+          {% assign last_char = child_url | slice: -1, 1 %}
+          {% if last_char != "/" %}{% assign child_url = child_url | append: "/" %}{% endif %}
+        {% endunless %}
+        {% capture flat_titles_raw %}{{ flat_titles_raw }}{{ child.title }}|~|{% endcapture %}
+        {% capture flat_urls_raw %}{{ flat_urls_raw }}{{ child_url }}|~|{% endcapture %}
+      {% endif %}
+      {% if child.children %}
+        {% for c in child.children %}
+          {% if c.url %}
+            {% assign c_url = c.url | flatify %}
+            {% unless c_url contains "." %}
+              {% assign last_char = c_url | slice: -1, 1 %}
+              {% if last_char != "/" %}{% assign c_url = c_url | append: "/" %}{% endif %}
+            {% endunless %}
+            {% capture flat_titles_raw %}{{ flat_titles_raw }}{{ c.title }}|~|{% endcapture %}
+            {% capture flat_urls_raw %}{{ flat_urls_raw }}{{ c_url }}|~|{% endcapture %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% assign flat_titles = flat_titles_raw | split: "|~|" %}
+{% assign flat_urls = flat_urls_raw | split: "|~|" %}
+
+{% comment %} Locate current page in the flattened order {% endcomment %}
+{% assign current_index = -1 %}
+{% for url in flat_urls %}
+  {% if url == page_url %}
+    {% assign current_index = forloop.index0 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if current_index > -1 %}
+  {% assign prev_index = current_index | minus: 1 %}
+  {% assign next_index = current_index | plus: 1 %}
+  <nav class="pagination">
+    {% if prev_index > -1 %}
+      <a href="{{ flat_urls[prev_index] | relative_url }}" class="pagination--pager" title="{{ flat_titles[prev_index] | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+    {% else %}
+      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+    {% endif %}
+    {% if next_index < flat_urls.size %}
+      <a href="{{ flat_urls[next_index] | relative_url }}" class="pagination--pager" title="{{ flat_titles[next_index] | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
+    {% else %}
+      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
+    {% endif %}
+  </nav>
+{% elsif page.previous or page.next %}
   <nav class="pagination">
     {% if page.previous %}
       <a href="{{ page.previous.url | relative_url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>

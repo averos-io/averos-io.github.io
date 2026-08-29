@@ -18,7 +18,7 @@ Averos conventions are: <br/>
 **Averos workflow** allows to add new entities throught the following averos workflow command:
 
 ```bash
-    ng g @wiforge/averos:add-composite-member --ename=[Your Entity Name] --fename=[your composite new member entity name] --field-relation-type=[the relationship type] --member-update-strategy=[the update strategy]
+    ng g @averos/workflow:add-composite-member --ename=[Your Entity Name] --fename=[your composite new member entity name] --field-relation-type=[the relationship type] --member-update-strategy=[the update strategy]
 ```
 
 >💡 **ProTip**: 

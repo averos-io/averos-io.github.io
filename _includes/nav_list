@@ -1,4 +1,4 @@
-{% assign navigation = site.data.navigation[include.nav] %}
+<!-- {% assign navigation = site.data.navigation[include.nav] %}
 
 <nav class="nav__list">
   {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
@@ -8,7 +8,8 @@
     {% for nav in navigation %}
       <li>
         {% if nav.url %}
-          <a href="{{ nav.url | flatify | relative_url }}"{% if nav.url == page.url %} class="active-title"{% endif %}>
+          <a href="{{ nav.url | flatify | relative_url }}"{% if nav.url == page.url %} class="active-title"{% endif %}
+             {% if nav.url contains '://' %}target="_blank" rel="noopener noreferrer"{% endif %}>
             <span class="nav__sub-title">{{ nav.title }}</span>
           </a>
         {% else %}
@@ -20,7 +21,10 @@
           {% for child in nav.children %}
               {% if child.url %}
               <li>
-                <a href="{{ child.url | flatify | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a>  
+                <a href="{{ child.url | flatify | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}
+                   {% if child.url contains '://' %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                   {{ child.title }}
+                </a>  
               </li>
               {% else %}
                 <span class="nav__sub-title">{{ child.title }}</span>
@@ -31,7 +35,87 @@
                   {% for c in child.children %}
                       {% if c.url %}
                         <li style="padding-left: 0.9em;">
-                          <a href="{{ c.url | flatify | relative_url }}"{% if c.url == page.url %} class="active"{% endif %}>{{ c.title }} {{c.section}}</a>
+                          <a href="{{ c.url | flatify | relative_url }}"{% if c.url == page.url %} class="active"{% endif %}
+                             {% if c.url contains '://' %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                             {{ c.title }} {{c.section}}
+                          </a>
+                        </li>
+                      {% else %}
+                        <span class="nav__sub-title">{{ c.title }}</span>
+                      {% endif %}
+                  {% endfor %}
+                </ul>
+              {% endif %}
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav> -->
+
+
+{% assign navigation = site.data.navigation[include.nav] %}
+
+{% comment %} Normalize current page URL {% endcomment %}
+{% assign page_url = page.url | default: "/" %}
+{% unless page_url contains "." %}
+  {% assign last_char = page_url | slice: -1, 1 %}
+  {% if last_char != "/" %}{% assign page_url = page_url | append: "/" %}{% endif %}
+{% endunless %}
+
+<nav class="nav__list">
+  {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
+  <ul class="nav__items">
+    {% for nav in navigation %}
+      {% assign nav_url = nav.url | flatify %}
+      {% unless nav_url contains "." %}
+        {% assign last_char = nav_url | slice: -1, 1 %}
+        {% if last_char != "/" %}{% assign nav_url = nav_url | append: "/" %}{% endif %}
+      {% endunless %}
+      <li>
+        {% if nav.url %}
+          <a href="{{ nav.url | flatify | relative_url }}"{% if nav_url == page_url %} class="active-title"{% endif %}
+             {% if nav.url contains '://' %}target="_blank" rel="noopener noreferrer"{% endif %}>
+            <span class="nav__sub-title">{{ nav.title }}</span>
+          </a>
+        {% else %}
+          <span class="nav__sub-title">{{ nav.title }}</span>
+        {% endif %}
+        {% if nav.children != null %}
+        <ul>
+          {% for child in nav.children %}
+              {% assign child_url = child.url | flatify %}
+              {% unless child_url contains "." %}
+                {% assign last_char = child_url | slice: -1, 1 %}
+                {% if last_char != "/" %}{% assign child_url = child_url | append: "/" %}{% endif %}
+              {% endunless %}
+              {% if child.url %}
+              <li>
+                <a href="{{ child.url | flatify | relative_url }}"{% if child_url == page_url %} class="active"{% endif %}
+                   {% if child.url contains '://' %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                   {{ child.title }}
+                </a>
+              </li>
+              {% else %}
+                <span class="nav__sub-title">{{ child.title }}</span>
+              {% endif %}
+              {% if child.children != null %}
+                <ul>
+                  {% for c in child.children %}
+                      {% assign c_url = c.url | flatify %}
+                      {% unless c_url contains "." %}
+                        {% assign last_char = c_url | slice: -1, 1 %}
+                        {% if last_char != "/" %}{% assign c_url = c_url | append: "/" %}{% endif %}
+                      {% endunless %}
+                      {% if c.url %}
+                        <li style="padding-left: 0.9em;">
+                          <a href="{{ c.url | flatify | relative_url }}"{% if c_url == page_url %} class="active"{% endif %}
+                             {% if c.url contains '://' %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                             {{ c.title }} {{c.section}}
+                          </a>
                         </li>
                       {% else %}
                         <span class="nav__sub-title">{{ c.title }}</span>

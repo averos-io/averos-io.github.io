@@ -9,24 +9,15 @@ toc_sticky: true
 ## **Latest Version**
 
 
-The latest **Averos** version is `1.7.1` which is compatible with angular version  `<= 17.2.3`.
+The latest **Averos CLI** version is `2.0.4`.
 
 
-## **angular compatibility**
+## 🚦 Packages Status
 
-| **averos version** | **angular version** |
-| ------ | ------ |
-| `1.7.1` | <= `17.2.3` |
-| `1.7.0` | <= `17.0.4` |
-| `1.6.2` | <= `16.2.2` |
-| `1.6.0` | <= `16.0.4` |
-| `1.5.2` | <= `15.2.7` |
-| `1.5.0` | <= `15.0.4` |
-| `1.4.2` | <= `14.2.7` |
-| `1.4.1` | <= `14.1.0` |
-| `1.3.5` | <= `13.3.3` |
-| `1.3.2` | <= `13.2.2` |
-| `1.3.0` | <= `13.0.3` |
-| `1.2.4` | <= `12.2.6` | 
-| `1.2.3` | <= `12.2.2` |
-| `1.2.2` | <= `12.2.1` |
+| Package | Version | Status | Description |
+|---|---|---|---|
+| `@averos/cli` | `2.0.4` | ✅ Available | Command-line interface |
+| `@averos/ai` | `2.0.4` | ✅ Available | LLM manifest generation |
+| `@averos/mcp` | `2.0.4` | ✅ Available | MCP server for AI clients |
+| `@averos/workflow` | `2.0.2` | ✅ Available | Execution Adapter implementation (Angular schematics) |
+| `@averos/ui-platform` | `2.0.0` | ✅ Available | Reusable Angular UI components |

@@ -1,55 +1,66 @@
 
 # main links
 main:
-  - title: "Averos Tutorial"
-    children:
-      - title: "🧑‍💻 For Developers"
-        url: /averos/getting-started-developer/
-      - title: "👨‍👩‍👧‍👦 For Citizen Developers"
-        url: /averos/getting-started-c-developer/ 
+  - title: "Why Averos?"
+    url: "/averos/why-averos/"
+  - title: "What's new"
+    url: "/averos/evolution/"
+  - title: "How Averos Works"
+    url: /averos/how-averos-works/introduction
+  - title: "Get Started"
+    url: "/averos/get-started/introduction"
+  - title: "Open Source"
+    url: /averos/open-source
   - title: "Documentation"
     url: /averos/documentation/
-  - title: "Solutions"
-    children:
-      - title: "Averos Designer ©"
-        url: https://appbuilder.wiforge.com/averos-designer/ 
-      # - title: "WiBuild ©"
-      #  url: https://appbuilder.wiforge.com/wibuild/
+  # - title: "Averos Tutorial"
+  #   children:
+  #     - title: "🧑‍💻 For Developers"
+  #       url: /averos/getting-started-developer/
+  #     - title: "👨‍👩‍👧‍👦 For Citizen Developers"
+  #       url: /averos/getting-started-c-developer/ 
+
+  - title: "Averos Designer↗"
+    url: https://appbuilder.wiforge.com/averos-designer/averosdesigner
+  - title: "Vision"
+    url: /averos/vision
+  - title: "Github & Community"
+    url: https://github.com/wiforge/averos
   - title: "About"
     url: /about/
-  - title: "Terms & Privacy Policy"
-    url: /terms/
+  # - title: "Terms & Privacy Policy"
+  #   url: /terms/
 
 # averos documentation links
 averosdocs:
-  - title: "Averos Documentation v1.7.1"
+  - title: "Averos Documentation v2.x"
     url: /averos/documentation
-  - title: "I. Introduction"
-    url: /averos/documentation/
-  - title: "II. Overview"
-    url: /averos/documentation/overview/
-    children:
-      - title: "1. Design"
-        url: /averos/documentation/overview/#1-design
-      - title: "2. Integrate"
-        url: /averos/documentation/overview/#2-integrate
-      - title: "3. Customize"
-        url: /averos/documentation/overview/#3-customize
-      - title: "4. Test"
-        url: /averos/documentation/overview/#4-test
-      - title: "5. Deploy"
-        url: /averos/documentation/overview/#5-deploy
-  - title: "III. Benefits"
-    url: /averos/documentation/benefits/
-  - title: "IV. Technical Features"
-    url: /averos/documentation/technical-features/
-  - title: "V. Architecture"
-    children:
-      - title: "1. Averos Framework Architecture"
-        url: /averos/documentation/averos-architecture/
-      - title: "2. Averos Target Application Detailed Architecture"
-        url: /averos/documentation/target-application-architecture/
-  - title: VI.	Averos Core Module
+  # - title: "I. Introduction"
+  #   url: /averos/documentation/
+  # # - title: "II. Overview"
+  #   url: /averos/documentation/overview/
+  #   children:
+  #     - title: "1. Design"
+  #       url: /averos/documentation/overview/#1-design
+  #     - title: "2. Integrate"
+  #       url: /averos/documentation/overview/#2-integrate
+  #     - title: "3. Customize"
+  #       url: /averos/documentation/overview/#3-customize
+  #     - title: "4. Test"
+  #       url: /averos/documentation/overview/#4-test
+  #     - title: "5. Deploy"
+  #       url: /averos/documentation/overview/#5-deploy
+  # - title: "III. Benefits"
+  #   url: /averos/documentation/benefits/
+  # - title: "IV. Technical Features"
+  #   url: /averos/documentation/technical-features/
+  # - title: "Architecture"
+  #   children:
+  #     - title: "1. Averos Framework Architecture"
+  #       url: /averos/documentation/averos-architecture/
+  #     - title: "2. Averos Target Application Detailed Architecture"
+  #       url: /averos/documentation/target-application-architecture/
+  - title: "Averos Core Module"
     children:
       - title: "1. Description"
         url: /averos/documentation/core-module-description/
@@ -63,11 +74,10 @@ averosdocs:
         url: /averos/documentation/averos-application-global-initializer/
       - title: "6. Averos Custom Initializer"
         url: /averos/documentation/averos-application-custom-initializer/
-      - title: "7. Authentication Provider"
+      - title: "7. Authentication & Authorization"
         url: /averos/documentation/authentication-provider/
-      - title: "8. NGRX State Management Integration"
-        url: /averos/documentation/ngrx-state-management-integration/
-  - title: VII.	Averos Entity
+
+  - title: "Averos Entity"
     children:
       - title: "1. Description"
         url: /averos/documentation/averos-entity-description/
@@ -77,7 +87,7 @@ averosdocs:
         url: /averos/documentation/averos-entity-creation-guidelines/
       - title: "4. Averos Entity Workflows"
         url: /averos/documentation/averos-entity-workflows/ 
-  - title: VIII. Averos Service
+  - title: "Averos Service"
     children:
       - title: "1. Description"
         url: /averos/documentation/averos-service-description/
@@ -87,7 +97,7 @@ averosdocs:
         url: /averos/documentation/averos-domain-controller-service/
       - title: "4. Validator Service"
         url: /averos/documentation/averos-validator-service/  
-  - title: IX. Averos Environment Configuration
+  - title: "Averos Environment Configuration"
     children:
       - title: "1. Description"
         url: /averos/documentation/environment-configuration/environment-configuration/
@@ -95,7 +105,7 @@ averosdocs:
         url: /averos/documentation/environment-configuration/service-configuration/
       - title: "3. Gateway Configuration"
         url: /averos/documentation/environment-configuration/gateway-configuration/
-  - title: X. Averos View Module
+  - title: "Averos View Module"
     children:
       - title: "1. Description"
         url: /averos/documentation/view-module-description/
@@ -169,7 +179,7 @@ averosdocs:
             url: /averos/documentation/averos-grouped-field-view-layout-metadata/
           - title: "11.4. Transformed View Layout"
             url: /averos/documentation/averos-transformed-view-layout/ 
-  - title: XI. Generic View Components
+  - title: "Generic View Components"
     children:
       - title: "1. Description"
         url: /averos/documentation/generic-view-components/description/
@@ -200,7 +210,7 @@ averosdocs:
           #   url: /averos/documentation/generic-view-components/averos-view-entity-component/
           # - title: "4.6. Averos Create Entity Component"
           #   url: /averos/documentation/generic-view-components/averos-create-entity-component/ 
-  - title: XII. Averos Generic UseCases
+  - title: "Averos Generic UseCases"
     children:
       - title: "1. Create Entity Use Case"
         url: /averos/documentation/generic-usecases/create-entity-usecase/
@@ -210,7 +220,7 @@ averosdocs:
         url: /averos/documentation/generic-usecases/averos-crud/
       - title: "4. Averos Create Page"
         url: /averos/documentation/generic-usecases/averos-create-page/
-  - title: XIII. Averos Translation Module
+  - title: "Averos Translation Module"
     children:
       - title: "1. Description"
         url: /averos/documentation/averos-translation/description/
@@ -220,7 +230,7 @@ averosdocs:
         url: /averos/documentation/averos-translation/translation-methods/
       - title: "4. Translation Workflow Commands"
         url: /averos/documentation/averos-translation/translation-workflow-commands/
-  - title: XIV. References and Conventions
+  - title: "References and Conventions"
     children:
       - title: "Detailed Averos Workflow Commands"
         url: /averos/documentation/reference-detailed-averos-worflow-commands/
@@ -228,89 +238,151 @@ averosdocs:
         url: /averos/documentation/references-and-conventions/reference-averos-entity/
       - title: "Averos Service"
         url: /averos/documentation/references-and-conventions/reference-averos-service/
-      - title: "Authentication Provider"
-        url: /averos/documentation/references-and-conventions/reference-authentication-provider/
+      # - title: "Authentication Provider"
+      #   url: /averos/documentation/references-and-conventions/reference-authentication-provider/
       - title: "Averos Translation"
         url: /averos/documentation/references-and-conventions/reference-averos-translation/ 
-  - title: Averos Version
+  - title: "Averos Version"
     children:
       - title: "Latest version"
         url: /averos/latest-version/
-  - title: License
+  - title: "License"
     children:
       - title: "Averos License"
         url: /averos/license/
 
-gettingstarted-for-developer:
-  - title: "Averos Tutorial: for Developers"
-    url: /averos/getting-started-developer
+# gettingstarted-for-developer:
+#   - title: "Averos Tutorial: for Developers"
+#     url: /averos/getting-started-developer
 
-  - title: I. Introduction
-    children:
-      - title: "1. Overview"
-        url: /averos/getting-started-developer/overview/
-      - title: "2. Prerequisites"
-        url: /averos/getting-started-developer/prerequisites/
+#   - title: "I. Introduction"
+#     children:
+#       - title: "1. Overview"
+#         url: /averos/getting-started-developer/overview/
+#       - title: "2. Prerequisites"
+#         url: /averos/getting-started-developer/prerequisites/
         
-  - title: II. ToDoApplication Requirements & Specifications
-    children:
-      - title: "1. Application Requirements"
-        url: /averos/getting-started-developer/application-requirements/
-      - title: "2. Application Design & Specifications"
-        url: /averos/getting-started-developer/application-design-specifications/
+#   - title: II. ToDoApplication Requirements & Specifications
+#     children:
+#       - title: "1. Application Requirements"
+#         url: /averos/getting-started-developer/application-requirements/
+#       - title: "2. Application Design & Specifications"
+#         url: /averos/getting-started-developer/application-design-specifications/
 
-  - title: III. Build Your Application"
-    children:
-      - title: "1. Initialize Your Application"
-        url: /averos/getting-started-developer/initialize-your-application/
+#   - title: III. Build Your Application"
+#     children:
+#       - title: "1. Initialize Your Application"
+#         url: /averos/getting-started-developer/initialize-your-application/
 
-      - title: "2. Generate Business Entities"
-        url: /averos/getting-started-developer/customize-your-application-business-entities/
+#       - title: "2. Generate Business Entities"
+#         url: /averos/getting-started-developer/customize-your-application-business-entities/
 
-      - title: "3. Generate Use Cases"
-        url: /averos/getting-started-developer/customize-your-application-use-cases/
+#       - title: "3. Generate Use Cases"
+#         url: /averos/getting-started-developer/customize-your-application-use-cases/
 
-      - title: "4. ToDoApplication Learns New Languages"
-        url: /averos/getting-started-developer/customize-your-application-translation/
+#       - title: "4. ToDoApplication Learns New Languages"
+#         url: /averos/getting-started-developer/customize-your-application-translation/
 
-      - title: "VI- Actions Summary"
-        url: /averos/getting-started-developer/customize-your-app-actions-summary/
+#       - title: "VI- Actions Summary"
+#         url: /averos/getting-started-developer/customize-your-app-actions-summary/
  
+# gettingstarted-for-cd:
+#   - title: "Averos Tutorial: for Citizen Developers"
+#     url: /averos/getting-started-c-developer
+#   - title: I. Introduction
+#     children:
+#       - title: "1. Overview"
+#         url: /averos/getting-started-c-developer/overview/
+#       - title: "2. Prerequisites"
+#         url: /averos/getting-started-c-developer/prerequisites/
+#   - title: II. ToDoApplication Requirements & Specifications
+#     children:
+#       - title: "1. Application Requirements"
+#         url: /averos/getting-started-c-developer/application-requirements/
+#       - title: "2. Application Design & Specifications"
+#         url: /averos/getting-started-c-developer/application-design-specifications/
+#   - title: III. Create Your Application - WiBuild / Averos Designer
+#     children:
+#       - title: "1. Before you start"
+#         url: /averos/getting-started-c-developer/before-you-start/
+#       - title: "2. Create a New Project"
+#         url: /averos/getting-started-c-developer/create-new-project/
+#       - title: "3. Create Business Entities"
+#         url: /averos/getting-started-c-developer/create-business-entities/
+#       - title: "4. Create Use Cases"
+#         url: /averos/getting-started-c-developer/create-use-cases/
+#       - title: "5. Create a Public Blank Page"
+#         url: /averos/getting-started-c-developer/create-raw-pages/
+#       - title: "6. Create Service Configurations"
+#         url: /averos/getting-started-c-developer/create-service-configurations/
+#       - title: "7. New Language Support & Translations"
+#         url: /averos/getting-started-c-developer/create-translations/
+#       - title: "8. Generate Application"
+#         url: /averos/getting-started-c-developer/generate-application/
+#       - title: "9. Download & Run your Application"
+#         url: /averos/getting-started-c-developer/download-run-application/
+#       - title: "10. Explore your Application"
+#         url: /averos/getting-started-c-developer/explore-application/
 
-gettingstarted-for-cd:
-  - title: "Averos Tutorial: for Citizen Developers"
-    url: /averos/getting-started-c-developer
-  - title: I. Introduction
-    children:
-      - title: "1. Overview"
-        url: /averos/getting-started-c-developer/overview/
-      - title: "2. Prerequisites"
-        url: /averos/getting-started-c-developer/prerequisites/
-  - title: II. ToDoApplication Requirements & Specifications
-    children:
-      - title: "1. Application Requirements"
-        url: /averos/getting-started-c-developer/application-requirements/
-      - title: "2. Application Design & Specifications"
-        url: /averos/getting-started-c-developer/application-design-specifications/
-  - title: III. Create Your Application - WiBuild / Averos Designer
-    children:
-      - title: "1. Before you start"
-        url: /averos/getting-started-c-developer/before-you-start/
-      - title: "2. Create a New Project"
-        url: /averos/getting-started-c-developer/create-new-project/
-      - title: "3. Create Business Entities"
-        url: /averos/getting-started-c-developer/create-business-entities/
-      - title: "4. Create Use Cases"
-        url: /averos/getting-started-c-developer/create-use-cases/
-      - title: "5. Create a Public Blank Page"
-        url: /averos/getting-started-c-developer/create-raw-pages/
-      - title: "6. Create Service Configurations"
-        url: /averos/getting-started-c-developer/create-service-configurations/
-      - title: "7. New Language Support & Translations"
-        url: /averos/getting-started-c-developer/create-translations/
-      - title: "8. Generate Application"
-        url: /averos/getting-started-c-developer/generate-application/
-      - title: "9. Download & Run your Application"
-        url: /averos/getting-started-c-developer/download-run-application/
-      - title: "10. Explore your Application"
-        url: /averos/getting-started-c-developer/explore-application/
+
+howaverosworks:
+  - title: "How Averos works"
+    url: /averos/how-averos-works/introduction
+  - title: "The Averos architecture"
+    url: /averos/how-averos-works/architecture
+  - title: "LAYER 1 — Intent"
+    url: /averos/how-averos-works/layer-1-intent
+  - title: "The Application Manifest"
+    url: /averos/how-averos-works/application-manifest
+  - title: "LAYER 2 — Validation"
+    url: /averos/how-averos-works/layer-2-validation
+  - title: "LAYER 3 — Orchestration"
+    url: /averos/how-averos-works/layer-3-orchestration
+  - title: "LAYER 4 — Execution"
+    url: /averos/how-averos-works/layer-4-execution
+  - title: "The result: Software That Can Evolve"
+    url: /averos/how-averos-works/evolving-software
+  - title: "AI is not the execution engine"
+    url: /averos/how-averos-works/ai-not-execution-engine
+  - title: "Two ways into the same system"
+    url: /averos/how-averos-works/multiple-entry-points
+  - title: "What makes Averos different?"
+    url: /averos/how-averos-works/how-is-averos-different
+  - title: "The Complete Idea"
+    url: /averos/how-averos-works/the-complete-idea
+
+get-started:
+  - title: "Get Started"
+    url: /averos/get-started/introduction
+  - title: "Prerequisites"
+    url: /averos/get-started/prerequisites
+  - title: "Start with a real application"
+    url: /averos/get-started/start-with-real-app
+  - title: "Create a workspace"
+    url: /averos/get-started/averos-workspace
+  - title: "Configure execution"
+    url: /averos/get-started/configure-execution
+  - title: "Preview before you execute"
+    url: /averos/get-started/preview
+  - title: "Generate the application"
+    url: /averos/get-started/generate
+  - title: "Resumable execution"
+    url: /averos/get-started/resume
+  - title: "Run your application"
+    url: /averos/get-started/run
+  - title: "Explore authentication"
+    url: /averos/get-started/explore-auth
+  - title: "Evolve the application"
+    url: /averos/get-started/evolve
+  - title: "Let AI define the application"
+    url: /averos/get-started/averos-ai
+  - title: "Generate a manifest with a local LLM"
+    url: /averos/get-started/local-llm
+  - title: "The Averos CLI at a glance"
+    url: /averos/get-started/averos-cli
+  - title: "One workflow, multiple entry points"
+    url: /averos/get-started/multiple-entrypoints
+  - title: "What you should explore next"
+    url: /averos/get-started/what-to-explore-next
+  - title: "The shortest version"
+    url: /averos/get-started/the-shortest-version

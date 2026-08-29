@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/home/m.png
   actions:
     - label: "<i class='fas fa-arrow-circle-right'></i> Get Started"
-      url: "/averos/getting-started-c-developer/"
+      url: "/averos/get-started/introduction/"
       color: btn--red
     - label: "<i class='fas fa-arrow-circle-right'></i> Documentation"
       url: "/averos/documentation/"

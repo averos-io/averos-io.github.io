@@ -185,3 +185,18 @@ textarea {
   overflow: auto; /* remove vertical scrollbar in IE6-9*/
   vertical-align: top; /* readability and alignment cross-browser*/
 }
+
+.language-mermaid {
+  display: flex;
+  justify-content: center;
+
+  // it's a diagram now, not a code block — drop the leftover code-block chrome
+  background: none;
+  border: none;
+  padding: 1rem 0;
+}
+
+.language-mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
