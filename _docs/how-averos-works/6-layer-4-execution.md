@@ -1,6 +1,6 @@
 ---
 title: "**🚀 Layer 4 - Execution**"
-permalink: /averos/how-averos-works/layer-4-execution
+permalink: /averos/how-averos-works/layer-4-execution/
 date: 2026-08-19
 excerpt: ""
 toc: true

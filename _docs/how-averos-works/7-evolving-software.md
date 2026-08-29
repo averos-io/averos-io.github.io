@@ -1,6 +1,6 @@
 ---
 title: "**🧬 The Result: Software That Can Evolve**"
-permalink: /averos/how-averos-works/evolving-software
+permalink: /averos/how-averos-works/evolving-software/
 date: 2026-08-19
 excerpt: ""
 toc: true

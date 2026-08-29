@@ -1,6 +1,6 @@
 ---
 title: "**Preview before you execute**"
-permalink: /averos/get-started/preview
+permalink: /averos/get-started/preview/
 date: 2026-08-20
 excerpt: ""
 toc: true

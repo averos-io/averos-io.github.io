@@ -1,6 +1,6 @@
 ---
 title: "**Prerequisites**"
-permalink: /averos/get-started/prerequisites
+permalink: /averos/get-started/prerequisites/
 date: 2026-08-20
 excerpt: ""
 toc: true

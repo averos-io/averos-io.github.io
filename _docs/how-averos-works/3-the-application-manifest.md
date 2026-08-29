@@ -1,6 +1,6 @@
 ---
 title: "**📜 The Application Manifest**"
-permalink: /averos/how-averos-works/application-manifest
+permalink: /averos/how-averos-works/application-manifest/
 date: 2026-08-19
 excerpt: ""
 toc: true

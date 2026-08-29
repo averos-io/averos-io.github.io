@@ -1,6 +1,6 @@
 ---
 title: "**Start with a real application**"
-permalink: /averos/get-started/start-with-real-app
+permalink: /averos/get-started/start-with-real-app/
 date: 2026-08-20
 excerpt: ""
 toc: true

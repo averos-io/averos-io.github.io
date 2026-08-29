@@ -1,6 +1,6 @@
 ---
 title: "**🧠 AI Is Not The Execution Engine**"
-permalink: /averos/how-averos-works/ai-not-execution-engine
+permalink: /averos/how-averos-works/ai-not-execution-engine/
 date: 2026-08-20
 excerpt: ""
 toc: true

@@ -1,6 +1,6 @@
 ---
 title: "**🔀 Two Ways Into The Same System**"
-permalink: /averos/how-averos-works/multiple-entry-points
+permalink: /averos/how-averos-works/multiple-entry-points/
 date: 2026-08-20
 excerpt: ""
 toc: true

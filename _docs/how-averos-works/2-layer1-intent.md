@@ -1,6 +1,6 @@
 ---
 title: "**🧠 Layer 1 - intent**"
-permalink: /averos/how-averos-works/layer-1-intent
+permalink: /averos/how-averos-works/layer-1-intent/
 date: 2026-08-19
 excerpt: ""
 toc: false

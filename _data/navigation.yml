@@ -327,62 +327,62 @@ averosdocs:
 
 howaverosworks:
   - title: "How Averos works"
-    url: /averos/how-averos-works/introduction
+    url: /averos/how-averos-works/introduction/
   - title: "The Averos architecture"
-    url: /averos/how-averos-works/architecture
+    url: /averos/how-averos-works/architecture/
   - title: "LAYER 1 — Intent"
-    url: /averos/how-averos-works/layer-1-intent
+    url: /averos/how-averos-works/layer-1-intent/
   - title: "The Application Manifest"
-    url: /averos/how-averos-works/application-manifest
+    url: /averos/how-averos-works/application-manifest/
   - title: "LAYER 2 — Validation"
-    url: /averos/how-averos-works/layer-2-validation
+    url: /averos/how-averos-works/layer-2-validation/
   - title: "LAYER 3 — Orchestration"
-    url: /averos/how-averos-works/layer-3-orchestration
+    url: /averos/how-averos-works/layer-3-orchestration/
   - title: "LAYER 4 — Execution"
-    url: /averos/how-averos-works/layer-4-execution
+    url: /averos/how-averos-works/layer-4-execution/
   - title: "The result: Software That Can Evolve"
-    url: /averos/how-averos-works/evolving-software
+    url: /averos/how-averos-works/evolving-software/
   - title: "AI is not the execution engine"
-    url: /averos/how-averos-works/ai-not-execution-engine
+    url: /averos/how-averos-works/ai-not-execution-engine/
   - title: "Two ways into the same system"
-    url: /averos/how-averos-works/multiple-entry-points
+    url: /averos/how-averos-works/multiple-entry-points/
   - title: "What makes Averos different?"
-    url: /averos/how-averos-works/how-is-averos-different
+    url: /averos/how-averos-works/how-is-averos-different/
   - title: "The Complete Idea"
-    url: /averos/how-averos-works/the-complete-idea
+    url: /averos/how-averos-works/the-complete-idea/
 
 get-started:
   - title: "Get Started"
-    url: /averos/get-started/introduction
+    url: /averos/get-started/introduction/
   - title: "Prerequisites"
-    url: /averos/get-started/prerequisites
+    url: /averos/get-started/prerequisites/
   - title: "Start with a real application"
-    url: /averos/get-started/start-with-real-app
+    url: /averos/get-started/start-with-real-app/
   - title: "Create a workspace"
-    url: /averos/get-started/averos-workspace
+    url: /averos/get-started/averos-workspace/
   - title: "Configure execution"
-    url: /averos/get-started/configure-execution
+    url: /averos/get-started/configure-execution/
   - title: "Preview before you execute"
-    url: /averos/get-started/preview
+    url: /averos/get-started/preview/
   - title: "Generate the application"
-    url: /averos/get-started/generate
+    url: /averos/get-started/generate/
   - title: "Resumable execution"
-    url: /averos/get-started/resume
+    url: /averos/get-started/resume/
   - title: "Run your application"
-    url: /averos/get-started/run
+    url: /averos/get-started/run/
   - title: "Explore authentication"
-    url: /averos/get-started/explore-auth
+    url: /averos/get-started/explore-auth/
   - title: "Evolve the application"
-    url: /averos/get-started/evolve
+    url: /averos/get-started/evolve/
   - title: "Let AI define the application"
-    url: /averos/get-started/averos-ai
+    url: /averos/get-started/averos-ai/
   - title: "Generate a manifest with a local LLM"
-    url: /averos/get-started/local-llm
+    url: /averos/get-started/local-llm/
   - title: "The Averos CLI at a glance"
-    url: /averos/get-started/averos-cli
+    url: /averos/get-started/averos-cli/
   - title: "One workflow, multiple entry points"
-    url: /averos/get-started/multiple-entrypoints
+    url: /averos/get-started/multiple-entrypoints/
   - title: "What you should explore next"
-    url: /averos/get-started/what-to-explore-next
+    url: /averos/get-started/what-to-explore-next/
   - title: "The shortest version"
-    url: /averos/get-started/the-shortest-version
+    url: /averos/get-started/the-shortest-version/

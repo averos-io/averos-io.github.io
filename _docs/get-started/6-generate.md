@@ -1,6 +1,6 @@
 ---
 title: "**Generate the application**"
-permalink: /averos/get-started/generate
+permalink: /averos/get-started/generate/
 date: 2026-08-20
 excerpt: ""
 toc: true

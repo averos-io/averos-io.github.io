@@ -1,6 +1,6 @@
 ---
 title: "**Resumable execution**"
-permalink: /averos/get-started/resume
+permalink: /averos/get-started/resume/
 date: 2026-08-20
 excerpt: ""
 toc: true

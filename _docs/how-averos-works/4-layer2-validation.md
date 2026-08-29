@@ -1,6 +1,6 @@
 ---
 title: "**🛡️ Layer 2 - Validation**"
-permalink: /averos/how-averos-works/layer-2-validation
+permalink: /averos/how-averos-works/layer-2-validation/
 date: 2026-08-19
 excerpt: "Layer 3 never sees anything Layer 2 hasn't cleared."
 toc: true

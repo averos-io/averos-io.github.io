@@ -1,6 +1,6 @@
 ---
 title: "**🏛️ The Averos Architecture**"
-permalink: /averos/how-averos-works/architecture
+permalink: /averos/how-averos-works/architecture/
 date: 2026-08-19
 excerpt: ""
 toc: false

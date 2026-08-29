@@ -1,6 +1,6 @@
 ---
 title: "**Configure execution**"
-permalink: /averos/get-started/configure-execution
+permalink: /averos/get-started/configure-execution/
 date: 2026-08-20
 excerpt: ""
 toc: true

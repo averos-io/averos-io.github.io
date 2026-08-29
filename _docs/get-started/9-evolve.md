@@ -1,6 +1,6 @@
 ---
 title: "**Evolve the application**"
-permalink: /averos/get-started/evolve
+permalink: /averos/get-started/evolve/
 date: 2026-08-20
 excerpt: ""
 toc: true

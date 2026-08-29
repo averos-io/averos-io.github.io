@@ -1,6 +1,6 @@
 ---
 title: "**Create a workspace**"
-permalink: /averos/get-started/averos-workspace
+permalink: /averos/get-started/averos-workspace/
 date: 2026-08-20
 excerpt: ""
 toc: true

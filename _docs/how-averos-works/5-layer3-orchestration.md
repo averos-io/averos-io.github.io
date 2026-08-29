@@ -1,6 +1,6 @@
 ---
 title: "**⚙️ Layer 3 - Orchestration**"
-permalink: /averos/how-averos-works/layer-3-orchestration
+permalink: /averos/how-averos-works/layer-3-orchestration/
 date: 2026-08-19
 excerpt: ""
 toc: true
